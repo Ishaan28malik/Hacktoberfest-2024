@@ -17,13 +17,17 @@ You can add references to some cool open source projects below:
 ### 1. [Zulip](https://github.com/zulip) -
        Zulip is 100% open source software, built by a vibrant community of hundreds of developers from all around the world.
 ### 2. [FOSSASIA](https://github.com/fossasia) -
-       Developing Open Source Software and Hardware to improve people's lives.
+       Developing Open Source SoftwarEclipse Che is a next-generation online integrated development environment (IDE) and developer workspace. e and Hardware to improve people's lives.
 ### 3. [MOZILLA](https://github.com/mozilla) -
        This technology could fall into the right hands. Mozilla has 30 repositories available. Follow their code on GitHub.
 ### 4. [Free code camp](https://github.com/freeCodeCamp/freeCodeCamp) -
        Learn to code for free with millions of other people around the world.
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
+### 6. [Atom](https://github.com/atom/atom)-
+       Atom is a hackable text editor from GitHub.
+### 7. [Eclipse Che] (https://github.com/eclipse/che/)-
+       Eclipse Che is a next-generation online integrated development environment (IDE) and developer workspace. 
        
        
 
