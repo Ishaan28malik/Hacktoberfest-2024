@@ -24,7 +24,5 @@ You can add references to some cool open source projects below:
        Learn to code for free with millions of other people around the world.
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
-       
-       
-
-
+### 6. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
+       A tribute and log of beloved products and services killed by Google.
