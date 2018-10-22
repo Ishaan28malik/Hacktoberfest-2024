@@ -24,6 +24,9 @@ You can add references to some cool open source projects below:
        Learn to code for free with millions of other people around the world.
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
+### 6. [OpenGenus Foundation](https://github.com/OpenGenus) -
+       Connecting the World through knowledge | A civilization on the web | We have a role for everyone. 
+       Join us now. Ask or discuss anything: discourse.opengenus.org
        
        
 
