@@ -32,7 +32,7 @@ You can add references to some cool open source projects below:
 ### 8. [Up For Grabs](https://up-for-grabs.net/) - 
        List of projects with issues that can be resolved by beginners
 
-### 9. [First Timers Only](https://www.firsttimersonly.com/) — 
+### 9. [First Timers Only](https://www.firsttimersonly.com/) - 
        A list of issues that are labelled “first-timers-only”.
 
 ### 10. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) —
