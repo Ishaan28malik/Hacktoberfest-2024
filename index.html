@@ -1,81 +1,357 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hacktoberfest!!</title>
-<style>
-button
-{
-    height:100px;
-    width:200px;
-    font-size:24px;
-    color:white;
-    border:0px;
-    border-radius: 25%;
-    background-color:burlywood;
-}
-button:hover
-{
-background-color:black;
-color:white;
-}
-</style>
+﻿<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
 
+<head>
+    <meta charset="UTF-8">
+    <title>VidAlarm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="favicon.png">
+    
+    
+    <!-- Bootstrap 3.3.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+
+
+    <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
+    
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
+<body>
+    
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="img/freeze/logo.png" class="animated fadeInDown" alt="">
+            <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+   
+    <header>
+        
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="fa fa-bars fa-lg"></span>
+                        </button>
+                        <a class="navbar-brand logo" href="index.html">
+                            Vid<font>Alarm</font>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#home">Home</a>
+                            </li>
+                            <li><a href="#features">features</a>
+                            </li>
+                            <li><a href="#reviews">videos</a>
+                            </li>
+                            <li><a href="#screens">screenshots</a>
+                            </li>
+                            <li><a href="#support">contactus</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-->
+        </nav>
+
+        
+        <!--RevSlider-->
+        <div id="home" class="tp-banner-container">
+            <div class="tp-banner" >
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                        <!-- MAIN IMAGE -->
+                        <img src="img/header-bg.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption lfl fadeout hidden-xs"
+                            data-x="650"
+                            data-y="50"
+                            data-hoffset="30"
+                            data-voffset="0"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="img/banner1.png" alt="">
+                        </div>sss
+
+                        <div class="tp-caption lfl fadeout visible-xs"
+                            data-x="center"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-voffset="-200"
+                            data-speed="500"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="img/banner1.png" alt="">
+                        </div>
+
+                        <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="250" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                            <a href="#" class="inverse mobile-banner-caption">Wake up each day<br> with your favorite<br> YouTube videos.</a>
+                        </div>
+
+                        <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="450" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                            <a href="#" class="inverse"><img src="img/app-store.png"></a>
+                        </div>
+
+                        
+                        <div class="tp-caption sfl hidden-xs banner-caption" data-x="100" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
+                           Wake up each day <br> with your favorite <br> YouTube videos.
+                        </div>
+                        <div class="tp-caption get-app  sft hidden-xs" data-x="100" data-y="center" data-hoffset="0" data-voffset="50" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                           <p>Get the App</p>
+                        </div>
+                        <div class="tp-caption small_light_white sfb hidden-xs" data-x="100" data-y="center" data-hoffset="0" data-voffset="110" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
+                           <a href="#about" class="inverse"><img src="img/app-store.png"></a>
+                        </div>
+                    </li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
 
 
-<body style="background-color: rgb(200, 200, 15)">
+    </header>
 
 
+    <div class="wrapper">
+
+        
+
+        
+
+        <section id="features">
+            <div class="container-fluid">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Awsome <font>Features</font></h1>
+                    <div class="divider"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
+                        <div id="videos" class="media text-right feature">
+                            <a class="pull-right" href="#">
+                                <img src="img/icon1.png" />
+                            </a>
+                            <div class="media-body">
+                                <p>Create multiple alarms using 
+<br>
+                                your favorite Youtube videos</p>
+                            </div>
+                        </div>
+                        <div id="music" class="media text-right feature">
+                            <a class="pull-right" href="#">
+                                <img src="img/icon2.png" />
+                            </a>
+                            <div class="media-body">
+                                <p>Play Youtube audio in
+                                <br>
+background before going to bed</p>
+                            </div>
+                        </div>
+                        <div id="volume" class="media text-right feature res-pad-bottom">
+                            <a class="pull-right" href="#">
+                                <img src="img/icon3.png" />
+                            </a>
+                            <div class="media-body">
+                                <p>Smart volume feature increases
+                                <br>
+volume progressively</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div align="center" class="col-md-4 col-sm-4" >
+                        <img id="fetures-tabresult" src="img/mobile-feature.png" class="img-responsive scrollpoint sp-effect5" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-4 scrollpoint sp-effect2">
+                        <div id="night-mode" class="media feature res-pad-top">
+                            <a class="pull-left" href="#">
+                               <img src="img/icon4.png" />
+                            </a>
+                            <div class="media-body">
+                                <p>Customize night mode wallpaper
+                                <br>
+                                from your photo album</p>
+                            </div>
+                        </div>
+                        <div id="brightness" class="media feature">
+                            <a class="pull-left" href="#">
+                                <img src="img/icon5.png" />
+                            </a>
+                            <div class="media-body">
+                                <p>Adjust brightness by panning
+                                <br>
+                                on screen in night mode</p>
+                            </div>
+                        </div>
+                        <div id="select-device" class="media feature">
+                            <a class="pull-left" href="#">
+                                <img src="img/icon6.png" />
+                            </a>
+                            <div class="media-body">
+                               <p> Works on iPhone and iPad</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="container">
+                <div class="section-heading inverse scrollpoint sp-effect3">
+                    <h1>App <strong>Video</strong></h1>
+                    <div class="divider"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
+                        <div class="review-filtering" align="center">
+                            
+<video controls style="width:640px;max-height:360px; margin:0px auto;" poster="img/video-poster.png" class="img-responsive">
+  <source src="devstories.webm" type='video/webm;codecs="vp8, vorbis"' />
+  <source src="devstories.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+  <track src="devstories-en.vtt" label="English subtitles" kind="subtitles" srclang="en" default></track>
+</video>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Screenshot Section Starts Here -->
+        <section id="screens">
+            <div class="container">
+
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>App <font>Screenshot</font></h1>
+                    <div class="divider"></div>
+                </div>
 
 
-<h1>HI, I am Ishaan Malik.</h1>
-<h2>I am an open source enthusiast anda student involved in various projects and contributing
-	to a host of open source projects</h2>
-<p>
-<h3>Something happens on clicking the button</h3>
-<button >Click Me!!</button>
-</p>
-<h1>This repo will serve a noble cause</h1>
-<h1>It will test the power of OPEN SOURCE in GENERAL and HACKTOBERFEST in particular</h1>
-<h1>ANYONE seeing this repo just comment HI with your name just as I have done</h1>
-<h2>Make sure that your name is within the <em>li</em> tags</h2>
-<h2>IFF you want you can STAR the repo and SPREAD it among your friends(It will help us get bigger)<h2>
-<h2>Let us all be friends and remain connected</h2>
-<h1 style="color:rgb(150, 0, 0)">FOLLOW me if you want and if YOU too want to be followed by others just also give the link to your profile with your name</h3>
-<ol>
-	<h3><li>HI, I am ishaan malik and my profile link is https://github.com/ishaan28malik</h3></li>
-	<h3><li>HI, I am Abhilash and my profile link is https://github.com/abhilash433</h3></li>
-	<h3><li>HI, I am Karamax and my profile link is https://github.com/Karamax</h3></li>
-	<h3><li>HI, I am Saurav Jaiswal and my profile link is https://github.com/sauravjaiswalsj</h3></li>
-	<h3><li>HI, I am Ashutosh Dwivedi and my profile link is https://github.com/kindacoder</h3></li>
-	<h3><li>HI, I am Nufflee and my profile link is https://github.com/Nufflee</h3></li>
-	<h3><li>HI, I am Pratyush Tiwari and my profile link is https://github.com/1-2-ka-4-4-2-ka-1</h3></li>
-	<h3><li>HI, I am RaidAndFade and my profile link is https://github.com/raidandfade</h3></li>
-	<h3><li>HI, I am Bhrigu Kansra and my profile link is https://github.com/kinetickansra</h3></li>
-	<h3><li>HI, I am Ezekiel Oladejo and my profile link is https://github.com/iamwebwiz</h3></li>
-	<h3><li>HI, I am Guilherme Almeida and my profile link is https://github.com/guiialmeiida/</h3></li>
-        <h3><li>HI, I am Niklas and my profile link is https://github.com/derNiklaas</h3></li>
-        <h3><li>HI, I am Aman Jain and my profile link is https://github.com/amanjain25</h3></li>
-        <h3><li>HI, I am Harsh Arora and my profile link is https://github.com/aroraharsh010</h3></li>
-        <h3><li>Hi, I am not Arland and my profile link is https://github.com/webhead3</h3></li>
-        <h3><li>Hi, I am Marco Wang and my profile link is https://github.com/aesophor</h3></li>
-        <h3><li>Hi, I am Alex and my profile link is https://github.com/alexj24</h3></li>
-        <h3><li>Hi, I am Zaheer - A and my profile link is https://github.com/Zaheer-A</li></h3>
-  	<h3><li>HI, I am Niklas and my profile link is https://github.com/derNiklaas</h3></li>
-  	<h3><li>HI, I am Aman Jain and my profile link is https://github.com/amanjain25</h3></li>
-  	<h3><li>HI, I am Harsh Arora and my profile link is https://github.com/aroraharsh010</h3></li>
-  	<h3><li>Hi, I am not Arland and my profile link is https://github.com/webhead3</h3></li>
-  	<h3><li>Hi, I am Marco Wang and my profile link is https://github.com/aesophor</h3></li>
-	<h3><li>Hi, I am Lisa and my profile link is https://github.com/lisa-broedlin</h3></li>
-	<h3><li>HI, I am Niklas and my profile link is https://github.com/derNiklaas</h3></li>
-	<h3><li>HI, I am Aman Jain and my profile link is https://github.com/amanjain25</h3></li>
-	<h3><li>HI, I am Harsh Arora and my profile link is https://github.com/aroraharsh010</h3></li>
-	<h3><li>Hi, I am not Arland and my profile link is https://github.com/webhead3</h3></li>
-	<h3><li>Hi, I am Marco Wang and my profile link is https://github.com/aesophor</h3></li>
-	<h3><li>Hi, I am Deepraj Bhosale and my profile link is https://github.com/Deepraj01</h3></li>
-	<h3><li>Hi, I am Zaheer - A and my profile link is https://github.com/Zaheer-A</li></h3>
-<ol>
-<script type="text/javascript" src="main.js"></script>
+                <div class="slider filtering scrollpoint sp-effect5" >
+                    <div class="one">
+                        <img src="img/screen1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="two">
+                        <img src="img/screen2.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="three">
+                        <img src="img/screen3.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="one">
+                        <img src="img/screen4.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="one">
+                        <img src="img/screen5.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="two">
+                        <img src="img/screen1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="three">
+                        <img src="img/screen2.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="support" class="doublediagonal">
+            <div class="container">
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Contact <font>Us</font></h1>
+                    <div class="divider"></div>
+                    <p>Any questions? Please send you quiries</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-offset-2 col-md-8 scrollpoint sp-effect1">
+                                <form role="form">
+                                    <div class="form-group custom-form-group">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                    </div>
+                                    <div class="form-group custom-form-group2">
+                                        <input type="email" class="form-control" placeholder="Your email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea cols="30" rows="6" class="form-control" placeholder="Your message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-8 col-xs-12">Send Message</button>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="social">
+                    <a href="#" target="_blank" class="btn btn-social-icon btn-xs btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="btn btn-social-icon btn-xs btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="btn btn-social-icon btn-xs btn-google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="btn btn-social-icon btn-xs btn-vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="btn btn-social-icon btn-xs btn-pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank" class="btn btn-social-icon btn-xs btn-rss"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                </div>
+                <div class="rights">
+                    <p>Copyright Â© 2016 Exasoft Technologies, LLC. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        
+
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/placeholdem.min.js"></script>
+    <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(document).ready(function() {
+            appMaster.preLoader();
+        });
+    </script>
 </body>
+
 </html>
