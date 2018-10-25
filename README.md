@@ -24,7 +24,8 @@ You can add references to some cool open source projects below:
        Learn to code for free with millions of other people around the world.
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
-### 6. [issuehub.io](https://issuehub.io) — A website which helps you find projects/issues based on your required language or issue labels.
+### 6. [issuehub.io](https://issuehub.io) -
+       A website which helps you find projects/issues based on your required language or issue labels.
 
 ### 7. [Code Triage](https://www.codetriage.com/) -
         Another useful tool for searching issues to fix
