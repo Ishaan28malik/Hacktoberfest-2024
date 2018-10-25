@@ -36,7 +36,7 @@ You can add references to some cool open source projects below:
 ### 9. [First Timers Only](https://www.firsttimersonly.com/) - 
        A list of issues that are labelled “first-timers-only”.
 
-### 10. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) —
+### 10. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
        A list of awesome beginners-friendly projects.
        
        
