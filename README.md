@@ -16,14 +16,19 @@ All of your suggestions are welcome!!
 You can add references to some cool open source projects below:
 ### 1. [Zulip](https://github.com/zulip) -
        Zulip is 100% open source software, built by a vibrant community of hundreds of developers from all around the world.
+       
 ### 2. [FOSSASIA](https://github.com/fossasia) -
        Developing Open Source Software and Hardware to improve people's lives.
+       
 ### 3. [MOZILLA](https://github.com/mozilla) -
        This technology could fall into the right hands. Mozilla has 30 repositories available. Follow their code on GitHub.
+       
 ### 4. [Free code camp](https://github.com/freeCodeCamp/freeCodeCamp) -
        Learn to code for free with millions of other people around the world.
+       
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
+       
 ### 6. [issuehub.io](https://issuehub.io) -
        A website which helps you find projects/issues based on your required language or issue labels.
 
@@ -38,7 +43,12 @@ You can add references to some cool open source projects below:
 
 ### 10. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
        A list of awesome beginners-friendly projects.
+
+### 11. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
+       A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
        
-       
+
+
+
 
 
