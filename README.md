@@ -26,3 +26,6 @@ You can add references to some cool open source projects below:
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
 ### 6. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
+### 7. [SUGARLABS](https://sugarlabs.org/)
+
+       
