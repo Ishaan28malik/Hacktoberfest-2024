@@ -24,10 +24,10 @@ You can add references to some cool open source projects below:
        Learn to code for free with millions of other people around the world.
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
-### 5. [REACT ](https://github.com/facebook/react) -
+### 6. [REACT ](https://github.com/facebook/react) -
       A declarative, efficient, and flexible JavaScript library for building user interfaces. Plenty resource to learn. (official)
-### 5. [ELECTRON ](https://github.com/electron/electron) -
+### 7. [ELECTRON ](https://github.com/electron/electron) -
       Build cross-platform desktop apps with JavaScript, HTML, and CSS. Plenty Resource to learn and contribute. (official)
-       
-
+### 8. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
+       A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
 
