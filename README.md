@@ -28,16 +28,19 @@ You can add references to some cool open source projects below:
        
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
+       
 ### 6. [REACT ](https://github.com/facebook/react) -
       A declarative, efficient, and flexible JavaScript library for building user interfaces. Plenty resource to learn. (official)
+      
 ### 7. [ELECTRON ](https://github.com/electron/electron) -
       Build cross-platform desktop apps with JavaScript, HTML, and CSS. Plenty Resource to learn and contribute. (official)
+      
 ### 8. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
-### 6. [Kubernetes](https://kubernetes.io/)
-       An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.       
+       
 ### 7. [issuehub.io](https://issuehub.io) -
        A website which helps you find projects/issues based on your required language or issue labels.
+       
 ### 8. [Code Triage](https://www.codetriage.com/) -
         Another useful tool for searching issues to fix
 
@@ -53,4 +56,5 @@ You can add references to some cool open source projects below:
 ### 12. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
        
-
+### 13. [Kubernetes](https://kubernetes.io/)
+       An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
