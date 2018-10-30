@@ -8,12 +8,13 @@ A repository for beginners to create their first Pull Request.
 ## Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
 Happy coding fellas!!
-
-Don't worry newcomers!! Everyone's PRs will be merged!! Make this your first step to development and open source. Get the confidence you require!!
+# PLease just don't do it just for the heck of a t-shirt do it to learn and get expereince how to make a PR 
+# Don't worry newcomers!! Everyone's PRs will be merged!! Make this your first step to development and open source. Get the          confidence you require!!
 
 All of your suggestions are welcome!!
 
 You can add references to some cool open source projects below:
+
 ### 1. [Zulip](https://github.com/zulip) -
        Zulip is 100% open source software, built by a vibrant community of hundreds of developers from all around the world.
        
