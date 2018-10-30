@@ -1,7 +1,7 @@
-# Hacktoberfest-2018
+# Hacktoberfest-2018 
 A repository for beginners to create their first Pull Request. 
-# Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
-# Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
+## Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
+## Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 ## Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
 ## Step 1: Register at [Hactoberfest-2018](https://hacktoberfest.digitalocean.com/) using your github id.
 ## Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-) and share it with your friends.
@@ -35,24 +35,22 @@ You can add references to some cool open source projects below:
 ### 8. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
 ### 6. [Kubernetes](https://kubernetes.io/)
-       An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.
-       
-### 6. [issuehub.io](https://issuehub.io) -
+       An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.       
+### 7. [issuehub.io](https://issuehub.io) -
        A website which helps you find projects/issues based on your required language or issue labels.
-
-### 7. [Code Triage](https://www.codetriage.com/) -
+### 8. [Code Triage](https://www.codetriage.com/) -
         Another useful tool for searching issues to fix
 
-### 8. [Up For Grabs](https://up-for-grabs.net/) - 
+### 9. [Up For Grabs](https://up-for-grabs.net/) - 
        List of projects with issues that can be resolved by beginners
 
-### 9. [First Timers Only](https://www.firsttimersonly.com/) - 
+### 10. [First Timers Only](https://www.firsttimersonly.com/) - 
        A list of issues that are labelled “first-timers-only”.
 
-### 10. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
+### 11. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
        A list of awesome beginners-friendly projects.
 
-### 11. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
+### 12. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
        
 
