@@ -56,6 +56,9 @@ You can add references to some cool open source projects below:
 
 ### 12. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
+
+### 12. [Tensor Flow](https://github.com/tensorflow/tensorflow) -       
+       TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
        
 ### 13. [Kubernetes](https://kubernetes.io/)
        An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
