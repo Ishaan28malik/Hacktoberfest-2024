@@ -62,3 +62,6 @@ You can add references to some cool open source projects below:
        
 ### 13. [Kubernetes](https://kubernetes.io/)
        An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
+
+### 14. [Polymer](https://www.polymer-project.org/)
+      An open-source JavaScript library for creating web components which are then used to build web pages and apps, Polymer is currently being developed by Google developers and contributors on GitHub. Central to a wide range of Google services and websites, including YouTube, Google Earth and Google Sites, Polymer received an update in January (Polymer 2.4) which is paving the way for 3.0 and TypeScript support.
