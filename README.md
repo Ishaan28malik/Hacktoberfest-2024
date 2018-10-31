@@ -39,26 +39,23 @@ You can add references to some cool open source projects below:
 ### 8. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
        A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
        
-### 7. [issuehub.io](https://issuehub.io) -
+### 9. [issuehub.io](https://issuehub.io) -
        A website which helps you find projects/issues based on your required language or issue labels.
        
-### 8. [Code Triage](https://www.codetriage.com/) -
+### 10. [Code Triage](https://www.codetriage.com/) -
         Another useful tool for searching issues to fix
 
-### 9. [Up For Grabs](https://up-for-grabs.net/) - 
+### 11 [Up For Grabs](https://up-for-grabs.net/) - 
        List of projects with issues that can be resolved by beginners
 
-### 10. [First Timers Only](https://www.firsttimersonly.com/) - 
+### 12. [First Timers Only](https://www.firsttimersonly.com/) - 
        A list of issues that are labelled “first-timers-only”.
 
-### 11. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
+### 13. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
        A list of awesome beginners-friendly projects.
-
-### 12. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
-       A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
-
-### 12. [Tensor Flow](https://github.com/tensorflow/tensorflow) -       
+       
+### 14. [Tensor Flow](https://github.com/tensorflow/tensorflow) -       
        TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
        
-### 13. [Kubernetes](https://kubernetes.io/)
+### 15. [Kubernetes](https://kubernetes.io/)
        An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
