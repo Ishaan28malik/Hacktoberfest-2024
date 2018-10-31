@@ -62,3 +62,9 @@ You can add references to some cool open source projects below:
        
 ### 13. [Kubernetes](https://kubernetes.io/)
        An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
+
+### 14. [DuckDuckGo](https://duckduckgo.com/)
+       DuckDuckGo is a privacy-conscious search engine that doesn't track users. Instant Answers is a feature that provides answers without needing to open up a website..  
+
+
+       
