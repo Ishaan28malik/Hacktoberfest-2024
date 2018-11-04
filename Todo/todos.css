@@ -1,0 +1,77 @@
+body{
+	background: #50C9C3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#container{	
+  width:250px;
+  margin:20% auto;
+  background:#f7f7f7;
+  box-shadow : 0px 0px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+h1{
+	background-color: steelblue;
+	color:white;
+	font-weight:normal;
+	margin:0;
+	padding:5px 10px;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing:1.1px;
+}
+.fa-plus{
+	float:right;
+}
+.fa-trash{
+	padding-top:0;
+	margin:right:20px;
+	
+	background:red;
+	color:white;
+	text-align:center;
+	width:0;
+	display:inline-block;
+	height:30px;
+	transition: 0.2s;
+	
+}
+
+li:hover .fa-trash{
+	width:40px;
+	height: 100;
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+li{
+	margin:0px;
+	padding-top:0px;
+	line-height:40px;
+	height:40px;
+	color:#666;
+	background-color:#f7f7f7;
+	
+}
+li:nth-child(2n){
+	background-color:white;
+}
+input{
+	border: 3px rgba(0, 0, 0, 0);
+	width:100%;
+	padding:10px 10px 10px 20px ;
+	box-sizing:border-box;
+	color:steelblue;
+	font-size:18px;
+	background-color:white;
+}
+input:focus{
+	border: 2.5px solid steelblue;
+	outline:none;
+	background-color::#f7f7f7;
+}
