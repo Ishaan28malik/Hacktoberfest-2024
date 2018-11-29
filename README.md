@@ -43,7 +43,7 @@ Build cross-platform desktop apps with JavaScript, HTML, and CSS. Plenty Resourc
 ### 7. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
 
 A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
-       
+
 ### 8. [issuehub.io](https://issuehub.io) -
 
 A website which helps you find projects/issues based on your required language or issue labels.
@@ -83,3 +83,4 @@ An open-source JavaScript library for creating web components which are then use
 ### 17. [Blender](https://www.blender.org/) - 
 
 Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+
