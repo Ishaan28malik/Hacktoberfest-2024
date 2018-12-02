@@ -1,6 +1,6 @@
 var button=document.querySelector("button");
 var filled=false;
-button.addEventListener("click",function()){ 
+button.addEventListener("click",function()) 
 	//alert('connected');
 	if(filled){
 		document.body.style.background="blue";
@@ -8,7 +8,8 @@ button.addEventListener("click",function()){
 	else if (){	
 		document.body.style.background="green";
 	}
-	else (){
+	else ()
+	{
 		document.body.style.background="silver";
 		filled=!filled;
-	};
+	}
