@@ -5,10 +5,10 @@ button.addEventListener("click",function(){
 	if(filled){
 		document.body.style.background="blue";
 	}	
-	else if {	
+	else if (){	
 		document.body.style.background="green";
 	}
-	else {
+	else (){
 		document.body.style.background="silver";
 		filled=!filled;
 	});
