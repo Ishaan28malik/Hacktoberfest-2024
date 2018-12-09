@@ -47,8 +47,14 @@ ol li { background: #cce5ff; margin: 5px;}
 <h2>Let us all be friends and remain connected</h2>
 <h1 style="color:rgb(150, 0, 0)">FOLLOW me if you want and if YOU too want to be followed by others just also give the link to your profile with your name</h3>
 
-                <ol type="1">
-                <b>
+
+<input type="text" id="txtVal">
+	<button onclick="addLi()">Add</button>
+
+	<ol id="list">
+		<p>Format example:"My name is *first and last name* and my profile link is - ......."</li>
+                </p>
+		<b>
 		
 	        <li>HI, I am Ishaan Malik ,I am the owner of this Repository and my profile link is https://github.com/ishaan28malik</li>
 	        <li>HI, I am Abhilash and my profile link is https://github.com/abhilash433</li>
@@ -192,6 +198,20 @@ ol li { background: #cce5ff; margin: 5px;}
                 
 		</b>
  		</ol>
+
+		<script>
+			function addLi()
+			{
+				var txtVal = document.getElementById('txtVal').value,
+				listNode = document.getElementById('list'),
+				liNode = document.createElement("LI"),
+				txtNode = document.createTextNode(txtVal);
+
+			liNode.appendChild(txtNode);
+			listNode.appendChild(liNode);
+			}
+		</script>
+
 		<script type="text/javascript" src="main.js"></script>
 		</div>
 		</body>
