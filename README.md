@@ -73,14 +73,16 @@ A tribute and log of beloved products and services killed by Google. This is a f
 TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
        
 ### 15. [Kubernetes](https://kubernetes.io/)
+       An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
 
-An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
+### 16. [DuckDuckGo](https://duckduckgo.com/)
 
-### 16. [Polymer](https://www.polymer-project.org/)
+DuckDuckGo is a privacy-conscious search engine that doesn't track users. Instant Answers is a feature that provides answers without needing to open up a website..  
+
+### 17. [Polymer](https://www.polymer-project.org/)
 
 An open-source JavaScript library for creating web components which are then used to build web pages and apps, Polymer is currently being developed by Google developers and contributors on GitHub. Central to a wide range of Google services and websites, including YouTube, Google Earth and Google Sites, Polymer received an update in January (Polymer 2.4) which is paving the way for 3.0 and TypeScript support.
       
-### 17. [Blender](https://www.blender.org/) - 
+### 18. [Blender](https://www.blender.org/) - 
 
 Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
-
