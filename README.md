@@ -40,15 +40,20 @@ This technology could fall into the right hands. Mozilla has 30 repositories ava
        
 ### 4. [Free code camp](https://github.com/freeCodeCamp/freeCodeCamp) -
 
-       Learn to code for free with millions of other people around the world.
+Learn to code for free with millions of other people round the world.
+
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
-       List of data structures and algorithms. Feel free to contribute under Hacktoberfest '18!
+       
+List of Data Structures and Algorithms 
 
 ### 6. [Habitica](https://habitica.com/static/home) -
-       App that lets users gamify real-life choices and activity with in-app rewards and punishments.
+
+App that lets users gamify real-life choices and activity with in-app rewards .
+
 Learn to code for free with millions of other people around the world.
 
 ### 7. [REACT ](https://github.com/facebook/react) -
+
 A declarative, efficient, and flexible JavaScript library for building user interfaces. Plenty resource to learn. (official)
       
 ### 8. [ELECTRON ](https://github.com/electron/electron) -
@@ -88,7 +93,8 @@ A tribute and log of beloved products and services killed by Google. This is a f
 TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
        
 ### 17. [Kubernetes](https://kubernetes.io/)
-       An open-source container-orchestration system for automating deployment, scaling and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.  
+
+An open source container system for automating deployment , scaling and management of containers application.
 
 ### 18. [DuckDuckGo](https://duckduckgo.com/)
 
