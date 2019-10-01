@@ -1,5 +1,7 @@
 # Hacktoberfest-2019 
+
 A repository for beginners to create their first Pull Request. 
+
 ## Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
 ## Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 ## Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
@@ -92,3 +94,5 @@ An open-source JavaScript library for creating web components which are then use
 ### 20. [Blender](https://www.blender.org/) - 
 
 Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+
+
