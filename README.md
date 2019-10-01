@@ -1,5 +1,7 @@
 ![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
+# Happy coding fellas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 # Hacktoberfest-2019 
 
 A repository for beginners to create their first Pull Request. 
@@ -14,15 +16,13 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 1: Register at [Hactoberfest-2019](https://hacktoberfest.digitalocean.com/) using your github id.
 
-## Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
+### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
-## Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
-## Now since Hacktoberfest idover please read [this](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/After%20this%20.md)
-
-### Happy coding fellas!!
-# PLease just don't do it just for the heck of a t-shirt do it to learn and get expereince how to make a PR !!!!!!!
-# Don't worry newcomers!! Everyone's PRs will be merged!! Make this your first step to development and open source. Get the          confidence you require!!
+# Please just don't do it just for the heck of a T-shirt do it to learn and get expereince how to make a PR !!!!!!!
+# Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
+# And Do give it a Star and *Follow* me on GitHub !!!!!!!!!!!!!!!!!!!
 
 All of your suggestions are welcome!!
 
