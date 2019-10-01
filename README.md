@@ -1,116 +1,81 @@
-![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
+Hacktoberfest
+سعيد الترميز أولاد !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!
+Hacktoberfest-2019
+مستودع للمبتدئين لإنشاء أول طلب سحب.
 
-# Happy coding fellas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+فقط تفرع هذا الريبو ، قم بتمييزه بنجمة ، واستنساخه ، ثم أضفه ثم انقر على المشكلة لحل المشكلة والعلاقات العامة.
+عني
+خطوات لإنشاء أول علاقات عامة لديك والحصول على بضائع Hacktoberfest الرسمية مجانًا.
+الخطوة 0: أنشئ حساب Github مجانًا هنا.
+الخطوة 1: سجل في Hactoberfest-2019 باستخدام معرف github الخاص بك.
+الخطوة 2: نجمة هذا الريبو ومشاركتها مع أصدقائك.
+الخطوة 3: فقط افتح "index.html" وقم بتضمين اسمك والرابط الخاص بملف تعريفك على github في علامات "li" لإجراء اتصال مع جميع المتحمسين الآخرين المفتوحين مثلنا.
+من فضلك فقط لا تفعل ذلك لمجرد هيك تي شيرت تفعل ذلك للتعلم والحصول على expereince كيفية جعل العلاقات العامة !!!!!!!
+لا تقلق القادمين الجدد! اجعل هذا خطوتك الأولى للتنمية والمصدر المفتوح. الحصول على الثقة التي تحتاجها!
+وهل تعطيه نجمة وتابعني على جيثب !!!!!!!!!!!!!!!!!!!
+جميع اقتراحاتكم هي موضع ترحيب!
 
-# Hacktoberfest-2019 
+سوجس الفرص الأخرى
+يمكنك إضافة إشارات إلى بعض المشاريع المفتوحة المصدر الرائعة أدناه:
 
-A repository for beginners to create their first Pull Request. 
+1. زوليب -
+Zulip هو برنامج مفتوح المصدر بنسبة 100٪ ، تم بناؤه بواسطة مجتمع نابض بالحياة يضم مئات من المطورين من جميع أنحاء العالم.
 
-### Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
+2. فوساسيا -
+تطوير البرمجيات والأجهزة مفتوحة المصدر لتحسين حياة الناس.
 
-### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
+3. موزيلا -
+هذه التكنولوجيا يمكن أن تقع في اليد اليمنى. موزيلا لديها 30 مستودع المتاحة. اتبع التعليمات البرمجية الخاصة بهم على جيثب.
 
-### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
+4. معسكر رمز مجاني -
+تعلم كيفية الترميز مجانًا مع ملايين الأشخاص الآخرين حول العالم.
 
-### Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
+5. هياكل البيانات والخوارزميات Hacktoberfest18 -
+قائمة هياكل البيانات والخوارزميات
 
-### Step 1: Register at [Hactoberfest-2019](https://hacktoberfest.digitalocean.com/) using your github id.
+6. Habitica -
+تطبيق يتيح للمستخدمين تدليل خيارات الحياة الواقعية والنشاطات باستخدام مكافآت داخل التطبيق.
 
-### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
+تعلم كيفية الترميز مجانًا مع ملايين الأشخاص الآخرين حول العالم.
 
-### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+7. الرد -
+مكتبة JavaScript مفعلة وفعالة ومرنة لبناء واجهات المستخدم. الكثير من الموارد للتعلم. (الرسمية)
 
-# Please just don't do it just for the heck of a T-shirt do it to learn and get expereince how to make a PR !!!!!!!
-# Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
-# And Do give it a Star and *Follow* me on GitHub !!!!!!!!!!!!!!!!!!!
+8. الكترون -
+بناء تطبيقات سطح المكتب عبر منصة مع جافا سكريبت ، HTML ، و CSS. الكثير من الموارد للتعلم والمساهمة. (الرسمية)
 
-All of your suggestions are welcome!!
+9. قتل بواسطة جوجل -
+تحية وتسجيل للمنتجات والخدمات الحبيبة التي قتلتها Google. هذا مشروع ممتع مفتوح المصدر يشجع المساهمين في Hacktoberfest!
 
-# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
+10. issuehub.io -
+موقع إلكتروني يساعدك في العثور على مشاريع / مشكلات بناءً على تسميات اللغة أو القضايا المطلوبة.
 
+11. كود الفرز -
+أداة أخرى مفيدة للبحث عن مشاكل لإصلاحها
 
-You can add references to some cool open source projects below:
+12. Up For Grabs -
+قائمة المشاريع مع القضايا التي يمكن حلها من قبل المبتدئين
 
-### 1. [Zulip](https://github.com/zulip) -
+13. الموقتات الأولى فقط -
+قائمة بالمشكلات التي تحمل اسم "أول مرة فقط".
 
-Zulip is 100% open source software, built by a vibrant community of hundreds of developers from all around the world.
-       
-### 2. [FOSSASIA](https://github.com/fossasia) -
+14. ممتاز أول مرة العلاقات العامة -
+قائمة من المشاريع الصديقة للمبتدئين رهيبة.
 
-Developing Open Source Software and Hardware to improve people's lives.
-       
-### 3. [MOZILLA](https://github.com/mozilla) -
+15. قتل بواسطة جوجل -
+تحية وتسجيل للمنتجات والخدمات الحبيبة التي قتلتها Google. هذا مشروع ممتع مفتوح المصدر يشجع المساهمين في Hacktoberfest!
 
-This technology could fall into the right hands. Mozilla has 30 repositories available. Follow their code on GitHub.
-       
-### 4. [Free code camp](https://github.com/freeCodeCamp/freeCodeCamp) -
+16. تدفق الموتر -
+TensorFlow هي مكتبة برامج مفتوحة المصدر لبرمجة تدفق البيانات عبر مجموعة من المهام. إنها مكتبة رياضيات رمزية ، وتستخدم أيضًا لتطبيقات التعلم الآلي مثل الشبكات العصبية.
 
-Learn to code for free with millions of other people round the world.
+17. Kubernetes
+نظام حاوية مفتوح المصدر لأتمتة نشر تطبيق الحاويات وتوسيع نطاقه وإدارته.
 
-### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
-       
-List of Data Structures and Algorithms 
+18. DuckDuckGo
+DuckDuckGo هو محرك بحث مدرك للخصوصية ولا يتتبع المستخدمين. الإجابات الفورية هي ميزة توفر الإجابات دون الحاجة إلى فتح موقع على شبكة الإنترنت ..
 
-### 6. [Habitica](https://habitica.com/static/home) -
+19. البوليمر
+مكتبة JavaScript مفتوحة المصدر لإنشاء مكونات الويب والتي يتم استخدامها بعد ذلك لإنشاء صفحات الويب والتطبيقات ، يتم تطوير Polymer حاليًا بواسطة مطوري Google والمساهمين في GitHub. لقد كان Polymer قد تلقى تحديثًا في يناير (Polymer 2.4) مركزيًا لمجموعة واسعة من خدمات ومواقع Google ، بما في ذلك YouTube و Google Earth ومواقع Google ، مما يمهد الطريق لدعم 3.0 و TypeScript.
 
-App that lets users gamify real-life choices and activity with in-app rewards .
-
-Learn to code for free with millions of other people around the world.
-
-### 7. [REACT ](https://github.com/facebook/react) -
-
-A declarative, efficient, and flexible JavaScript library for building user interfaces. Plenty resource to learn. (official)
-      
-### 8. [ELECTRON ](https://github.com/electron/electron) -
-
-Build cross-platform desktop apps with JavaScript, HTML, and CSS. Plenty Resource to learn and contribute. (official)
-      
-### 9. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
-
-A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
-
-### 10. [issuehub.io](https://issuehub.io) -
-
-A website which helps you find projects/issues based on your required language or issue labels.
-       
-### 11. [Code Triage](https://www.codetriage.com/) -
-
-Another useful tool for searching issues to fix
-
-### 12. [Up For Grabs](https://up-for-grabs.net/) - 
-
-List of projects with issues that can be resolved by beginners
-
-### 13. [First Timers Only](https://www.firsttimersonly.com/) - 
-
-A list of issues that are labelled “first-timers-only”.
-
-### 14. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
-
-A list of awesome beginners-friendly projects.
-
-### 15. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
-
-A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
-
-### 16. [Tensor Flow](https://github.com/tensorflow/tensorflow) -       
-
-TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
-       
-### 17. [Kubernetes](https://kubernetes.io/)
-
-An open source container system for automating deployment , scaling and management of containers application.
-
-### 18. [DuckDuckGo](https://duckduckgo.com/)
-
-DuckDuckGo is a privacy-conscious search engine that doesn't track users. Instant Answers is a feature that provides answers without needing to open up a website..  
-
-### 19. [Polymer](https://www.polymer-project.org/)
-
-An open-source JavaScript library for creating web components which are then used to build web pages and apps, Polymer is currently being developed by Google developers and contributors on GitHub. Central to a wide range of Google services and websites, including YouTube, Google Earth and Google Sites, Polymer received an update in January (Polymer 2.4) which is paving the way for 3.0 and TypeScript support.
-      
-### 20. [Blender](https://www.blender.org/) - 
-
-Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
-
-
+20. خلاط -
+Blender هو مجموعة إنشاء ثلاثي الأبعاد مجانية ومفتوحة المصدر. وهو يدعم مجمل خط أنابيب ثلاثي الأبعاد - النمذجة والتزوير والرسوم المتحركة والمحاكاة وتقديم والتركيب وتتبع الحركة ، وحتى تحرير الفيديو وإنشاء اللعبة.
