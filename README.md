@@ -3,10 +3,15 @@
 A repository for beginners to create their first Pull Request. 
 
 ## Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
+
 ## Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
+
 ## Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
-## Step 1: Register at [Hactoberfest-2018](https://hacktoberfest.digitalocean.com/) using your github id.
+
+## Step 1: Register at [Hactoberfest-2019](https://hacktoberfest.digitalocean.com/) using your github id.
+
 ## Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-) and share it with your friends.
+
 ## Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
 ## Now since Hacktoberfest idover please read [this](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/After%20this%20.md)
