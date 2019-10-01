@@ -2,19 +2,21 @@
 
 A repository for beginners to create their first Pull Request. 
 
-## Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
+### Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
 
-## Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
+### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
 
-## Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
+### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 
-## Step 1: Register at [Hactoberfest-2019](https://hacktoberfest.digitalocean.com/) using your github id.
+### Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
 
-## Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-) and share it with your friends.
+### Step 1: Register at [Hactoberfest-2019](https://hacktoberfest.digitalocean.com/) using your github id.
 
-## Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+## Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
-## Now since Hacktoberfest idover please read [this](https://github.com/Ishaan28malik/HACKTOBERFEST_2018-Beginners-/blob/master/After%20this%20.md)
+## Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+
+## Now since Hacktoberfest idover please read [this](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/After%20this%20.md)
 
 ### Happy coding fellas!!
 # PLease just don't do it just for the heck of a t-shirt do it to learn and get expereince how to make a PR !!!!!!!
