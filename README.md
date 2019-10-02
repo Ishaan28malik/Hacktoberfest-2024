@@ -20,7 +20,7 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
-# Please just don't do it just for the heck of a T-shirt do it to learn and get experience how to make a PR !!!!!!!
+# Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR !!!!!!!
 # Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
 # And Do give it a Star and *Follow* me on GitHub !!!!!!!!!!!!!!!!!!!
 
