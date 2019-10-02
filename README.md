@@ -125,3 +125,6 @@ SageMath is a computer algebra system with features covering many aspects of mat
 ### 22. [Material Ocean](https://github.com/material-ocean/Material-Ocean)
 
 Material Ocean is a theme for various Applications based on a blueish ocean color scheme
+
+### 23. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
+A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
