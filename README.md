@@ -1,5 +1,7 @@
 ![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
+# Happy coding fellas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 # Hacktoberfest-2019 
 
 A repository for beginners to create their first Pull Request. 
@@ -14,15 +16,13 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 1: Register at [Hactoberfest-2019](https://hacktoberfest.digitalocean.com/) using your github id.
 
-## Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
+### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
-## Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
-## Now since Hacktoberfest idover please read [this](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/After%20this%20.md)
-
-### Happy coding fellas!!
-# PLease just don't do it just for the heck of a t-shirt do it to learn and get expereince how to make a PR !!!!!!!
-# Don't worry newcomers!! Everyone's PRs will be merged!! Make this your first step to development and open source. Get the          confidence you require!!
+# Please just don't do it just for the heck of a T-shirt do it to learn and get expereince how to make a PR !!!!!!!
+# Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
+# And Do give it a Star and *Follow* me on GitHub !!!!!!!!!!!!!!!!!!!
 
 All of your suggestions are welcome!!
 
@@ -97,15 +97,15 @@ A tribute and log of beloved products and services killed by Google. This is a f
 
 TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
        
-### 17. [Kubernetes](https://kubernetes.io/)
+### 17. [Kubernetes](https://kubernetes.io/) -
 
 An open source container system for automating deployment , scaling and management of containers application.
 
-### 18. [DuckDuckGo](https://duckduckgo.com/)
+### 18. [DuckDuckGo](https://duckduckgo.com/) -
 
 DuckDuckGo is a privacy-conscious search engine that doesn't track users. Instant Answers is a feature that provides answers without needing to open up a website..  
 
-### 19. [Polymer](https://www.polymer-project.org/)
+### 19. [Polymer](https://www.polymer-project.org/) -
 
 An open-source JavaScript library for creating web components which are then used to build web pages and apps, Polymer is currently being developed by Google developers and contributors on GitHub. Central to a wide range of Google services and websites, including YouTube, Google Earth and Google Sites, Polymer received an update in January (Polymer 2.4) which is paving the way for 3.0 and TypeScript support.
       
@@ -114,3 +114,6 @@ An open-source JavaScript library for creating web components which are then use
 Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
 
 
+### 21. [sagemath](http://www.sagemath.org/) - 
+
+SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It builds on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
