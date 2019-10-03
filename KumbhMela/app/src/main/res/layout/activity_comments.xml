@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yback"
+    tools:context=".comments">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="346dp"
+        android:layout_height="538dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="13dp">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="206dp"
+            android:layout_height="46dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:fontFamily="casual"
+            android:text="Reviews"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp" />
+
+        <EditText
+            android:id="@+id/etcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_alignBottom="@+id/btcom"
+            android:layout_alignParentStart="true"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="add comment"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btcom"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="157dp"
+            android:text="Comment" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

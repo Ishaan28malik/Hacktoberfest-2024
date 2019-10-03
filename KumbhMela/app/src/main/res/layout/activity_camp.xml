@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".shahisnan">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shahisnan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history">
+
+</android.support.constraint.ConstraintLayout> -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01c"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".camp">
+
+    <!-- <RelativeLayout
+         android:id="@+id/RelativeLayout01"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" >-->
+
+    <!--       <LinearLayout
+               android:id="@+id/LinearLayout01"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:orientation="vertical"
+               tools:background="@android:color/holo_orange_light">-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1c"
+        android:background="@drawable/bgg2">
+
+
+
+        <!--   android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/back"
+            tools:layout_editor_absoluteX="16dp"-->
+
+        <ImageView
+            android:id="@+id/imageView2c"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewc"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/clf"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewc"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="@+id/textViewc"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2c"
+            app:srcCompat="@drawable/camp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textViewc"
+
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:fontFamily="casual"
+            android:scrollbars="vertical"
+            android:text="\n\n\nAttending the Kumbh Mela is really fun, but when it comes to accommodation; staying in the camps can give you some memories for the lifetime. These camps are set up for the Sadhus and people who prefer staying near the bathing area. These tents are just a few km away from the ghats. Living in these tents give you the fun of interacting with people from different regions; knowing their lifestyles and many other things. Bringing your camera along will be quite handy as there are many who would love to be photographed."
+            android:textColor="#020202"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView2c"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewc"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2c"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text="Since Kumbh Mela has gained fame worldwide, special camps are set for the international travellers, so that they can enjoy the authentic feel of the Kumbh Mela. Special tours are operated for them to greet the devotees who have come to take a dip in the waters of Allahabad."
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView3c"
+            app:layout_constraintTop_toBottomOf="@+id/textViewc"
+            app:layout_constraintVertical_bias="0.97"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView3c"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="cursive"
+            android:text="For more info click on"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@id/textView4c"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2c" />
+
+        <ImageButton
+            android:id="@+id/imageButtonc"
+            android:layout_width="69dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView3c"
+            app:layout_constraintTop_toBottomOf="@+id/textView2c"
+            app:srcCompat="@drawable/chr" />
+
+        <TextView
+            android:id="@+id/textView4c"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="cursive"
+            android:text="To watch a video, click on"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3c" />
+
+        <ImageButton
+            android:id="@+id/imageButton2c"
+            android:layout_width="68dp"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView4c"
+            app:layout_constraintTop_toBottomOf="@+id/textView3c"
+            app:srcCompat="@drawable/youtube" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--  </LinearLayout>-->
+    <!--  </RelativeLayout>-->
+</ScrollView>
+    <!--<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camp">
+
+</android.support.constraint.ConstraintLayout>-->

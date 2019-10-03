@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".railways"
+    android:background="@drawable/bgg2">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="582dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            app:srcCompat="@drawable/rlways" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="325dp"
+            android:layout_height="266dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="144dp"
+            android:fontFamily="casual"
+            android:text="Allahabad Junction is a railway station on the Howrah-Delhi main line and Howrah-Allahabad-Mumbai line. It is the headquarters of the North Central Railway Zone. It is located in Allahabad district in the Indian state of Uttar Pradesh. It serves Allahabad and the surrounding areas. Many important trains pass through this station. All trains from the east going to southward pass through this station."
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="224dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="69dp"
+            android:layout_marginStart="30dp"
+            android:text="To check all trains though Allahabad, click on"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imagerly"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textView15"
+            android:layout_marginEnd="57dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/raiwa" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

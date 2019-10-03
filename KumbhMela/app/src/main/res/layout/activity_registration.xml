@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yback"
+    tools:context=".Registration">
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="563dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="153dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="216dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etUserPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="239dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="78dp"
+            android:layout_marginEnd="-28dp"
+            android:layout_toStartOf="@+id/ivProfile"
+            android:background="#69e8ea"
+            android:fontFamily="casual"
+            android:text="Register"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvUserLogin"
+            android:layout_width="131dp"
+            android:layout_height="58dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/btnRegister"
+            android:layout_marginEnd="37dp"
+            android:fontFamily="casual"
+            android:text="Already Registered? Login" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="176dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter Age"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/ivProfile"
+            android:layout_width="80dp"
+            android:layout_height="116dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            app:srcCompat="@drawable/prof" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".shahisnan">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shahisnan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history">
+
+</android.support.constraint.ConstraintLayout> -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01s"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".satsang">
+
+    <!-- <RelativeLayout
+         android:id="@+id/RelativeLayout01"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" >-->
+
+    <!--       <LinearLayout
+               android:id="@+id/LinearLayout01"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:orientation="vertical"
+               tools:background="@android:color/holo_orange_light">-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1s"
+        android:background="@drawable/bgg2">
+
+
+
+        <!--   android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/back"
+            tools:layout_editor_absoluteX="16dp"-->
+
+        <ImageView
+            android:id="@+id/imageView2s"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViews"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ssg"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViews"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="@+id/textViews"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2s"
+            app:srcCompat="@drawable/satsang"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textViews"
+
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:fontFamily="casual"
+            android:scrollbars="vertical"
+            android:text="\n\n\nSatsangs are a very important part of the Ardh Kumbh Mela. Devotees sit for hours and listen to the Sadhus who preach. During the mela there are a lot of ashrams and halls where people can offer prayers. One can go and sit inside if they want to hear what the priests have to say about Hinduism and spiritualism as these saints have a good knowledge of religion.It is a place of spiritual activity through daily practice of yoga, equally in all its forms: the practice of karma yoga, bhakti yoga, gyan yoga and raja yoga. Ashram is a place where you will find refuge without any discrimination and where you are always welcome. "
+            android:textColor="#020202"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView2s"
+            app:layout_constraintTop_toBottomOf="@+id/imageViews"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2s"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text="Satsang literally means encounter with the truth. In Sanskrit sat means the truth, and sanga means company.One can even interact with them and take pictures of them with their permission. Though they don’t talk much but if you will be respectful and humble you can get the permission of photography.Satsang also means good company in which we nurture our spirituality and bhakti, and where we are led by the Uttana – the principle of going higher in the spiritual evolution."
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView3s"
+            app:layout_constraintTop_toBottomOf="@+id/textViews"
+            app:layout_constraintVertical_bias="0.97"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView3s"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="casual"
+            android:text="For more info click on"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@id/textView4s"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2s" />
+
+        <ImageButton
+            android:id="@+id/imageButtons"
+            android:layout_width="67dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView3s"
+            app:layout_constraintTop_toBottomOf="@+id/textView2s"
+            app:srcCompat="@drawable/chr" />
+
+        <TextView
+            android:id="@+id/textView4s"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="cursive"
+            android:text="To watch a video, click on"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3s" />
+
+        <ImageButton
+            android:id="@+id/imageButton2s"
+            android:layout_width="74dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView4s"
+            app:layout_constraintTop_toBottomOf="@+id/textView3s"
+            app:srcCompat="@drawable/youtube" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--  </LinearLayout>-->
+    <!--  </RelativeLayout>-->
+</ScrollView>
+    <!--<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".satsang">
+
+</android.support.constraint.ConstraintLayout>-->

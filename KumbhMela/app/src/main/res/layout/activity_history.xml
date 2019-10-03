@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history">
+
+</android.support.constraint.ConstraintLayout> -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- <RelativeLayout
+         android:id="@+id/RelativeLayout01"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" >-->
+
+    <!--       <LinearLayout
+               android:id="@+id/LinearLayout01"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:orientation="vertical"
+               tools:background="@android:color/holo_orange_light">-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1"
+        android:background="@drawable/bgg2">
+
+
+
+        <!--   android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/back"
+            tools:layout_editor_absoluteX="16dp"-->
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bck"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/history"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView"
+
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:fontFamily="casual"
+            android:scrollbars="vertical"
+            android:text="\n\nAt the sacred Triveni Sangam, Allahabad will host Ardh Kumbh Mela 2019 for Hindu devotees to throng. Hosted every six year when Jupiter is in Aries or Taurus and Sun and Moon are in Capricorn during the Hindu month of Magha, Allahabad transforms into a land that blesses devotees taking a dip at the confluence of holy Rivers. Boasting a colossal gathering, Allahabad Ardh Kumbh Mela 2019 shall commence from January 15 and will end on March 4. This months long religious festival apart from inviting millions of devotees welcomes various Vaishnavite and Shaivite Akhadas who bathe in the water before anyone else."
+            android:textColor="#020202"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text='The Kumbh Mela occurrences follow the Hindu calendar, as follows: The Kumbh Mela (sometimes specifically called Purna Kumbh or "full Kumbha"), occurs every 12 years at a given site. Ardh Kumbh ("Half Kumbh") Mela occurs between the two Purna Kumbha Melas at Prayag and Haridwar. The Maha Kumbh occurs after 12 Purna Kumbh Melas i.e. every 144 years. The Kumbh Mela at Prayag is celebrated after approximately 3 years of Kumbh Mela at Haridwar.'
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.97"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="cursive"
+            android:text="For more info click on"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="73dp"
+            android:layout_height="57dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.196"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/chr" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    <!--  </LinearLayout>-->
+    <!--  </RelativeLayout>-->
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pback"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/tvProfileAge"
+            android:layout_width="81dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/tvProfileEmail"
+            android:layout_marginBottom="190dp"
+            android:background="#ffffff"
+            android:fontFamily="casual"
+            android:text="Age"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvProfileEmail"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="242dp"
+            android:background="#ffffff"
+            android:fontFamily="casual"
+            android:text="Email"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvProfileName"
+            android:layout_width="257dp"
+            android:layout_height="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="211dp"
+            android:background="#ffffff"
+            android:fontFamily="casual"
+            android:text="ProfileName"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnProfileUpdate"
+            android:layout_width="141dp"
+            android:layout_height="39dp"
+            android:layout_alignEnd="@+id/ivProfilePic"
+            android:layout_alignTop="@+id/btnChangePassword"
+            android:layout_marginEnd="-44dp"
+            android:background="#fff532"
+            android:fontFamily="casual"
+            android:text="update profile"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="104dp"
+            android:layout_marginStart="31dp"
+            android:background="#fff532"
+            android:fontFamily="casual"
+            android:text="Change Password"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivProfilePic"
+            android:layout_width="215dp"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            app:srcCompat="@drawable/prof" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

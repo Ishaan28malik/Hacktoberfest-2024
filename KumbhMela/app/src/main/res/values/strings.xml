@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kumbh Darshan</string>
+
+    <string-array name="Hotels">
+        <item>--null--</item>
+        <item>Book a room</item>
+        <item>Show on Map</item>
+        <item>Book a Taxi</item>
+        <item>Call</item>
+    </string-array>
+    <string-array name="Food">
+        <item>--null--</item>
+        <item>Order online</item>
+        <item>Show on Map</item>
+        <item>Book a Taxi</item>
+        <item>Call</item>
+    </string-array>
+    <string name="title_activity_firstmap">Map</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg2"
+    tools:context=".spotb">
+
+    <RelativeLayout
+        android:layout_width="379dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            app:srcCompat="@drawable/kbagh" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="155dp"
+            android:layout_height="134dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="153dp"
+            app:srcCompat="@drawable/khusro" />
+
+        <ImageView
+            android:id="@+id/imagebtx"
+            android:layout_width="62dp"
+            android:layout_height="53dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/taxi" />
+
+        <ImageView
+            android:id="@+id/imgcro"
+            android:layout_width="58dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/imagebtx"
+            android:layout_marginTop="224dp"
+            app:srcCompat="@drawable/chr" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="293dp"
+            android:layout_height="187dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="44dp"
+            android:text="A walled garden that contains four important Mughal tombs built in the 17th century. This emerald garden complex has a rich history. One of the tombs belong to Prince Khusro who was the eldest son of Jahangir. Another one belongs to Khusro’s mother Shah Begum. The third tomb was constructed by Khusro’s sister Nesa Begum is beautiful to look at with multiple artistic carvings over it but remains empty"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewsha"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView1sha"
+        android:background="@drawable/bgg2">
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView2sha"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageViewsha"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sahi"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageViewsha"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toTopOf="@+id/textViewsha"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2sha"
+            app:srcCompat="@drawable/shahisnan"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textViewsha"
+
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:fontFamily="casual"
+            android:scrollbars="vertical"
+            android:text="\n\nRitual bathing or Shahi Snan is one of the important events of Kumbh mela. The saints of different Akhadas along with their disciple take a bath at the banks of the river on the prescribed date. On this day the huge procession takes place. Local people decorate roads with rangolis and petals. Shahi Snan begins at 4 am early in the morning. There was a huge crowd when saints started for going Shahi Snan procession with their weapons. The Akhadas, saints and disciples proceeds one by one on the route towards the place of Shahi Snan. Some saints sit on elephants, horses, camels, etc. and some on Rathas (Chariots) made of tractor-trolleys."
+            android:textColor="#020202"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView2sha"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewsha"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2sha"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="casual"
+            android:text=' Decorated umbrellas were held on saints head by their disciples. Hosted every six year when Jupiter is in Aries or Taurus and Sun and Moon are in Capricorn during the Hindu month of Magha, Allahabad transforms into a land that blesses devotees taking a dip at the confluence of holy Rivers.Boasting a colossal gathering, Allahabad Ardh Kumbh Mela 2019 shall commence from January 15 and will end on March 4. Ardh Kumbh ("Half Kumbh") Mela occurs between the two Purna Kumbha Melas at Prayag and Haridwar. The Maha Kumbh occurs after 12 Purna Kumbh Melas i.e. every 144 year.'
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView3sha"
+            app:layout_constraintTop_toBottomOf="@+id/textViewsha"
+            app:layout_constraintVertical_bias="0.97"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView3sha"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="cursive"
+            android:text="For more info click on"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintBottom_toTopOf="@id/textView4sha"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2sha" />
+
+        <ImageButton
+            android:id="@+id/imageButtonsha"
+            android:layout_width="67dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView3sha"
+            app:layout_constraintTop_toBottomOf="@+id/textView2sha"
+            app:srcCompat="@drawable/chr" />
+
+        <TextView
+            android:id="@+id/textView4sha"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="casual"
+            android:text="To watch a video, click on"
+
+
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/white"
+            android:textSize="18sp"
+
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3sha" />
+
+        <ImageButton
+            android:id="@+id/imageButton2sha"
+            android:layout_width="65dp"
+            android:layout_height="68dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerInside"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView4sha"
+            app:layout_constraintTop_toBottomOf="@+id/textView3sha"
+            app:srcCompat="@drawable/youtube" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>

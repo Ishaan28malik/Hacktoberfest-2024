@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    tools:context=".second">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="75dp"
+            android:layout_marginStart="30dp"
+            android:background="#f45454"
+            android:fontFamily="casual"
+            android:text="SOS"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <!--  <Button
+            android:id="@+id/bthistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:text="History" />
+
+        <Button
+            android:id="@+id/buttoneve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="118dp"
+            android:text="Events" />
+
+        <Button
+            android:id="@+id/bthotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="189dp"
+            android:text="Hotel" />
+
+        <Button
+            android:id="@+id/btreach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="235dp"
+            android:text="connectivity" />
+
+        <Button
+            android:id="@+id/btour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="160dp"
+            android:text="tourism" />  -->
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:fontFamily="casual"
+            android:text="Kumbh Darshan"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/textView24"
+            android:layout_alignStart="@+id/btnLogout"
+            android:background="#f45454"
+            android:fontFamily="casual"
+            android:text="Global Chat"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonnot"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/buttonfb"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="121dp"
+            android:background="#f45454"
+            android:filterTouchesWhenObscured="true"
+            android:fontFamily="casual"
+            android:text="Notifications"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="280dp"
+            android:layout_height="271dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="casual"
+            android:text="Kumbh is an occasion but with the passage of time it took the shape of a Religious and cultural festival, which leaves an impression on whole world, such a festival where one thinks about religion and culture. Such a festival whose culture is “Vishnupadi” Ganga itself. Earlier, shape of this festival was small but now from 12th century the festival has grown. "
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonfb"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btnLogout"
+            android:layout_marginBottom="18dp"
+            android:layout_marginStart="-10dp"
+            android:background="#f45454"
+            android:fontFamily="casual"
+            android:text="Give Feedback"
+            android:textColor="#ffffff" />
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/material_design_android_floating_action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            fab:menu_animationDelayPerItem="55"
+            fab:menu_backgroundColor="@android:color/transparent"
+            fab:menu_buttonSpacing="0dp"
+            fab:menu_colorNormal="#da3c2f"
+            fab:menu_colorPressed="#dc4b3f"
+            fab:menu_colorRipple="#99d4d4d4"
+            fab:menu_fab_label="Menu"
+            fab:menu_fab_size="normal"
+            fab:menu_icon="@drawable/fab_add"
+            fab:menu_labels_colorNormal="#333"
+            fab:menu_labels_colorPressed="#444"
+            fab:menu_labels_colorRipple="#66efecec"
+            fab:menu_labels_cornerRadius="3dp"
+            fab:menu_labels_ellipsize="none"
+            fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+            fab:menu_labels_margin="0dp"
+            fab:menu_labels_maxLines="-1"
+            fab:menu_labels_padding="8dp"
+            fab:menu_labels_position="left"
+            fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+            fab:menu_labels_showShadow="false"
+            fab:menu_labels_singleLine="false"
+            fab:menu_labels_textColor="#f2f1f1"
+            fab:menu_labels_textSize="15sp"
+            fab:menu_openDirection="up"
+            fab:menu_shadowColor="#66aff198"
+            fab:menu_shadowRadius="4dp"
+            fab:menu_shadowXOffset="1dp"
+            fab:menu_shadowYOffset="4dp"
+            fab:menu_showShadow="false">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/bthistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hisi"
+                fab:fab_label="History"
+
+                fab:fab_size="normal" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/buttoneve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/eves"
+                fab:fab_label="Events"
+                fab:fab_size="normal" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/bthotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#d33434"
+                android:src="@drawable/fodo"
+                fab:fab_label="Stay and Food"
+                fab:fab_size="normal" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btreach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rlw"
+                fab:fab_label="Connectivity"
+                fab:fab_size="normal" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/btour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fl"
+                fab:fab_label="Tourism"
+
+                fab:fab_size="normal" />
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

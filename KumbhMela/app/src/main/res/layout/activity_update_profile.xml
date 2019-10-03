@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pback"
+    tools:context=".UpdateProfile">
+
+    <RelativeLayout
+        android:layout_width="387dp"
+        android:layout_height="566dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/etAgeUpdate"
+            android:layout_width="209dp"
+            android:layout_height="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/etNameUpdate"
+            android:layout_marginBottom="200dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Age"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etEmailUpdate"
+            android:layout_width="326dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="201dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Email"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etNameUpdate"
+            android:layout_width="317dp"
+            android:layout_height="41dp"
+            android:layout_centerInParent="true"
+            android:background="#ffffff"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="115dp"
+            android:background="#fff532"
+            android:fontFamily="casual"
+            android:text="Save"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivProfileUpdate"
+            android:layout_width="140dp"
+            android:layout_height="137dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            app:srcCompat="@drawable/prof" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

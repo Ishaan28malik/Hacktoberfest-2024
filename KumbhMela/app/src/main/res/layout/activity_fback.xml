@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yback"
+    tools:context=".fback">
+
+    <TextView
+        android:id="@+id/tvnamm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/etfback"
+        android:layout_marginTop="26dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvemyl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/tvnamm"
+        android:layout_marginStart="129dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvayg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvnamm"
+        android:layout_marginEnd="116dp"
+        android:text="TextView" />
+
+    <RelativeLayout
+        android:layout_width="381dp"
+        android:layout_height="564dp"
+        android:background="@drawable/pback"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/etfback"
+            android:layout_width="319dp"
+            android:layout_height="225dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="33dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Feedback"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="248dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="72dp"
+            android:fontFamily="casual"
+            android:text="Message to Admin"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonsnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="77dp"
+            android:background="#fff532"
+            android:text="Send" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

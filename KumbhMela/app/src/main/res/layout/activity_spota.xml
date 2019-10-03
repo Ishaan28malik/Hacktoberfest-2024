@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spota"
+    android:background="@drawable/bgg2">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="121dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/anand" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="157dp"
+            app:srcCompat="@drawable/andbhvn" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="291dp"
+            android:layout_height="242dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:text="A beautiful double storey building is an erstwhile ancestral home of the Nehru family. This stately mansion is where the planning to overthrow the British Raj was done by Mahatma Gandhi and Jawaharlal Nehru. Inside the buildng are neatly preserved books, personal relics and photos belonging to the Nehru family, now a part of the Indian history and heritage. Indira Gandhi, former Prime Minister of India got married here in 1942. The complex is also a home to the Jawahar Planetarium which runs educational shows every hour from 11.30AM to 4.30PM."
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgtaxi"
+            android:layout_width="58dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/imageView7"
+            android:layout_marginStart="24dp"
+            android:layout_toEndOf="@+id/imageView7"
+            app:srcCompat="@drawable/taxi" />
+
+        <ImageView
+            android:id="@+id/imgchr"
+            android:layout_width="53dp"
+            android:layout_height="41dp"
+            android:layout_alignBottom="@+id/imageView7"
+            android:layout_alignEnd="@+id/textView18"
+            app:srcCompat="@drawable/chr" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

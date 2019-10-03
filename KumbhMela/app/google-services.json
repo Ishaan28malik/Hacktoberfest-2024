@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "237723471257",
+    "firebase_url": "https://login-b5815.firebaseio.com",
+    "project_id": "login-b5815",
+    "storage_bucket": "login-b5815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237723471257:android:0b361974ca39bf13",
+        "android_client_info": {
+          "package_name": "com.example.shubh.log"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237723471257-cnmbvmfod91ibsv09f2gkufg87100tv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6GWsQYl0cXxMmh1RCpb-9UE_pnTw5SAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

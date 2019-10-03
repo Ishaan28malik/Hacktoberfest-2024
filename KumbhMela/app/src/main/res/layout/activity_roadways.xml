@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".roadways"
+    android:background="@drawable/bgg2">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="47dp"
+            app:srcCompat="@drawable/rodways" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="362dp"
+            android:layout_height="288dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="95dp"
+            android:layout_marginStart="0dp"
+            android:fontFamily="casual"
+            android:text="Uttar Pradesh was also called Northern Provinces during British era. It is the most populous state and one of the largest state-economies in India. Uttar Pradesh also has one of the largest road networks in the country, second only to Maharashtra. Around 42 National Highways and 83 state highways form a large network of roads to ensure that every town and most of the villages are interconnected. This is essential to ensure smooth transportation and logistics operations in this densely populated commercial state. "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="184dp"
+            android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="51dp"
+            android:layout_marginStart="33dp"
+            android:fontFamily="cursive"
+            android:text="To book a bus, click on"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/imageroad"
+            android:layout_width="56dp"
+            android:layout_height="51dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/textView16"
+            android:layout_marginEnd="86dp"
+            android:layout_marginTop="-95dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/roadwa" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

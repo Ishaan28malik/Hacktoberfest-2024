@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yback"
+    tools:context=".Emergency">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="82dp"
+            android:fontFamily="casual"
+            android:text="Important Contacts"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="247dp"
+            android:layout_height="41dp"
+            android:layout_centerInParent="true"
+            android:text="Commisioner: 0532-2250800"
+            android:textStyle="bold"
+            tools:text="Commisioner: 0532-2250800" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="247dp"
+            android:layout_height="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="136dp"
+            android:text="Ambulance: 1800-180-5145"
+            android:textStyle="bold"
+            tools:text="Ambulance: 1800-180-5145" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="247dp"
+            android:layout_height="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:text="Fire Brigade: 9454418556"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="247dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="196dp"
+            android:text="Mela Officer: 0532-2500791"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="247dp"
+            android:layout_height="41dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="190dp"
+            android:text="Mela Manager: 0532-2500170"
+            android:textStyle="bold"
+            tools:text="Mela Manager: 0532-2500170" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

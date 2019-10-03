@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg2"
+    tools:context=".spotc">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="29dp"
+            app:srcCompat="@drawable/scat" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="140dp"
+            app:srcCompat="@drawable/saint" />
+
+        <ImageView
+            android:id="@+id/imagexx"
+            android:layout_width="62dp"
+            android:layout_height="51dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="75dp"
+            android:layout_marginTop="152dp"
+            app:srcCompat="@drawable/taxi" />
+
+        <ImageView
+            android:id="@+id/imageyy"
+            android:layout_width="56dp"
+            android:layout_height="46dp"
+            android:layout_alignEnd="@+id/imagexx"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="218dp"
+            app:srcCompat="@drawable/chr" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="323dp"
+            android:layout_height="205dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="36dp"
+            android:text="All Saints Cathedral in Allahabad was built in the late 19th century and today stands remarkably as a colonial structure. The intricate work and designs on the marble altar and the stained glass panel with the grand pulpit along with its arches in pale sandstone makes the building more attractive. The Anglican Church has a Gothic style of architecture, which makes it a major tourist attraction in Allahabad. All Saints Cathedral Church is also referred to as “Patthar Girja” (Stone Church)."
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
