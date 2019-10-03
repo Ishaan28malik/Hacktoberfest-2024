@@ -1,6 +1,10 @@
 ![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
-# Happy coding fellas!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Happy Coding Fellas !
+
+# What is Hacktoberfest ?
+
+Hacktoberfest is a month-long celebration of open source software in partnership with Github .
 
 # Hacktoberfest-2019 
 
@@ -117,3 +121,10 @@ Blender is the free and open source 3D creation suite. It supports the entirety 
 ### 21. [sagemath](http://www.sagemath.org/) - 
 
 SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It builds on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
+
+### 22. [Material Ocean](https://github.com/material-ocean/Material-Ocean)
+
+Material Ocean is a theme for various Applications based on a blueish ocean color scheme
+
+### 23. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
+A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
