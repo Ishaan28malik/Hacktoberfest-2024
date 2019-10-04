@@ -132,3 +132,9 @@ A starter project for Ruby On Sinatra web app projects to introduce programmers 
 ### 25. [coala](https://github.com/coala/coala)
 
 Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. It’s beginner-friendly community. Documentation is well written, issues are properly tagged with ‘easy’, ‘newcomer’, or ‘hard’.
+
+### 26. [Google Developers Group Philippines](https://www.facebook.com/gdgphilippines/)
+
+Google Developer Group (GDG) Philippines is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.
+
+GDG Philippines is an independent group; our activities and the opinions expressed on this Page should in no way be linked to Google, the corporation.
