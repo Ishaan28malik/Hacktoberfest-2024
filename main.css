@@ -180,7 +180,7 @@ input[type=checkbox]
 .blue
 {
 
-	background-image: url('back.jpg');
+	background-image: url('Assets/back.jpg');
 	background-position: center;
 	position: absolute;
 	color: white;
