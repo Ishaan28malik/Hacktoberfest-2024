@@ -132,3 +132,8 @@ A starter project for Ruby On Sinatra web app projects to introduce programmers 
 ### 25. [coala](https://github.com/coala/coala)
 
 Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. It’s beginner-friendly community. Documentation is well written, issues are properly tagged with ‘easy’, ‘newcomer’, or ‘hard’.
+
+### 26. [Linux Kernel](https://jenkins-x.io/) -
+
+Jenkins X is an open source, opinionated way to do continuous integration and continuous delivery (CI/CD) on Kubernetes. As such, it provides a modern, best practices approach to CI/CD for cloud native applications.Jenkins X aids developers in provisioning Kubernetes clusters, automates CI/CD, provides different virtual environments for development, staging, and production using Kubernetes namespaces, and provides preview environments for pull requests.
+
