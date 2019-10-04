@@ -129,6 +129,6 @@ Material Ocean is a theme for various Applications based on a blueish ocean colo
 ### 23. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
 A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
 
-### 24. [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
+### 25. [coala](https://github.com/coala/coala)
 
-A list of awesome beginners-friendly projects
+Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. It’s beginner-friendly community. Documentation is well written, issues are properly tagged with ‘easy’, ‘newcomer’, or ‘hard’.
