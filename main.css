@@ -1,7 +1,7 @@
 *
 {
 	margin: 0;
-	padding: 0  ;
+	padding: 0;
 }
 
 .upper
@@ -104,6 +104,7 @@ input[type=checkbox]
 	top: 56%;
 	left: 18.8%;
 	font-size: 13px;
+	margin: 2px;
 }
 
 .top
@@ -148,7 +149,7 @@ input[type=checkbox]
 	border: none;
 	position: absolute;
 	width: 75%;
-	height: 22%;
+	height: auto;
 	background-color: #3FB0EB;
 	font-family: BrandonText-Bold,Arial,sans-serif;
     color: white;
@@ -158,6 +159,7 @@ input[type=checkbox]
     left: 13.5%;
     top: 50%;
     font-size: 20px;
+		padding: 10px;
 }
 
 .button2
@@ -341,7 +343,7 @@ input[type=checkbox]
 	font-weight: 10;
 }
 .l1
-{  
+{
 	border-left: 1px solid red;
   	position: absolute;
   	height: 28%;
@@ -477,7 +479,7 @@ input[type=checkbox]
 {
 	border-left: 4px solid white;
   	position: absolute;
-  	height: 100%;
+  	height: 85%;
   	left: 22.5%;
   	top: 0%;
   	padding-top: 1.5%;
@@ -488,13 +490,13 @@ input[type=checkbox]
   	font-size: 15px;
   	font-weight: 10;
   	font-family: BrandonText-Regular,sans-serif;
-	line-height: 1.6;	
+	line-height: 1.6;
 }
 .r2
 {
 	border-left: 4px solid white;
   	position: absolute;
-  	height: 100%;
+  	height: 85%;
   	left: 36.5%;
   	top: 0%;
 	padding-top: 1.5%;
@@ -505,13 +507,13 @@ input[type=checkbox]
   	font-size: 15px;
   	font-weight: 10;
   	font-family: BrandonText-Regular,sans-serif;
-	line-height: 1.6;	
+	line-height: 1.6;
 }
 .r3
 {
 	border-left: 4px solid white;
   	position: absolute;
-  	height: 100%;
+  	height: 85%;
   	left: 50.5%;
   	top: 0%;
 	padding-top: 1.5%;
@@ -522,14 +524,14 @@ input[type=checkbox]
   	font-size: 15px;
   	font-weight: 10;
   	font-family: BrandonText-Regular,sans-serif;
-	line-height: 1.6;	
+	line-height: 1.6;
 }
 .r4
 {
 	border-left: 4px solid white;
 	border-right: 4px solid white;
   	position: absolute;
-  	height: 100%;
+  	height: 85%;
   	left: 64%;
   	top: 0%;
 	padding-top: 1.5%;
@@ -540,7 +542,7 @@ input[type=checkbox]
   	font-size: 15px;
   	font-weight: 10;
   	font-family: BrandonText-Regular,sans-serif;
-	line-height: 1.6;	
+	line-height: 1.6;
 }
 .last
 {
@@ -588,4 +590,21 @@ input[type=checkbox]
 	height: 2%;
 	width: 93%;
 	border-top: 2px solid white;
+}
+
+.footer{
+  background-image: url("https://secureservercdn.net/198.71.233.254/cf5.96e.myftpupload.com/wp-content/uploads/2017/04/footer-background.jpg?time=1561673451");
+	position: absolute;
+	top: 291.5%;
+	width: 100%;
+	height: 200px;
+	color: #fff;
+	padding: 50px;
+	padding-left: 500px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.footer a{
+	color: #fff;
 }
