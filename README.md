@@ -128,3 +128,7 @@ Material Ocean is a theme for various Applications based on a blueish ocean colo
 
 ### 23. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
 A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
+
+### 24. [awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
+
+A list of awesome beginners-friendly projects
