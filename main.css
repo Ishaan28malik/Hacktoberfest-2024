@@ -597,14 +597,14 @@ input[type=checkbox]
 	position: absolute;
 	top: 291.5%;
 	width: 100%;
-	height: 200px;
 	color: #fff;
-	padding: 50px;
-	padding-left: 500px;
+	padding: 20px;
 	font-size: 20px;
 	line-height: 30px;
+    text-align: center;
 }
 
 .footer a{
 	color: #fff;
+    text-decoration: none;
 }
