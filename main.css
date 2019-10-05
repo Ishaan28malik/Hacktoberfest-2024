@@ -7,14 +7,14 @@
 .upper
 {
 	position: absolute;
-	top: 7.5%;
+	top: 3.5%;
 	left: 22.5%;
 	background-color: rgb(255,255,255);
 }
 
 .upper1 {
 	position: absolute;
-    top: 8%;
+    top: 5%;
     left: 22.5%;
     max-width: 100%;
 }
