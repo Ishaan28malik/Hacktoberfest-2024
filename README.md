@@ -147,3 +147,7 @@ Jenkins X is an open source, opinionated way to do continuous integration and co
 
 Community that aims to develop student creativity in the fields of science and technology. This community was created by the Malang State Polytechnic and all material provided could be implemented by the general public.
 
+### 27. [Signal](https://github.com/signalapp/) -
+
+Signal uses standard cellular telephone numbers as identifiers and uses end-to-end encryption to secure all communications to other Signal users. The apps include mechanisms by which users can independently verify the identity of their contacts and the integrity of the data channel.
+
