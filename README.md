@@ -10,7 +10,7 @@ Hacktoberfest is a month-long celebration of open source software in partnership
 
 A repository for beginners to create their first Pull Request. 
 
-### Just fork this repo, star it, clone it and add then click on issue to solve it and PR.
+### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR.
 
 ### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
 
@@ -49,7 +49,7 @@ This technology could fall into the right hands. Mozilla has 30 repositories ava
        
 ### 4. [Free code camp](https://github.com/freeCodeCamp/freeCodeCamp) -
 
-Learn to code for free with millions of other people round the world.
+Learn to code for free with millions of other people around the world.
 
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        
@@ -75,15 +75,15 @@ A tribute and log of beloved products and services killed by Google. This is a f
 
 ### 10. [issuehub.io](https://issuehub.io) -
 
-A website which helps you find projects/issues based on your required language or issue labels.
+A website which helps you find projects/issues based on your required/preffered language or issue labels.
        
 ### 11. [Code Triage](https://www.codetriage.com/) -
 
-Another useful tool for searching issues to fix
+Another useful tool for searching issues to fix.
 
 ### 12. [Up For Grabs](https://up-for-grabs.net/) - 
 
-List of projects with issues that can be resolved by beginners
+List of projects with issues that can be resolved by beginners.
 
 ### 13. [First Timers Only](https://www.firsttimersonly.com/) - 
 
@@ -103,7 +103,7 @@ TensorFlow is an open-source software library for dataflow programming across a 
        
 ### 17. [Kubernetes](https://kubernetes.io/) -
 
-An open source container system for automating deployment , scaling and management of containers application.
+An open source container system for automating deployment, scaling and management of containers application.
 
 ### 18. [DuckDuckGo](https://duckduckgo.com/) -
 
@@ -120,11 +120,11 @@ Blender is the free and open source 3D creation suite. It supports the entirety 
 
 ### 21. [sagemath](http://www.sagemath.org/) - 
 
-SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It builds on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
+SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It's built on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
 
 ### 22. [Material Ocean](https://github.com/material-ocean/Material-Ocean)
 
-Material Ocean is a theme for various Applications based on a blueish ocean color scheme
+Material Ocean is a theme for various Applications based on a blueish ocean color scheme.
 
 ### 23. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
 A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
@@ -137,7 +137,7 @@ Coala is a package that provides linting and code-fixing in a single config file
 
 Google Developer Group (GDG) Philippines is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.
 
-GDG Philippines is an independent group; our activities and the opinions expressed on this Page should in no way be linked to Google, the corporation.
+GDG Philippines is an independent group hence our activities and the opinions expressed on this Page should in no way be linked to Google, the corporation.
 
 ### 26. [Linux Kernel](https://jenkins-x.io/) -
 
@@ -145,7 +145,7 @@ Jenkins X is an open source, opinionated way to do continuous integration and co
 
 ### 26. [Workshop Riset Informatika](https://github.com/wrideveloper) -
 
-Community that aims to develop student creativity in the fields of science and technology. This community was created by the Malang State Polytechnic and all material provided could be implemented by the general public.
+Community that aims to develop student's creativity in the fields of science and technology. This community was created by the Malang State Polytechnic and all material provided could be implemented by the general public.
 
 ### 27. [Signal](https://github.com/signalapp/) -
 
