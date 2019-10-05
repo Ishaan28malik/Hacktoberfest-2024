@@ -143,3 +143,7 @@ GDG Philippines is an independent group; our activities and the opinions express
 
 Jenkins X is an open source, opinionated way to do continuous integration and continuous delivery (CI/CD) on Kubernetes. As such, it provides a modern, best practices approach to CI/CD for cloud native applications.Jenkins X aids developers in provisioning Kubernetes clusters, automates CI/CD, provides different virtual environments for development, staging, and production using Kubernetes namespaces, and provides preview environments for pull requests.
 
+### 26. [Workshop Riset Informatika](https://github.com/wrideveloper) -
+
+Community that aims to develop student creativity in the fields of science and technology. This community was created by the Malang State Polytechnic and all material provided could be implemented by the general public.
+
