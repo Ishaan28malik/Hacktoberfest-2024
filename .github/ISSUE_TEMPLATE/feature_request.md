@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Beau
+about: https://github.com/fnname
 title: ''
 labels: ''
 assignees: ''
