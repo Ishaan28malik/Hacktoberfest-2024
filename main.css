@@ -469,7 +469,7 @@ input[type=checkbox]
 	color: black;
 	top: 270%;
 	width: 100%;
-	height: 20%;
+	height: 35%;
 	font-family: BrandonText-Regular,Arial,sans-serif;
 	float: left;
 	font-size: 12px;
@@ -595,7 +595,7 @@ input[type=checkbox]
 .footer{
   background-image: url("https://secureservercdn.net/198.71.233.254/cf5.96e.myftpupload.com/wp-content/uploads/2017/04/footer-background.jpg?time=1561673451");
 	position: absolute;
-	top: 291.5%;
+	top: 307%;
 	width: 100%;
 	color: #fff;
 	padding: 20px;
