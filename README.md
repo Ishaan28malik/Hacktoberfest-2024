@@ -151,3 +151,8 @@ Community that aims to develop student's creativity in the fields of science and
 
 Signal uses standard cellular telephone numbers as identifiers and uses end-to-end encryption to secure all communications to other Signal users. The apps include mechanisms by which users can independently verify the identity of their contacts and the integrity of the data channel.
 
+### 28. [GNU/Linux User's Group, Durgapur](https://nitdgplug.org) - 
+
+GNU/Linux User's Group, NIT Durgapur is a group of enthusiastic open source developers interested to
+collaborate and learn more about new technologies.
+
