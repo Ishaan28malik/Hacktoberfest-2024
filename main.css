@@ -1,0 +1,610 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.upper
+{
+	position: absolute;
+	top: 7.5%;
+	left: 22.5%;
+	background-color: rgb(255,255,255);
+}
+
+.upper1 {
+	position: absolute;
+    top: 8%;
+    left: 22.5%;
+    max-width: 100%;
+}
+.img2 {
+	position: absolute;
+    width: 100%;
+    padding-top: 13%;
+    float: left;
+}
+.img3 {
+    position: relative;
+    top: 0%;
+    left: 290%;
+}
+
+.welcome
+{
+	position: absolute;
+	padding-left: 22.5%;
+	padding-top: 0.5%;
+	color: white;
+	top: 16.5%;
+	background-color: #d83230;
+	width: 110%;
+	height: 36%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+}
+
+.form
+{
+	padding: 1%;
+	height: 65%;
+	width: 13%;
+	background-color: #ad2826;
+}
+
+.button
+{
+	border: none;
+	position: absolute;
+	width: 10.7%;
+	height: 12%;
+	background-color: #e55d09;
+	font-family: BrandonText-Bold,Arial,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    top: 68%;
+}
+
+input[type=text]
+{
+	position: absolute;
+	background-color: #fff793;
+	width: 10.5%;
+	height: 12.3%;
+	padding: 0% 0%;
+    border: none;
+    text-align: left;
+    padding-left: 0.2%;
+}
+.text
+{
+	position: absolute;
+	top: 55.5%;
+	left: 18%;
+	font-size: 15px;
+}
+
+input[type=checkbox]
+{
+	position: absolute;
+	transform: scale(1.5);
+}
+.forgot
+{
+	position: absolute;
+	top: 83%;
+	left: 18%;
+	font-size: 13px;
+}
+.t1
+{
+	position: absolute;
+	top: 56%;
+	left: 18.8%;
+	font-size: 13px;
+	margin: 2px;
+}
+
+.top
+{
+	position: absolute;
+	top: 10.6%;
+	left: 30%;
+
+}
+
+
+
+.teacher
+{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	padding: 0.6%;
+	height: 34%;
+	width: 14%;
+	background-color: #ad2826;
+	display: inline-block;
+	font-size: 24px;
+	padding-top: 2%;
+}
+
+.parent
+{
+	position: absolute;
+	top: 40%;
+	left: 47%;
+	padding: 0.6%;
+	height: 34%;
+	width: 14%;
+	background-color: #ad2826;
+	font-size: 24px;
+	padding-top: 2%;
+}
+
+.button1
+{
+	border: none;
+	position: absolute;
+	width: 75%;
+	height: auto;
+	background-color: #3FB0EB;
+	font-family: BrandonText-Bold,Arial,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    left: 13.5%;
+    top: 50%;
+    font-size: 20px;
+		padding: 10px;
+}
+
+.button2
+{
+	border: none;
+	position: absolute;
+	width: 75%;
+	height: 22%;
+	background-color: #e2850b;
+	font-family: BrandonText-Bold,Arial,sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    left: 13.5%;
+    top: 50%;
+    font-size: 20px;
+}
+
+.blue
+{
+
+	background-image: url('Assets/back.jpg');
+	background-position: center;
+	position: absolute;
+	color: white;
+	top: 53.8%;
+	width: 100%;
+	height: 46%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	z-index: 1;
+	font-size: 40px;
+	padding-top: 1.5%;
+}
+.bimg
+{
+	position: absolute;
+	color: white;
+	top: 24.5%;
+	left: 57%;
+	width: 100%;
+	height: 100px;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+}
+.vid
+{
+	position: absolute;
+	color: white;
+	top: 20.5%;
+	left: 22.5%;
+	width: 425px;
+	height: 315px;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	z-index: 2;
+	background-color: black;
+}
+
+.white
+{
+	background-color: white;
+	position: absolute;
+	padding-top: 0.5%;
+	color: red;
+	top: 106%;
+	font-size: 36px;
+	width: 100%;
+	height: 60%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+}
+
+.wh1
+{
+	background-color: white;
+	position: absolute;
+	padding-top: 0.5%;
+	padding-left: 22.5%;
+	color: black;
+	top: 15%;
+	width: 10%;
+	height: 50%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	font-size: 18px;
+}
+.wh2
+{
+	background-color: white;
+	position: absolute;
+	padding-top: 0.5%;
+	color: black;
+	top: 15%;
+	left: 35%;
+	width: 15%;
+	height: 50%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	font-size: 18px;
+}
+
+.wh3
+{
+	background-color: white;
+	position: absolute;
+	padding-top: 0.5%;
+	color: black;
+	top: 15%;
+	left: 50%;
+	width: 15%;
+	height: 50%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	font-size: 18px;
+}
+
+.wh4
+{
+	background-color: white;
+	position: absolute;
+	padding-top: 0.5%;
+	color: black;
+	top: 15%;
+	left: 65%;
+	width: 15%;
+	height: 50%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	font-size: 18px;
+}
+.border-line-number {
+    color: #D73131;
+    font-weight: bold;
+    position: relative;
+    font-size: 14px;
+    margin: 0px;
+    top: 5px;
+}
+.grey
+{
+
+	position: absolute;
+	padding-top: 0.5%;
+	color: red;
+	top: 150%;
+	width: 100%;
+	height: 50%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	background-color: #edeeef;
+	font-size: 32px;
+	font-weight: 10;
+	padding-top: 2%;
+}
+
+.iw
+{
+	position: absolute;
+	left: 22.5%;
+	top: 20%;
+}
+.scroll
+{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+}
+.w2
+{
+
+	position: absolute;
+	padding-top: 1%;
+	color: red;
+	top: 203%;
+	width: 100%;
+	height: 36%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	background-color: white;
+	font-size: 36px;
+	font-weight: 10;
+}
+.l1
+{
+	border-left: 1px solid red;
+  	position: absolute;
+  	height: 28%;
+  	left: 22.5%;
+  	top: 23%;
+  	z-index: 2;
+  	padding-left:2%;
+  	color: black;
+  	font-size: 20px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.l2
+{
+	border-left: 1px solid red;
+  	position: absolute;
+  	height: 28%;
+  	left: 36.5%;
+  	top: 23%;
+  	z-index: 2;
+  	padding-left:2%;
+  	color: black;
+  	font-size: 20px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.l3
+{
+	border-left: 1px solid red;
+  	position: absolute;
+  	height: 28%;
+  	left: 50.5%;
+  	top: 23%;
+  	z-index: 2;
+  	padding-left:2%;
+  	color: black;
+  	font-size: 20px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.l4
+{
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+  	position: absolute;
+  	height: 28%;
+  	left: 62.5%;
+  	top: 23%;
+  	z-index: 2;
+  	padding-left:2%;
+  	padding-right: 2%;
+  	color: black;
+  	font-size: 20px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.g2
+{
+	position: absolute;
+	padding-top: 2%;
+	color: red;
+	top: 230%;
+	width: 100%;
+	height: 23%;
+	font-family: BrandonText-Regular,sans-serif;
+	float: left;
+	font-size: 36px;
+	background-color: #edeeef;
+}
+
+.g2left
+{
+	position: absolute;
+	left: 32.5%;
+	top: 30%;
+	color: #3FB0EB;
+	padding: 2%;
+}
+.g2right
+{
+	position: absolute;
+	left: 57.5%;
+	top: 30%;
+	color: #e2850b;
+	padding: 2%;
+}
+.b1
+{
+	border: none;
+	position: absolute;
+	width: 190%;
+	height: 40%;
+	background-color: #3FB0EB;
+	font-family: BrandonText-Bold,Arial,sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    left: -60%;
+    top: 85%;
+}
+.b2
+{
+	border: none;
+	position: absolute;
+	width: 200%;
+	height: 40%;
+	background-color: #e2850b;
+	font-family: BrandonText-Bold,Arial,sans-serif
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    top: 85%;
+    left: -40%;
+}
+.g3
+{
+	position: absolute;
+	padding-top: 0.5%;
+	color: black;
+	top: 270%;
+	width: 100%;
+	height: 35%;
+	font-family: BrandonText-Regular,Arial,sans-serif;
+	float: left;
+	font-size: 12px;
+	background-color: #edeeef;
+}
+.r1
+{
+	border-left: 4px solid white;
+  	position: absolute;
+  	height: 85%;
+  	left: 22.5%;
+  	top: 0%;
+  	padding-top: 1.5%;
+  	z-index: 2;
+  	padding-left:2%;
+  	padding-right: 2%;
+  	color: black;
+  	font-size: 15px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.r2
+{
+	border-left: 4px solid white;
+  	position: absolute;
+  	height: 85%;
+  	left: 36.5%;
+  	top: 0%;
+	padding-top: 1.5%;
+  	z-index: 2;
+  	padding-left:2%;
+  	padding-right: 2%;
+  	color: black;
+  	font-size: 15px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.r3
+{
+	border-left: 4px solid white;
+  	position: absolute;
+  	height: 85%;
+  	left: 50.5%;
+  	top: 0%;
+	padding-top: 1.5%;
+  	z-index: 2;
+  	padding-left:1%;
+  	padding-right: 2%;
+  	color: black;
+  	font-size: 15px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.r4
+{
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+  	position: absolute;
+  	height: 85%;
+  	left: 64%;
+  	top: 0%;
+	padding-top: 1.5%;
+  	z-index: 2;
+  	padding-left:2%;
+  	padding-right: 2%;
+  	color: black;
+  	font-size: 15px;
+  	font-weight: 10;
+  	font-family: BrandonText-Regular,sans-serif;
+	line-height: 1.6;
+}
+.last
+{
+	position: absolute;
+	left: 23.5%;
+	top: 291.5%;
+	font-size: 13px;
+	padding-bottom: 3%;
+	padding-top: 0.5%;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+.maint
+{
+	position: absolute;
+	top: 40px;
+	left: 230px;
+	width: 340px;
+	font-size: 36px;
+}
+.l11
+{	top: 170px;
+	height: 60px;
+	width: 220px;
+	border-bottom: 2px solid white
+}
+.l22
+{
+	position: absolute;
+	top: 59px;
+	left: 580px;
+	height: 2%;
+	width: 93%;
+	border-top: 2px solid white;
+}
+
+.footer{
+  background-image: url("https://secureservercdn.net/198.71.233.254/cf5.96e.myftpupload.com/wp-content/uploads/2017/04/footer-background.jpg?time=1561673451");
+	position: absolute;
+	top: 307%;
+	width: 100%;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+	line-height: 30px;
+    text-align: center;
+}
+
+.footer a{
+	color: #fff;
+    text-decoration: none;
+}
