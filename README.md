@@ -156,3 +156,6 @@ Signal uses standard cellular telephone numbers as identifiers and uses end-to-e
 GNU/Linux User's Group, NIT Durgapur is a group of enthusiastic open source developers interested to
 collaborate and learn more about new technologies.
 
+### 29. [Fedora Project](https://www.redhat.com/en/open-source/articles/fedora-project-open-source-evolved)
+
+The Fedora Project is an online community aimed at improving the lives of people around the world through free software. Formed in 2003 as a partnership between Red Hat and volunteers from around the world, the Fedora Project supports a growing and thriving open source community with tens of thousands of project members.
