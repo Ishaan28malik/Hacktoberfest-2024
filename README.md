@@ -152,3 +152,6 @@ Signal uses standard cellular telephone numbers as identifiers and uses end-to-e
 GNU/Linux User's Group, NIT Durgapur is a group of enthusiastic open source developers interested to
 collaborate and learn more about new technologies.
 
+### 29. [WhatsApp](https://github.com/WhatsApp) -
+
+WhatsApp is a cross-platform instant messaging and voice calling application for smartphones. In addition to text messaging, users can send images, videos, and PDF documents, as well as download for free from an Internet connection.
