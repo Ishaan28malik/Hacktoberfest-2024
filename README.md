@@ -93,53 +93,49 @@ A list of issues that are labelled “first-timers-only”.
 
 A list of awesome beginners-friendly projects.
 
-### 15. [Killed by Google](https://github.com/codyogden/killedbygoogle) -       
-
-A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
-
-### 16. [Tensor Flow](https://github.com/tensorflow/tensorflow) -       
+### 15. [Tensor Flow](https://github.com/tensorflow/tensorflow) -       
 
 TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
        
-### 17. [Kubernetes](https://kubernetes.io/) -
+### 16. [Kubernetes](https://kubernetes.io/) -
 
 An open source container system for automating deployment, scaling and management of containers application.
 
-### 18. [DuckDuckGo](https://duckduckgo.com/) -
+### 17. [DuckDuckGo](https://duckduckgo.com/) -
 
 DuckDuckGo is a privacy-conscious search engine that doesn't track users. Instant Answers is a feature that provides answers without needing to open up a website..  
 
-### 19. [Polymer](https://www.polymer-project.org/) -
+### 18. [Polymer](https://www.polymer-project.org/) -
 
 An open-source JavaScript library for creating web components which are then used to build web pages and apps, Polymer is currently being developed by Google developers and contributors on GitHub. Central to a wide range of Google services and websites, including YouTube, Google Earth and Google Sites, Polymer received an update in January (Polymer 2.4) which is paving the way for 3.0 and TypeScript support.
       
-### 20. [Blender](https://www.blender.org/) - 
+### 19. [Blender](https://www.blender.org/) - 
 
 Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
 
 
-### 21. [sagemath](http://www.sagemath.org/) - 
+### 20. [sagemath](http://www.sagemath.org/) - 
 
 SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It's built on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
 
-### 22. [Material Ocean](https://github.com/material-ocean/Material-Ocean)
+### 21. [Material Ocean](https://github.com/material-ocean/Material-Ocean)
 
 Material Ocean is a theme for various Applications based on a blueish ocean color scheme.
 
-### 23. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
+### 22. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
 A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
 
-### 25. [coala](https://github.com/coala/coala)
+### 23. [coala](https://github.com/coala/coala)
 
 Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. It’s beginner-friendly community. Documentation is well written, issues are properly tagged with ‘easy’, ‘newcomer’, or ‘hard’.
 
-### 26. [Google Developers Group Philippines](https://www.facebook.com/gdgphilippines/)
+### 24. [Google Developers Group Philippines](https://www.facebook.com/gdgphilippines/)
 
 Google Developer Group (GDG) Philippines is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.
 
 GDG Philippines is an independent group hence our activities and the opinions expressed on this Page should in no way be linked to Google, the corporation.
 
-### 26. [Linux Kernel](https://jenkins-x.io/) -
+### 25. [Linux Kernel](https://jenkins-x.io/) -
 
 Jenkins X is an open source, opinionated way to do continuous integration and continuous delivery (CI/CD) on Kubernetes. As such, it provides a modern, best practices approach to CI/CD for cloud native applications.Jenkins X aids developers in provisioning Kubernetes clusters, automates CI/CD, provides different virtual environments for development, staging, and production using Kubernetes namespaces, and provides preview environments for pull requests.
 
