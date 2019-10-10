@@ -152,3 +152,6 @@ Signal uses standard cellular telephone numbers as identifiers and uses end-to-e
 GNU/Linux User's Group, NIT Durgapur is a group of enthusiastic open source developers interested to
 collaborate and learn more about new technologies.
 
+### 29. [Video player based on MPlayer/mplayer2 ](https://mpv.io) - 
+
+mpv is a media player based on MPlayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types.
