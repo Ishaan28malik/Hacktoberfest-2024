@@ -23,11 +23,13 @@
     width: 100%;
     padding-top: 13%;
     float: left;
+	border-radius:10px;
 }
 .img3 {
     position: relative;
     top: 0%;
     left: 290%;
+		border-radius:10px;
 }
 
 .welcome
@@ -53,7 +55,7 @@
 }
 
 .button
-{
+{	
 	border: none;
 	position: absolute;
 	width: 10.7%;
