@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+	long n,a;
+	long arr[9]={0};
+	cout<<"enter the value of n";
+	cin>>n;
+	while(n>0)
+	{
+		a=n%10;
+		arr[a]=arr[a]+1;
+		n=n/10;	
+	}
+	for(int i=0;i<10;i++)
+	cout<<arr[i]<<endl;
+	return 0;
+}
