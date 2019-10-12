@@ -154,10 +154,12 @@ collaborate and learn more about new technologies.
 
 ### 29. [WhatsApp](https://github.com/WhatsApp) -
 
-WhatsApp is a cross-platform instant messaging and voice calling application for smartphones. In addition to text messaging, users can send images, videos, and PDF documents, as well as download for free from an Internet connection.
+WhatsApp is a cross-platform instant messaging and voice calling application for smartphones owned by facebook. In addition to text messaging, users can send images, videos, and PDF documents, as well as download for free from an Internet connection.
 
 ### 30. [Red Hat Software](https://www.redhat.com/en) -
 
 Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
 ### 31. [If me](https://www.github.com/if-me)
 Open source mental health communication communit
+
+
