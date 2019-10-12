@@ -161,3 +161,6 @@ WhatsApp is a cross-platform instant messaging and voice calling application for
 Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
 ### 31. [If me](https://www.github.com/if-me)
 Open source mental health communication communit
+
+### 32. [Open Source Software Institute](https://ossinstitute.org/)
+The Open Source Software Institute is a U.S.-based 501, non-profit organization whose mission is to promote the development and implementation of open-source software solutions within US Federal, state and municipal government agencies.
