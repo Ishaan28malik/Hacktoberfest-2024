@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">TOP<img src="assets/top.png" width="20px" height="30px"></button>
+
 	<div class="upper">
 		<div class="img1"><img src="Assets/logo.jpeg"></div>
 	</div>
@@ -127,25 +130,7 @@
 			<button class="b2">GET STARTED <b>></b></button>
 		</div>
 	</div>
-	<div class="g3">
-		<div class="r1">
-			<b>FOR TEACHERS</b><br><a href="https://github.com/Ishaan28malik/HACKTOBERFEST2019/" style="text-decoration: none">Create an Account</a><br><a href="" style="text-decoration: none">Request a Catalog</a><br><a href="" style="text-decoration: none">FAQs</a>
-
-		</div>
-		<div class="r2">
-			<b>FOR PARENTS</b><br><a href="https://github.com/Ishaan28malik/HACKTOBERFEST2019/" style="text-decoration: none">Connect to Your Teacher</a><br><a href="" style="text-decoration: none">FAQs</a><br><b>CONTESTS & PROGRAMS</b><br><a href="" style="text-decoration: none">All Contests </a>
-		</div>
-		<div class="r3">
-			<b>CONTACT US</b><br><a href="https://github.com/Ishaan28malik/HACKTOBERFEST2019/" style="text-decoration: none">bookclubs@scholastic.com</a><br><a href="" style="text-decoration: none">1-800-724-6527</a>
-		</div>
-		<div class="r4">
-			<b>FOLLOW US</b><br>
-			Judy Newman at Scholastic<br>
-			<img src="Assets/png/all.png" height="50px" width="75px">
-
-		</div>
-		 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-	</div>
+	
 	<!-- <div class="last">
 		<a href="" style="text-decoration: none">Scholastic.com</a> | <a href="" style="text-decoration: none">About Scholastic</a> | <a href="" style="text-decoration: none">Site Map</a> | <a href="" style="text-decoration: none">Careers</a> | <a href="" style="text-decoration: none">Investor Relations</a> | <a href="" style="text-decoration: none">International</a><br>
 		<a href="" style="text-decoration: none">PRIVACY POLICY</a> • <a href="" style="text-decoration: none">TERMS OF USE</a> • TM ® & © 2019 Scholastic Inc. All Rights Reserved
@@ -384,8 +369,48 @@
 									<a href="https://github.com/UPstartDeveloper"></a>GitHub/UPstartDeveloper</li>
 								<li>Hey there! I am Ankita Priya and my profile link is
 										<a href="https://github.com/AnkitaBIT"></a>GitHub/AnkitaBIT</li>
+								<li>HI, I am Ashutosh and my profile link is
+									<a href="https://github.com/nayakashutosh9">https://github.com/nayakashutosh9</a></li>
 
         </div>
+
+        <div class="g3">
+			<div class="r1">
+				<b>FOR TEACHERS</b><br><a href="https://github.com/Ishaan28malik/HACKTOBERFEST2019/" style="text-decoration: none">Create an Account</a><br><a href="" style="text-decoration: none">Request a Catalog</a><br><a href="" style="text-decoration: none">FAQs</a>
+
+			</div>
+			<div class="r2">
+				<b>FOR PARENTS</b><br><a href="https://github.com/Ishaan28malik/HACKTOBERFEST2019/" style="text-decoration: none">Connect to Your Teacher</a><br><a href="" style="text-decoration: none">FAQs</a><br><b>CONTESTS & PROGRAMS</b><br><a href="" style="text-decoration: none">All Contests </a>
+			</div>
+			<div class="r3">
+				<b>CONTACT US</b><br><a href="https://github.com/Ishaan28malik/HACKTOBERFEST2019/" style="text-decoration: none">bookclubs@scholastic.com</a><br><a href="" style="text-decoration: none">1-800-724-6527</a>
+			</div>
+			<div class="r4">
+				<b>FOLLOW US</b><br>
+				Judy Newman at Scholastic<br>
+				<img src="Assets/png/all.png" height="50px" width="75px">
+
+			</div>
+			 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		</div>
+
 	</div>
+
+	<script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
 </body>
 </html>
