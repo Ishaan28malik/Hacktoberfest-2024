@@ -37,7 +37,7 @@
 	position: absolute;
 	padding-left: 22.5%;
 	padding-top: 0.5%;
-	color: white;
+	color: grey;
 	top: 16.5%;
 	background-color: #d83230;
 	width: 110%;
@@ -60,7 +60,7 @@
 	position: absolute;
 	width: 10.7%;
 	height: 12%;
-	background-color: #e55d09;
+	background-color: #e50909;
 	font-family: BrandonText-Bold,Arial,sans-serif;
     	color: white;
     	text-transform: uppercase;
