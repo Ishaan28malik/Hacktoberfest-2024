@@ -14,20 +14,22 @@
 
 .upper1 {
 	position: absolute;
-    top: 8%;
-    left: 22.5%;
-    max-width: 100%;
+    	top: 8%;
+    	left: 22.5%;
+    	max-width: 100%;
 }
+
 .img2 {
 	position: absolute;
-    width: 100%;
-    padding-top: 13%;
-    float: left;
+    	width: 100%;
+    	padding-top: 13%;
+    	float: left;
 }
+
 .img3 {
-    position: relative;
-    top: 0%;
-    left: 290%;
+    	position: relative;
+    	top: 0%;
+    	left: 290%;
 }
 
 .welcome
@@ -35,7 +37,7 @@
 	position: absolute;
 	padding-left: 22.5%;
 	padding-top: 0.5%;
-	color: white;
+	color: grey;
 	top: 16.5%;
 	background-color: #d83230;
 	width: 110%;
@@ -58,13 +60,13 @@
 	position: absolute;
 	width: 10.7%;
 	height: 12%;
-	background-color: #e55d09;
+	background-color: #e50909;
 	font-family: BrandonText-Bold,Arial,sans-serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    top: 68%;
+    	color: white;
+    	text-transform: uppercase;
+    	font-size: 14px;
+    	text-align: center;
+    	top: 68%;
 }
 
 input[type=text]
@@ -74,10 +76,11 @@ input[type=text]
 	width: 10.5%;
 	height: 12.3%;
 	padding: 0% 0%;
-    border: none;
-    text-align: left;
-    padding-left: 0.2%;
+    	border: none;
+    	text-align: left;
+    	padding-left: 0.2%;
 }
+
 .text
 {
 	position: absolute;
@@ -91,6 +94,7 @@ input[type=checkbox]
 	position: absolute;
 	transform: scale(1.5);
 }
+
 .forgot
 {
 	position: absolute;
@@ -98,6 +102,7 @@ input[type=checkbox]
 	left: 18%;
 	font-size: 13px;
 }
+
 .t1
 {
 	position: absolute;
@@ -112,10 +117,7 @@ input[type=checkbox]
 	position: absolute;
 	top: 10.6%;
 	left: 30%;
-
 }
-
-
 
 .teacher
 {
@@ -152,14 +154,14 @@ input[type=checkbox]
 	height: auto;
 	background-color: #3FB0EB;
 	font-family: BrandonText-Bold,Arial,sans-serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    left: 13.5%;
-    top: 50%;
-    font-size: 20px;
-		padding: 10px;
+    	color: white;
+    	text-transform: uppercase;
+    	font-size: 14px;
+    	text-align: center;
+    	left: 13.5%;
+    	top: 50%;
+    	font-size: 20px;
+	padding: 10px;
 }
 
 .button2
@@ -170,18 +172,17 @@ input[type=checkbox]
 	height: 22%;
 	background-color: #e2850b;
 	font-family: BrandonText-Bold,Arial,sans-serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    left: 13.5%;
-    top: 50%;
-    font-size: 20px;
+    	color: white;
+    	text-transform: uppercase;
+    	font-size: 14px;
+    	text-align: center;
+    	left: 13.5%;
+    	top: 50%;
+    	font-size: 20px;
 }
 
 .blue
 {
-
 	background-image: url('Assets/back.jpg');
 	background-position: center;
 	position: absolute;
@@ -195,6 +196,7 @@ input[type=checkbox]
 	font-size: 40px;
 	padding-top: 1.5%;
 }
+
 .bimg
 {
 	position: absolute;
@@ -205,6 +207,7 @@ input[type=checkbox]
 	height: 100px;
 	font-family: BrandonText-Regular,Arial,sans-serif;
 }
+
 .vid
 {
 	position: absolute;
@@ -246,6 +249,7 @@ input[type=checkbox]
 	float: left;
 	font-size: 18px;
 }
+
 .wh2
 {
 	background-color: white;
@@ -290,6 +294,7 @@ input[type=checkbox]
 	float: left;
 	font-size: 18px;
 }
+
 .border-line-number {
     color: #D73131;
     font-weight: bold;
@@ -298,9 +303,9 @@ input[type=checkbox]
     margin: 0px;
     top: 5px;
 }
+
 .grey
 {
-
 	position: absolute;
 	padding-top: 0.5%;
 	color: red;
@@ -321,15 +326,16 @@ input[type=checkbox]
 	left: 22.5%;
 	top: 20%;
 }
+
 .scroll
 {
 	position: absolute;
 	top: 20%;
 	left: 55%;
 }
+
 .w2
 {
-
 	position: absolute;
 	padding-top: 1%;
 	color: red;
@@ -342,6 +348,7 @@ input[type=checkbox]
 	font-size: 36px;
 	font-weight: 10;
 }
+
 .l1
 {
 	border-left: 1px solid red;
@@ -357,6 +364,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .l2
 {
 	border-left: 1px solid red;
@@ -372,6 +380,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .l3
 {
 	border-left: 1px solid red;
@@ -387,6 +396,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .l4
 {
 	border-left: 1px solid red;
@@ -404,6 +414,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .g2
 {
 	position: absolute;
@@ -426,6 +437,7 @@ input[type=checkbox]
 	color: #3FB0EB;
 	padding: 2%;
 }
+
 .g2right
 {
 	position: absolute;
@@ -434,6 +446,7 @@ input[type=checkbox]
 	color: #e2850b;
 	padding: 2%;
 }
+
 .b1
 {
 	border: none;
@@ -442,12 +455,13 @@ input[type=checkbox]
 	height: 40%;
 	background-color: #3FB0EB;
 	font-family: BrandonText-Bold,Arial,sans-serif;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    left: -60%;
-    top: 85%;
+    	color: white;
+    	font-size: 18px;
+    	text-align: center;
+    	left: -60%;
+    	top: 85%;
 }
+
 .b2
 {
 	border: none;
@@ -456,12 +470,13 @@ input[type=checkbox]
 	height: 40%;
 	background-color: #e2850b;
 	font-family: BrandonText-Bold,Arial,sans-serif
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    top: 85%;
-    left: -40%;
+    	color: white;
+    	font-size: 18px;
+    	text-align: center;
+    	top: 85%;
+    	left: -40%;
 }
+
 .g3
 {
 	position: absolute;
@@ -475,6 +490,7 @@ input[type=checkbox]
 	font-size: 12px;
 	background-color: #edeeef;
 }
+
 .r1
 {
 	border-left: 4px solid white;
@@ -492,6 +508,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .r2
 {
 	border-left: 4px solid white;
@@ -509,6 +526,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .r3
 {
 	border-left: 4px solid white;
@@ -526,6 +544,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .r4
 {
 	border-left: 4px solid white;
@@ -544,6 +563,7 @@ input[type=checkbox]
   	font-family: BrandonText-Regular,sans-serif;
 	line-height: 1.6;
 }
+
 .last
 {
 	position: absolute;
@@ -553,21 +573,23 @@ input[type=checkbox]
 	padding-bottom: 3%;
 	padding-top: 0.5%;
 }
+
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+ 	display: none; /* Hidden by default */
+  	position: fixed; /* Fixed/sticky position */
+  	bottom: 20px; /* Place the button at the bottom of the page */
+  	right: 30px; /* Place the button 30px from the right */
+  	z-index: 99; /* Make sure it does not overlap */
+  	border: none; /* Remove borders */
+  	outline: none; /* Remove outline */
+  	background-color: red; /* Set a background color */
+  	color: white; /* Text color */
+  	cursor: pointer; /* Add a mouse pointer on hover */
+  	padding: 15px; /* Some padding */
+  	border-radius: 10px; /* Rounded corners */
+  	font-size: 18px; /* Increase font size */
 }
+
 .maint
 {
 	position: absolute;
@@ -576,12 +598,14 @@ input[type=checkbox]
 	width: 340px;
 	font-size: 36px;
 }
+
 .l11
 {	top: 170px;
 	height: 60px;
 	width: 220px;
 	border-bottom: 2px solid white
 }
+
 .l22
 {
 	position: absolute;
@@ -593,7 +617,7 @@ input[type=checkbox]
 }
 
 .footer{
-  background-image: url("https://secureservercdn.net/198.71.233.254/cf5.96e.myftpupload.com/wp-content/uploads/2017/04/footer-background.jpg?time=1561673451");
+  	background-image: url("https://secureservercdn.net/198.71.233.254/cf5.96e.myftpupload.com/wp-content/uploads/2017/04/footer-background.jpg?time=1561673451");
 	position: absolute;
 	top: 307%;
 	width: 100%;
@@ -601,10 +625,10 @@ input[type=checkbox]
 	padding: 20px;
 	font-size: 20px;
 	line-height: 30px;
-    text-align: center;
+    	text-align: center;
 }
 
 .footer a{
 	color: #fff;
-    text-decoration: none;
+    	text-decoration: none;
 }
