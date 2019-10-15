@@ -8,7 +8,7 @@ Hacktoberfest is a month-long celebration of open source software in partnership
 
 # Hacktoberfest-2019 
 
-A repository for beginners to create their first Pull Request. 
+A repository for beginners to create their first Pull Request.So, follow the instructions below. 
 
 ### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR.
 
