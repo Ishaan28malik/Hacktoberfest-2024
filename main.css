@@ -4,7 +4,7 @@
 	padding: 0;
 }
 .header{
-	/* position:absolute; */
+	 position:relative; 
 	height:5.6em;
 	width:80%;
 	margin:5% auto 0;
@@ -42,22 +42,22 @@
 
 .welcome
 {
-	position: absolute;
+	position: relative;
 	padding-left: 22.5%;
 	padding-top: 0.5%;
 	color: grey;
 	top: 16.5%;
-	background-color: #d83230;
+	background-color: #fcd2d1;
 	width: 110%;
-	height: 36%;
+	height: 40%;
 	font-family: BrandonText-Regular,Arial,sans-serif;
 	float: left;
 }
 
 .form
 {
-	padding: 1%;
-	height: 65%;
+	padding: 2%;
+	height: 8em;
 	width: 13%;
 	background-color: #ad2826;
 }
@@ -66,6 +66,7 @@
 {
 	border: none;
 	position: absolute;
+	cursor:pointer;
 	width: 10.7%;
 	height: 12%;
 	background-color: #e50909;
@@ -83,7 +84,7 @@ input[type=text]
 	background-color: #fff793;
 	width: 10.5%;
 	height: 12.3%;
-	padding: 0% 0%;
+	padding: 0%;
     	border: none;
     	text-align: left;
     	padding-left: 0.2%;
