@@ -113,23 +113,23 @@ An open-source JavaScript library for creating web components which are then use
 
 Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
 
-
 ### 20. [sagemath](http://www.sagemath.org/) - 
 
 SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It's built on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
 
-### 21. [Material Ocean](https://github.com/material-ocean/Material-Ocean)
+### 21. [Material Ocean](https://github.com/material-ocean/Material-Ocean) -
 
 Material Ocean is a theme for various Applications based on a blueish ocean color scheme.
 
-### 22. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app)
+### 22. [Ruby on Sinatra Starter App](https://github.com/JHero23/ruby-sinatra-starter-app) -
+
 A starter project for Ruby On Sinatra web app projects to introduce programmers to Ruby programming. [Link to Live Application HERE](https://ruby-sinatra-starter-app.herokuapp.com)
 
-### 23. [coala](https://github.com/coala/coala)
+### 23. [coala](https://github.com/coala/coala) -
 
 Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. It’s beginner-friendly community. Documentation is well written, issues are properly tagged with ‘easy’, ‘newcomer’, or ‘hard’.
 
-### 24. [Google Developers Group Philippines](https://www.facebook.com/gdgphilippines/)
+### 24. [Google Developers Group Philippines](https://www.facebook.com/gdgphilippines/) -
 
 Google Developer Group (GDG) Philippines is a group of enthusiastic Filipino developers interested to collaborate and learn more about new technologies.
 
@@ -159,8 +159,15 @@ WhatsApp is a cross-platform instant messaging and voice calling application for
 ### 30. [Red Hat Software](https://www.redhat.com/en) -
 
 Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
-### 31. [If me](https://www.github.com/if-me)
+
+### 31. [If me](https://www.github.com/if-me) -
+
 Open source mental health communication communit
 
-### 32. [Open Source Software Institute](https://ossinstitute.org/)
+### 32. [Open Source Software Institute](https://ossinstitute.org/) -
+
 The Open Source Software Institute is a U.S.-based 501, non-profit organization whose mission is to promote the development and implementation of open-source software solutions within US Federal, state and municipal government agencies.
+
+### 33. [Rocket.Chat] (https://github.com/RocketChat) -
+
+The ultimate Free Open Source Solution for team communications.
