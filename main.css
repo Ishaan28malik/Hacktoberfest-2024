@@ -3,19 +3,27 @@
 	margin: 0;
 	padding: 0;
 }
+.header{
+	/* position:absolute; */
+	height:5.6em;
+	width:80%;
+	margin:5% auto 0;
+}
 
 .upper
 {
 	position: absolute;
-	top: 7.5%;
-	left: 22.5%;
+	padding-left:1em;
+	/* top: 7.5%;
+	left: 15%; */
 	background-color: rgb(255,255,255);
 }
 
 .upper1 {
 	position: absolute;
-    	top: 8%;
-    	left: 22.5%;
+	padding-left:1em;
+    	/* top: 8%;
+    	margin:auto; */
     	max-width: 100%;
 }
 
@@ -28,8 +36,8 @@
 
 .img3 {
     	position: relative;
-    	top: 0%;
-    	left: 290%;
+    	/* top: 0%;*/
+		left: 320%; 
 }
 
 .welcome
@@ -469,7 +477,7 @@ input[type=checkbox]
 	width: 200%;
 	height: 40%;
 	background-color: #e2850b;
-	font-family: BrandonText-Bold,Arial,sans-serif
+	font-family: BrandonText-Bold,Arial,sans-serif;
     	color: white;
     	font-size: 18px;
     	text-align: center;
