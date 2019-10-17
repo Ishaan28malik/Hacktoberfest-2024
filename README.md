@@ -164,3 +164,6 @@ Open source mental health communication communit
 
 ### 32. [Open Source Software Institute](https://ossinstitute.org/)
 The Open Source Software Institute is a U.S.-based 501, non-profit organization whose mission is to promote the development and implementation of open-source software solutions within US Federal, state and municipal government agencies.
+
+### 33. [Kevva9844](https://github.com/Kevva9844)
+i'm an undergraduate doing SE
