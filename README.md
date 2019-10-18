@@ -32,6 +32,7 @@ All of your suggestions are welcome!!
 
 # [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
 
+# You can also Contribute mini projects or peace of codes
 
 You can add references to some cool open source projects below:
 
