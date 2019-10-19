@@ -168,3 +168,6 @@ The Open Source Software Institute is a U.S.-based 501, non-profit organization 
 
 ### 33. [Uber Open Source](https://github.com/uber)
 The Open Source Software created by Uber
+
+### 34. [theano] (https://github.com/Theano)
+Theano is an Open Source Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.
