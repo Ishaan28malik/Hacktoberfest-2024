@@ -171,3 +171,6 @@ The Open Source Software created by Uber
 
 ### 34. [theano] (https://github.com/Theano)
 Theano is an Open Source Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently. It can use GPUs and perform efficient symbolic differentiation.
+
+### 35. [eve] (https://github.com/nicolaiarocci/eve)
+Open Source REST API python framework designed for human beings.
