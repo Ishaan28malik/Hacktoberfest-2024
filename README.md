@@ -50,7 +50,7 @@ This technology could fall into the right hands. Mozilla has 30 repositories ava
        
 ### 4. [Free code camp](https://github.com/freeCodeCamp/freeCodeCamp) -
 
-Learn to code for free with millions of other people around the world.
+Learn to Code for free with millions of other people around the world.
 
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        
