@@ -11,10 +11,9 @@ $("ul").on("click","li",function(){
 		});
 	}
 });
-$("ul").on("click","span",function(e){
-	$(this).parent().fadeOut(500,function(){
-       	$(this).remove();
-	});
+
+$("ul").click("span",function(e){
+	$(this).fadeOut(500);
 	e.stopPropagation();
 })
 $("input[type =text]").keypress(function(e){
