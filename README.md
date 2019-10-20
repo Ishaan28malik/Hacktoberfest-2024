@@ -32,6 +32,7 @@ All of your suggestions are welcome!!
 
 # [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
 
+# You can also Contribute mini projects or peace of codes
 
 You can add references to some cool open source projects below:
 
@@ -164,3 +165,6 @@ Open source mental health communication communit
 
 ### 32. [Open Source Software Institute](https://ossinstitute.org/)
 The Open Source Software Institute is a U.S.-based 501, non-profit organization whose mission is to promote the development and implementation of open-source software solutions within US Federal, state and municipal government agencies.
+
+### 33. [Uber Open Source](https://github.com/uber)
+The Open Source Software created by Uber
