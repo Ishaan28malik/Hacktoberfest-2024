@@ -632,3 +632,7 @@ input[type=checkbox]
 	color: #fff;
     	text-decoration: none;
 }
+
+.footer li {
+    list-style: none;
+}
