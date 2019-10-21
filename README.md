@@ -168,3 +168,6 @@ The Open Source Software Institute is a U.S.-based 501, non-profit organization 
 
 ### 33. [Uber Open Source](https://github.com/uber)
 The Open Source Software created by Uber
+
+### 34. [appwrite](https://github.com/appwrite/appwrite)
+A simple backend server for your frontend app.
