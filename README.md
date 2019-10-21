@@ -1,18 +1,18 @@
 ![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
-# Happy Coding Fellas !
+# Happy Coding Fellas!
 
-# What is Hacktoberfest ?
+## What is Hacktoberfest?
 
 Hacktoberfest is a month-long celebration of open source software in partnership with Github .
 
-# Hacktoberfest-2019 
+## Hacktoberfest-2019
 
-A repository for beginners to create their first Pull Request. 
+A repository for beginners to create their first Pull Request.
 
-### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR.
+### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR
 
-### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
+### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md)
 
 ### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 
