@@ -168,3 +168,7 @@ The Open Source Software Institute is a U.S.-based 501, non-profit organization 
 
 ### 33. [Uber Open Source](https://github.com/uber)
 The Open Source Software created by Uber
+
+
+### 34. [Plotly Graphing Library](http://plotly.py)
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
