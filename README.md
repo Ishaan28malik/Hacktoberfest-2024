@@ -1,6 +1,11 @@
+
 ![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
 # Happy Coding Fellas !
+
+* When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+
+### You can message me  [Here](https://twitter.com/ChampionRunner)
 
 # What is Hacktoberfest ?
 
@@ -172,3 +177,11 @@ The Open Source Software created by Uber
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
 The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+
+### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
+The `Spotify Android SDK` allows your application to interact with the Spotify app service. The capabilities of this SDK includes authentication and getting metadata for the currently playing track and context, issuing playback commands and initiating playback of tracks, albums or playlists.
+
+
+## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+
+### You can message me  [Here](https://twitter.com/ChampionRunner)
