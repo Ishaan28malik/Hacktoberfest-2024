@@ -172,3 +172,7 @@ The Open Source Software created by Uber
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
 The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+
+
+### 35. [KDE e.V.](http://ev.kde.org/)
+KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
