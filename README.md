@@ -3,7 +3,7 @@
 
 # Happy Coding Fellas !
 
-* When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** for a few contributors
+* When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
 
@@ -182,6 +182,6 @@ The plotly Python library is an interactive, open-source plotting library that s
 The `Spotify Android SDK` allows your application to interact with the Spotify app service. The capabilities of this SDK includes authentication and getting metadata for the currently playing track and context, issuing playback commands and initiating playback of tracks, albums or playlists.
 
 
-## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** for a few contributors
+## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
