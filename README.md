@@ -3,6 +3,10 @@
 
 # Happy Coding Fellas !
 
+* When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** for a few contributors
+
+### You can message me  [Here](https://twitter.com/ChampionRunner)
+
 # What is Hacktoberfest ?
 
 Hacktoberfest is a month-long celebration of open source software in partnership with Github .
@@ -177,3 +181,7 @@ The plotly Python library is an interactive, open-source plotting library that s
 ### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
 The `Spotify Android SDK` allows your application to interact with the Spotify app service. The capabilities of this SDK includes authentication and getting metadata for the currently playing track and context, issuing playback commands and initiating playback of tracks, albums or playlists.
 
+
+## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** for a few contributors
+
+### You can message me  [Here](https://twitter.com/ChampionRunner)
