@@ -3,13 +3,13 @@
 
 # Happy Coding Fellas !
 
-* When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+* When the **Hacktoberfest19** comes to an end, I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
 
 # What is Hacktoberfest ?
 
-Hacktoberfest is a month-long celebration of open source software in partnership with Github .
+Hacktoberfest is a month-long celebration of open source software in partnership with Github.
 
 # Hacktoberfest-2019 
 
@@ -29,15 +29,15 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
-# Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR !!!!!!!
+# Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR!!!!!!!
 # Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
-# And Do give it a Star and *Follow* me on GitHub !!!!!!!!!!!!!!!!!!!
+# And Do give it a Star and *Follow* me on GitHub!!!!!!!!!!!!!!!!!!!
 
 All of your suggestions are welcome!!
 
 # [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
 
-# You can also Contribute mini projects or peace of codes
+# You can also Contribute mini projects or pieces of codes
 
 You can add references to some cool open source projects below:
 
@@ -174,7 +174,6 @@ The Open Source Software Institute is a U.S.-based 501, non-profit organization 
 ### 33. [Uber Open Source](https://github.com/uber)
 The Open Source Software created by Uber
 
-
 ### 34. [Plotly Graphing Library](http://plotly.py)
 The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
 
@@ -190,4 +189,4 @@ is Open.
 
 ## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
-### You can message me  [Here](https://twitter.com/ChampionRunner)
+### You can message me [Here](https://twitter.com/ChampionRunner)
