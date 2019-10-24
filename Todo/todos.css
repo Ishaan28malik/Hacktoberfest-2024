@@ -5,17 +5,32 @@ body{
 
 }
 #container{	
-  width:250px;
-  margin:20% auto;
+  width:350px;
+  margin:10% auto;
   background:#f7f7f7;
   box-shadow : 0px 0px 1px rgba(0, 0, 0, 0.2);
+  height: 350px;
 
+}
+
+header
+{
+	text-align: center;
+	height: 100px;
+	background-color: steelblue;
+}
+
+header h1
+{
+	font-size: 40px;
+	vertical-align: center;
+	padding: 20px;
 }
 
 h1{
 	background-color: steelblue;
 	color:white;
-	font-weight:normal;
+	font-weight:bold;
 	margin:0;
 	padding:5px 10px;
 	text-transform:uppercase;
@@ -26,22 +41,22 @@ h1{
 	float:right;
 }
 .fa-trash{
-	padding-top:0;
 	margin:right:20px;
 	
-	background:red;
+	background:#FA2C40;
 	color:white;
 	text-align:center;
 	width:0;
-	display:inline-block;
-	height:30px;
+	display:block;
+	height:25px;
 	transition: 0.2s;
 	
 }
 
 li:hover .fa-trash{
-	width:40px;
+	width: 35px;
 	height: 100;
+	cursor: pointer;
 }
 
 ul{
@@ -74,4 +89,9 @@ input:focus{
 	border: 2.5px solid steelblue;
 	outline:none;
 	background-color::#f7f7f7;
+}
+.h11 {
+	font-size: 20px;
+	font-family: Arial;
+	color: green;
 }
