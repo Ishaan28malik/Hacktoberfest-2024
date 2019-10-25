@@ -1,6 +1,11 @@
+
 ![Hacktoberfest](https://hacktoberfest.digitalocean.com/assets/logo-hf19-header-8245176fe235ab5d942c7580778a914110fa06a23c3d55bf40e2d061809d8785.svg "Hacktoberfest")
 
 # Happy Coding Fellas !
+
+* When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+
+### You can message me  [Here](https://twitter.com/ChampionRunner)
 
 # What is Hacktoberfest ?
 
@@ -171,8 +176,24 @@ The Open Source Software created by Uber
 
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
-The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional
 
 
-### 35. [KDE e.V.](http://ev.kde.org/)
+### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
+The `Spotify Android SDK` allows your application to interact with the Spotify app service. The capabilities of this SDK includes authentication and getting metadata for the currently playing track and context, issuing playback commands and initiating playback of tracks, albums or playlists.
+
+### 36. [Python Programming language](https://www.python.org/psf/)
+Python is powerful... and fast;
+plays well with others;
+runs everywhere;
+is friendly & easy to learn;
+is Open.
+
+### 37. [KDE e.V.](http://ev.kde.org/)
 KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
+
+
+## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+
+### You can message me  [Here](https://twitter.com/ChampionRunner)
+
