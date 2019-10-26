@@ -176,7 +176,8 @@ The Open Source Software created by Uber
 
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
-The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional
+
 
 ### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
 The `Spotify Android SDK` allows your application to interact with the Spotify app service. The capabilities of this SDK includes authentication and getting metadata for the currently playing track and context, issuing playback commands and initiating playback of tracks, albums or playlists.
@@ -188,6 +189,23 @@ runs everywhere;
 is friendly & easy to learn;
 is Open.
 
+### 37. [Software Package Data Exchange](https://spdx.org/)
+Software Package Data Exchange® (SPDX®) is an open standard for communicating software bill of material information (including components, licenses, copyrights, and security references).
+
+
+### 38. [Systers](https://anitab.org/systers/)
+Systers provides a private, safe online forum for women involved in technical aspects of computing. Our members gain support by networking, sharing advice and experiences, and collaborating on various projects. We welcome women of all ages and at any stage of their studies or careers.
+
+
+### 39. [Read the Docs](https://readthedocs.org/)
+Read the Docs simplifies software documentation by automating building, versioning, and hosting of your docs for you.
+
+
+### 40. [KDE e.V.](http://ev.kde.org/)
+KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
+
+
 ## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
+
