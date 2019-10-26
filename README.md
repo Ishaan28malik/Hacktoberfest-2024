@@ -204,7 +204,8 @@ Read the Docs simplifies software documentation by automating building, versioni
 ### 40. [KDE e.V.](http://ev.kde.org/)
 KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
 
-
+### 41. [Simple Calculator](https://github.com/AbdulConsole/simplecal)
+Simple Calculator,  is a program written in python for demonstration of functions calling purpose. Friendly easy to understand. 
 ## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
