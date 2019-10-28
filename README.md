@@ -208,6 +208,8 @@ KDE e.V. is a registered non-profit organization that represents the KDE communi
 ### 41. [WildFly (JBoss)](https://wildfly.org)
 WildFly is a Java EE 8 certified application server. The word "application server" has been coined in relation to Java Enterprise application; you can think of it as it’s a piece of Java software where your application can be provisioned using the services provided by the application server. WildFly simplifies the development of Enterprise applications by providing a list of services out of the box.
 
+### 42. [Spatie](https://spatie.be/open-source)
+Spatie is a Dutch Web Agency with a strong open source role in the Laravel community. Their packages are some of the most widely used in the community with over 48 Million combined downloads. Amazing work!
 
 ## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
