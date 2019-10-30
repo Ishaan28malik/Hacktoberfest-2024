@@ -209,6 +209,9 @@ KDE e.V. is a registered non-profit organization that represents the KDE communi
 WildFly is a Java EE 8 certified application server. The word "application server" has been coined in relation to Java Enterprise application; you can think of it as it’s a piece of Java software where your application can be provisioned using the services provided by the application server. WildFly simplifies the development of Enterprise applications by providing a list of services out of the box.
 
 
+### 42. [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+Free online machine learning course created by google with cool projects.
+
 ## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
