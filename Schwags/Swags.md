@@ -9,3 +9,5 @@
 * [Awesome-hacktoberfest-2019](https://github.com/OtacilioN/awesome-hacktoberfest-2019)
 
 * [HACKTOBERFEST2019](https://github.com/ezralazuardy/hacktoberfest)
+
+* [Up for Grabs](https://up-for-grabs.net/#/)

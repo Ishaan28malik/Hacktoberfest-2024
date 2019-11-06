@@ -176,7 +176,8 @@ The Open Source Software created by Uber
 
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
-The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional
+
 
 ### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
 The `Spotify Android SDK` allows your application to interact with the Spotify app service. The capabilities of this SDK includes authentication and getting metadata for the currently playing track and context, issuing playback commands and initiating playback of tracks, albums or playlists.
@@ -188,9 +189,35 @@ runs everywhere;
 is friendly & easy to learn;
 is Open.
 
-### 37. [Ruby on Rails](https://github.com/rails/rails/labels/good%20first%20issue)
+### 37. [Software Package Data Exchange](https://spdx.org/)
+Software Package Data Exchange® (SPDX®) is an open standard for communicating software bill of material information (including components, licenses, copyrights, and security references).
+
+### 38. [Systers](https://anitab.org/systers/)
+Systers provides a private, safe online forum for women involved in technical aspects of computing. Our members gain support by networking, sharing advice and experiences, and collaborating on various projects. We welcome women of all ages and at any stage of their studies or careers.
+
+
+### 39. [Read the Docs](https://readthedocs.org/)
+Read the Docs simplifies software documentation by automating building, versioning, and hosting of your docs for you.
+
+
+### 40. [KDE e.V.](http://ev.kde.org/)
+KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
+
+
+### 41. [WildFly (JBoss)](https://wildfly.org)
+WildFly is a Java EE 8 certified application server. The word "application server" has been coined in relation to Java Enterprise application; you can think of it as it’s a piece of Java software where your application can be provisioned using the services provided by the application server. WildFly simplifies the development of Enterprise applications by providing a list of services out of the box.
+
+
+### 42. [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+Free online machine learning course created by google with cool projects.
+
+### 43. [Joomla](https://github.com/joomla)
+Joomla! is an award-winning content management system (CMS), which enables you to build web sites and powerful online applications.
+
+### 44. [Ruby on Rails](https://github.com/rails/rails/labels/good%20first%20issue)
 Learning to build a modern web application is daunting. Ruby on Rails makes it much easier and more fun. It includes everything you need to build fantastic applications, and you can learn it with the support of its large, friendly community.
 
 ## When the **Hacktoberfest19** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
 
 ### You can message me  [Here](https://twitter.com/ChampionRunner)
+
