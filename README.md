@@ -217,6 +217,3 @@ Free online machine learning course created by google with cool projects.
 Joomla! is an award-winning content management system (CMS), which enables you to build web sites and powerful online applications.
 
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
-
-### You can message me  [Here](https://twitter.com/ChampionRunner)
-
