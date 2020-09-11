@@ -208,6 +208,9 @@ KDE e.V. is a registered non-profit organization that represents the KDE communi
 ### 41. [WildFly (JBoss)](https://wildfly.org)
 WildFly is a Java EE 8 certified application server. The word "application server" has been coined in relation to Java Enterprise application; you can think of it as it’s a piece of Java software where your application can be provisioned using the services provided by the application server. WildFly simplifies the development of Enterprise applications by providing a list of services out of the box.
 
+### 42. [MkDocs](https://www.mkdocs.org/)
+MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. A hardware company called Seeed created a Wiki to document all of their boards, and so I created a Wiki page for [TinyCircuits](https://learn.tinycircuits.com/) to document all of our boards too! This platform is great for any documentation needs, and I'm looking forward to hopefully creating/contributing a dark mode for it someday. 
+
 
 ### 42. [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 Free online machine learning course created by google with cool projects.
