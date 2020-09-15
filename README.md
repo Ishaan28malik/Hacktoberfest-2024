@@ -216,4 +216,7 @@ Free online machine learning course created by google with cool projects.
 ### 43. [Joomla](https://github.com/joomla)
 Joomla! is an award-winning content management system (CMS), which enables you to build web sites and powerful online applications.
 
+### 44. [OpenSauced](https://github.com/open-sauced/open-sauced)
+Get OpenSauced! Open Sauced provides structured onboarding for new contributors to open source. A project to identify your next open source contribution. 
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
