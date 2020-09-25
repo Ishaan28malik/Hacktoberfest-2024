@@ -263,4 +263,7 @@ Joomla! is an award-winning content management system (CMS), which enables you t
 ### 44. [OpenSauced](https://github.com/open-sauced/open-sauced)
 Get OpenSauced! Open Sauced provides structured onboarding for new contributors to open source. A project to identify your next open source contribution. 
 
+### 45. [Flutter](Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.)
+Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
