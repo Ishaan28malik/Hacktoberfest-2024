@@ -25,6 +25,9 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
+## Stack that is welcome for PRs
+<img src="https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/Trash/ts.PNG" />
+
 ### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
 
 Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
