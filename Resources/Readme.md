@@ -1,0 +1,10 @@
+# Adding list of Resources for Software Developers
+
+# Hapi
+[Getting started with Hapi 17](https://medium.com/dailyjs/getting-started-with-hapi-17-1e63ed625b2c)
+
+# Redis
+[The art of caching, with Redis](https://medium.com/@dltlabs/the-art-of-caching-with-redis-eaaa89ae74be)
+
+# Plugin 
+[query-builder-redis](https://www.npmjs.com/package/query-builder-redis)

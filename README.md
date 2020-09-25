@@ -15,7 +15,7 @@ A repository for beginners to create their first Pull Request.
 
 ### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR.
 
-### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
+# Join the Community of Developer and students [An EYE](https://github.com/An-Eye) , to join just ping me [Here](https://twitter.com/ChampionRunner) or comment to join the Org [here](https://github.com/An-Eye/Resourcegram/issues/8)
 
 ### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 
@@ -25,7 +25,17 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
-### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+## Stack that is welcome for PRs
+<img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/Assets/stack.png" />
+
+### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
+
+### Just open "[this folder](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Resources)" and include the link of good developer resources and also have a look at the existing resources that you think are useful for you and keep exploring.Also add yourname and github profile link to the [contributors list](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contributor-list.html)
+
+# OR
+
+### Step 3: Add mini projects on DSA or some projects or problems you have tried but try not to repeat them [Here](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Mini-Projects) or add any good projects that are beginners friendly [Here]()
+
 
 # Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR !!!!!!!
 # Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
@@ -33,11 +43,45 @@ A repository for beginners to create their first Pull Request.
 
 All of your suggestions are welcome!!
 
-# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
+# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md) and a list of Orgs giving swags.
 
-# You can also Contribute mini projects or peace of codes
+| By | What | How |Details |
+| :---: | :---: | :---: | --- |
+| **DigitalOcean** | **![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png)** | **Four pull requests to any public repo on GitHub.** | **[hacktoberfest.com](http://hacktoberfest.com/)** (Verified 2020) |
+| Adobe / Magento | ![Shirt](icons/tshirt.png) | Submit 5 pull requests to <https://github.com/adobe> or <https://github.com/magento> | [Details](<https://opensource.adobe.com/squashtoberfest/>) and [Blog](<https://community.magento.com/t5/Magento-DevBlog/Squashtoberfest-2019/ba-p/143694>)|
+| Appwrite | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) ![Shirt](icons/tshirt.png) | Create one or more merged pull requests to any Appwrite repository (https://github.com/appwrite). _Stickers, Magnets, Buttons, and T-shirts_ |  |
+| Aqua Security | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) ![Shirt](icons/tshirt.png) | 1 Contribution: OSS superhero sticker pack, 3 Contributions: OSS superhero sticker pack and a special edition Aqua Hacktoberfest t-shirt, 5 Contributions: all of the above and the "Kubernetes Security" book, co-authored by Liz Rice, VP Open Source Engineering | [Details](https://blog.aquasec.com/aqua-open-source-security-hacktoberfest) |
+| Circle CI | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 1 to 3 pull requests: Limited-Edition Sticker. 4+ pull requests: Limited-Edition T-shirt | [Details](https://circleci-public.github.io/hacktoberfest/#/) |
+| Devfolio | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 4 or more pull requests: Limited-Edition Sticker, If your PRs turn out to be exceptional: Limited-Edition T-shirt | [Details](https://devfolio.co/blog/hacktoberfest-2019-devfolio/) |
+| Flutterwave.com | ![Shirt](icons/tshirt.png) | 2 or more pull requests to any of the projects from https://developer.flutterwave.com/docs/plugins : Limited-Edition T-shirt | [Details](https://twitter.com/Ace_KYD/status/1183738026511519745) |
+| Gatsby | ![Swag](icons/swag.png) | "1 PR: Level 1 swag; 5 PRs: Level 2 swag" | [Details](https://github.com/gatsbyjs/store.gatsbyjs.org) |
+| Globo.com | ![Shirt](icons/tshirt.png) | "1 merged PR: 👕". Any repo on [Globo.com](https://github.com/globocom) | [Details](https://opensource.globo.com/hacktoberfest/) |
+| Hasura | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "Make a PR to [The Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) or [The GraphQL Tutorial Series](https://github.com/hasura/learn-graphql). 2 hacktoberfest PRs for a 👕." | [Details](https://blog.hasura.io/hasura-joins-hacktoberfest-2019/) |
+| JabRef | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/>. | [Details](https://www.jabref.org/hacktoberfest/2019.html)  |
+| Jenkins | ![Swag](icons/swag.png) ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | PR to any repositories under featured repositories. The PR must be at least raised in October 2020 and you should not be inactive for seven days or more during code review. Guaranteed Swag for Top 20 contributors, and rest is to be decided. Check the announcement on the blog. | [Details](https://jenkins.io/events/hacktoberfest/) |
+| Kong | ![Shirt](icons/tshirt.png) | "If your Pull Request to Kong/kong was accepted, and it fixes a bug, adds functionality, or makes it significantly easier to use or understand Kong, congratulations! You are eligible to receive the very special Contributor T-shirt! Go ahead and fill out the Contributors Submissions form." | [Details](https://github.com/Kong/kong/blob/master/CONTRIBUTING.md#contributor-t-shirt)  |
+| LadybugTools | ![Stickers](icons/stickers.png) | 1 or more pull request | [Details](https://discourse.ladybug.tools/t/celebrate-hacktoberfest-2019-with-ladybug-tools/7314)  |
+| lakeFS | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "1 PR on our [GitHub repo](https://github.com/treeverse/lakeFS) for a collection of stickers, 2 or more gets stickers and a lakeFS t-shirt 👕" | [Details](https://github.com/treeverse/lakeFS#get-ready-for-hacktoberfest) | 
+| LBRY | ![Shirt](icons/tshirt.png) | "A sweet LBRY sticker for 1 PR, T-shirt for a Good PR and 10,000 LBC for first PR of this month" | [Details](https://lbry.com/news/hacktoberfest-2019)  |
+| Les-Tilleuls.coop | ![Shirt](icons/tshirt.png) | "To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and [then fill in this form](https://cooptilleuls.typeform.com/to/CG0pLd) ." | [Details](https://les-tilleuls.coop/fr/blog/article/celebrate-hacktoberfest-with-api-platform)  |
+| MayaData | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Laptop](icons/laptop.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR gets a 💻 | [Details](https://blog.mayadata.io/mayadata-celebrates-hacktoberfest-2019)  |
+| Operation Code | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "Resolve 3 issues and receive a white or black t-shirt! Merge 2 pull requests and receive stickers!" | [Details](https://github.com/OperationCode/START_HERE)  |
+| Opsdroid | ![Stickers](icons/stickers.png) | "Solve issues or improve documentation. 5–10 contributions is probably sticker worthy" | [Details](https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59)  |
+| Parity | ![Gym Bag](icons/swag.png) | anyone who makes a significant contribution is eligible for a limited edition gym bag | [Details](https://www.parity.io/hacktoberfest-2019-parity/)  |
+| QMK | ![Shirt](icons/tshirt.png) | Interact 4 times with a [QMK repo](https://github.com/qmk) OR donate $15 to [cKeys](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8UQUNVFE9H6QY&source=hacktoberfest) | [Details](https://hacktoberfest.qmk.fm/) | 
+| SAP | ![Swag](icons/swag.png) | "a book from sap press for the user who create more pull requests in the ABAP Projects" | [Details](https://blogs.sap.com/2019/10/04/lets-code-share-and-learn.-calling-abapers-to-next-edition-of-hacktoberfest/) |
+| Sense/Net | ![Shirt](icons/tshirt.png) | "The first 100 participants who make a pull request" | [Details](https://community.sensenet.com/blog/2019/10/01/hacktoberfest-is-here)  |
+| Twilio | ![Stickers](icons/stickers.png)![Swag](icons/swag.png) | One PR gets you a collection of stickers, 2 or more gets stickers and a pair of Twilio socks | [Details](https://www.twilio.com/blog/ahoy-hacktoberfest-2019)  |
+| Umbraco | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "you’ll need to have at least 1 PR approved on any Umbraco repository" | [Details](https://umbraco.com/blog/hacktoberfest-2019/)  |
+| Uno | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | [Details](https://platform.uno/uno-is-joining-hacktoberfest-2019/)  |
+| Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
+| Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
 
-You can add references to some cool open source projects below:
+# [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
+
+# You can also Contribute Open Source projects or peice of codes from list below :
+
+You can add references to some cool open source projects below aswell.
 
 ### 1. [Zulip](https://github.com/zulip) -
 
@@ -219,4 +263,9 @@ Joomla! is an award-winning content management system (CMS), which enables you t
 ### 44. [OpenSauced](https://github.com/open-sauced/open-sauced)
 Get OpenSauced! Open Sauced provides structured onboarding for new contributors to open source. A project to identify your next open source contribution. 
 
+### 45. [Flutter](https://github.com/flutter/flutter)
+Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+ 
+## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
