@@ -25,7 +25,9 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
-### Step 3: Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
+
+Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
 
 # Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR !!!!!!!
 # Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
