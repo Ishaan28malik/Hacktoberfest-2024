@@ -43,7 +43,7 @@ A repository for beginners to create their first Pull Request.
 
 All of your suggestions are welcome!!
 
-# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
+# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md) and a list of Orgs giving swags.
 
 | By | What | How |Details |
 | :---: | :---: | :---: | --- |
@@ -77,11 +77,11 @@ All of your suggestions are welcome!!
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
 
-## [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
+# [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
 
-# You can also Contribute mini projects or peace of codes
+# You can also Contribute Open Source projects or peice of codes from list below :
 
-You can add references to some cool open source projects below:
+You can add references to some cool open source projects below aswell.
 
 ### 1. [Zulip](https://github.com/zulip) -
 
