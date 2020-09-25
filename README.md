@@ -15,7 +15,7 @@ A repository for beginners to create their first Pull Request.
 
 ### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR.
 
-### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
+# Join the Community of Developer and students [An EYE](https://github.com/An-Eye) , to join just ping me [Here](https://twitter.com/ChampionRunner) or comment to join the Org [here](https://github.com/An-Eye/Resourcegram/issues/8)
 
 ### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 
@@ -25,9 +25,17 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
+## Stack that is welcome for PRs
+<img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/Assets/stack.png" />
+
 ### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
 
-Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+### Just open "[this folder](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Resources)" and include the link of good developer resources and also have a look at the existing resources that you think are useful for you and keep exploring.Also add yourname and github profile link to the [contributors list](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contributor-list.html)
+
+# OR
+
+### Step 3: Add mini projects on DSA or some projects or problems you have tried but try not to repeat them [Here](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Mini-Projects) or add any good projects that are beginners friendly [Here]()
+
 
 # Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR !!!!!!!
 # Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
@@ -35,7 +43,7 @@ Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Begi
 
 All of your suggestions are welcome!!
 
-# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md)
+# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md) and a list of Orgs giving swags.
 
 | By | What | How |Details |
 | :---: | :---: | :---: | --- |
@@ -69,11 +77,11 @@ All of your suggestions are welcome!!
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
 
-## [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
+# [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
 
-# You can also Contribute mini projects or peace of codes
+# You can also Contribute Open Source projects or peice of codes from list below :
 
-You can add references to some cool open source projects below:
+You can add references to some cool open source projects below aswell.
 
 ### 1. [Zulip](https://github.com/zulip) -
 
@@ -255,4 +263,9 @@ Joomla! is an award-winning content management system (CMS), which enables you t
 ### 44. [OpenSauced](https://github.com/open-sauced/open-sauced)
 Get OpenSauced! Open Sauced provides structured onboarding for new contributors to open source. A project to identify your next open source contribution. 
 
+### 45. [Flutter](https://github.com/flutter/flutter)
+Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+ 
+## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
