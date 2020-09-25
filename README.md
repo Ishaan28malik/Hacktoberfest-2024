@@ -15,7 +15,7 @@ A repository for beginners to create their first Pull Request.
 
 ### Just fork this repo, star it, clone it and add then click on issue to solve it and create PR.
 
-### [About me](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/About%20me.md) 
+# Join the Community of Developer and students [An EYE](https://github.com/An-Eye) , to join just ping me [Here](https://twitter.com/ChampionRunner) or comment to join the Org [here](https://github.com/An-Eye/Resourcegram/issues/8)
 
 ### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 
@@ -30,7 +30,12 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
 
-Just open "[index.html](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" and include your name and the link to your github profile in the "[li](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/index.html)" tags to make a connection with all other open enthusiasts like us.
+### Just open "[this folder](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Resources)" and include the link of good developer resources and also have a look at the existing resources that you think are useful for you and keep exploring.Also add yourname and github profile link to the [contributors list](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contributor-list.html)
+
+# OR
+
+### Step 3: Add mini projects on DSA or some projects or problems you have tried but try not to repeat them [Here](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Mini-Projects) or add any good projects that are beginners friendly [Here]()
+
 
 # Please just don't do it just for the heck of a T-shirt do it to learn and get experience on how to make a PR !!!!!!!
 # Don't worry newcomers!! Make this your first step to development and open source. Get the confidence you require!!
