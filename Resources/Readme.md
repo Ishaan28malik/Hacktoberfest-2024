@@ -8,3 +8,8 @@
 
 # Plugin 
 [query-builder-redis](https://www.npmjs.com/package/query-builder-redis)
+
+# React Native
+[react-native-device-info](https://github.com/react-native-community/react-native-device-info)
+
+[Animation library to help make lives of developers easier lottie-ios](https://github.com/airbnb/lottie-ios)
