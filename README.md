@@ -269,6 +269,9 @@ Flutter is Google’s UI toolkit for building beautiful, natively compiled appli
 ### 46. [MongoDB](https://github.com/mongodb/mongo)
 MongoDB is a cross-platform document-oriented database program.MongoDB is an open source NoSQL database.
 
+### 47. [Scrapy](https://github.com/scrapy/scrapy)
+Scrapy is a fast high-level web crawling and web scraping framework, used to crawl websites and extract structured data from their pages. It can be used for a wide range of purposes, from data mining to monitoring and automated testing.
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
  
 ## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
