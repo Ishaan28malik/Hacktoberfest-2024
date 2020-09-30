@@ -79,6 +79,8 @@ All of your suggestions are welcome!!
 | Uno | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | [Details](https://platform.uno/uno-is-joining-hacktoberfest-2019/)  |
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
+| Devdojo | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 3 pull request for t T-shirt | [Details](https://devdojo.com/hacktoberfest)  |
+
 
 # [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
 
