@@ -266,6 +266,16 @@ Get OpenSauced! Open Sauced provides structured onboarding for new contributors 
 ### 45. [Flutter](https://github.com/flutter/flutter)
 Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
+### 46. [Snake-game](https://github.com/sohan-k/Snake-game)
+Currently this game is available in two languages, C++ and Python.Contributions are welcomed!!
+
+### 47. [CPP](https://github.com/akshitagit/CPP)
+Open Repository For Students to Contribute Algorithms and Data Structures in different Languages
+
+### 48. [Hacktoberfest](https://github.com/wir-coders/Hacktoberfest)
+You just got closer to completing your Hacktoberfest challenge.
+
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
  
 ## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
