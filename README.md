@@ -31,12 +31,7 @@ A repository for beginners to create their first Pull Request.
 <img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/Assets/stack.png" />
 
 ### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
-
-### Just open "[this folder](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Resources)" and include the link of good developer resources and also have a look at the existing resources that you think are useful for you and keep exploring and after you add once you add a resource or fix any bug or issue then add yourname and github profile link to the [contributors list](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contributor-list.html)
-
-# OR
-
-### Step 3: Add mini projects on DSA or some projects or problems you have tried but try not to repeat them [Here](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Mini-Projects) or add any good projects that are beginners friendly [Here]()
+## and then read [contribution.md](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contribution.md)
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as ```invalid/spam``` .
 
@@ -79,6 +74,8 @@ All of your suggestions are welcome!!
 | Uno | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | [Details](https://platform.uno/uno-is-joining-hacktoberfest-2019/)  |
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
+| Devdojo | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 3 pull request for t T-shirt | [Details](https://devdojo.com/hacktoberfest)  |
+
 
 # [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
 
@@ -104,7 +101,7 @@ Learn to code for free with millions of other people around the world.
 
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        
-List of Data Structures and Algorithms 
+List of Data Structures and Algorithms. 
 
 ### 6. [Habitica](https://habitica.com/static/home) -
 
@@ -211,7 +208,7 @@ WhatsApp is a cross-platform instant messaging and voice calling application for
 
 Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
 ### 31. [If me](https://www.github.com/if-me)
-Open source mental health communication communit
+Open source mental health communication community.
 
 ### 32. [Open Source Software Institute](https://ossinstitute.org/)
 The Open Source Software Institute is a U.S.-based 501, non-profit organization whose mission is to promote the development and implementation of open-source software solutions within US Federal, state and municipal government agencies.
@@ -221,7 +218,7 @@ The Open Source Software created by Uber
 
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
-The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional.
 
 
 ### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
@@ -247,7 +244,7 @@ Read the Docs simplifies software documentation by automating building, versioni
 
 
 ### 40. [KDE e.V.](http://ev.kde.org/)
-KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
+KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development.
 
 
 ### 41. [WildFly (JBoss)](https://wildfly.org)
@@ -274,3 +271,6 @@ Flutter is Google’s UI toolkit for building beautiful, natively compiled appli
 ## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as ```invalid/spam``` .
+
+### License
+This repository follows [MIT](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/LICENSE) License.
