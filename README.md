@@ -101,7 +101,7 @@ Learn to code for free with millions of other people around the world.
 
 ### 5. [Data Structures And Algorithms Hacktoberfest18](https://github.com/kvaluruk/Data-Structures-And-Algorithms-Hacktoberfest18) -
        
-List of Data Structures and Algorithms 
+List of Data Structures and Algorithms. 
 
 ### 6. [Habitica](https://habitica.com/static/home) -
 
@@ -208,7 +208,7 @@ WhatsApp is a cross-platform instant messaging and voice calling application for
 
 Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community.
 ### 31. [If me](https://www.github.com/if-me)
-Open source mental health communication communit
+Open source mental health communication community.
 
 ### 32. [Open Source Software Institute](https://ossinstitute.org/)
 The Open Source Software Institute is a U.S.-based 501, non-profit organization whose mission is to promote the development and implementation of open-source software solutions within US Federal, state and municipal government agencies.
@@ -218,7 +218,7 @@ The Open Source Software created by Uber
 
 
 ### 34. [Plotly Graphing Library](http://plotly.py)
-The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional
+The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional.
 
 
 ### 35. [Spotify Android SDK](https://github.com/spotify/android-sdk)
@@ -244,7 +244,7 @@ Read the Docs simplifies software documentation by automating building, versioni
 
 
 ### 40. [KDE e.V.](http://ev.kde.org/)
-KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development
+KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development.
 
 
 ### 41. [WildFly (JBoss)](https://wildfly.org)
