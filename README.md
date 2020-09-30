@@ -31,14 +31,7 @@ A repository for beginners to create their first Pull Request.
 <img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/Assets/stack.png" />
 
 ### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
-
-### Just open "[this folder](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Resources)" and include the link of good developer resources and also have a look at the existing resources that you think are useful for you and keep exploring .
-
-## we are working on making this as a web app and need an update on that with you all so for Hacktoberfest 2020 we want it to be completed by Mid October and for the same have a look at the existing isssues.
-
-# OR
-
-### Step 3: Add mini projects on DSA or some projects or problems you have tried but try not to repeat them [Here](https://github.com/Ishaan28malik/Hacktoberfest-2020/tree/master/Mini-Projects) or add any good projects that are beginners friendly [Here]()
+## and then read [contribution.md](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contribution.md)
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as ```invalid/spam``` .
 
