@@ -281,6 +281,9 @@ Kubernetes (commonly referred to as "K8s") is an open source system for automati
 ### 50. [Atom](https://github.com/topics/atom)
 Atom is a modern open source text editor developed by GitHub. It is designed to be approachable out of the box yet highly customizable. Atom is built using web technologies: the look and feel can be customized using CSS and new features can be added with HTML and JavaScript. There are also thousands of community created themes and packages available.
 
+### 51. [Kotlin](https://github.com/Kotlin)
+At Google I/O 2019, we announced that Android development will be increasingly Kotlin-first, and we’ve stood by that commitment. Kotlin is an expressive and concise programming language that reduces common code errors and easily integrates into existing apps. If you’re looking to build an Android app, we recommend starting with Kotlin to take advantage of its best-in-class features.
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
  
 ## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
