@@ -269,6 +269,12 @@ Flutter is Google’s UI toolkit for building beautiful, natively compiled appli
 ### 46. [MongoDB](https://github.com/mongodb/mongo)
 MongoDB is a cross-platform document-oriented database program.MongoDB is an open source NoSQL database.
 
+### 47. [First-Contributions](https://github.com/firstcontributions/first-contributions)
+This project aims at providing guidance & simplifying the way beginners make their first contribution.
+
+### 48. [Winget](https://github.com/microsoft/winget-cli)
+This repository contains the source code for the Windows Package Manager Client (aka winget.exe).
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
  
 ## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
