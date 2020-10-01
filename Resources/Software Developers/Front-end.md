@@ -5,4 +5,5 @@
 * [Scrimba - Learn React for free interactively](https://scrimba.com/g/glearnreact)
 * [FreeCodeCamp React Challenges](https://learn.freecodecamp.org/front-end-libraries/react)
 * [React Cheatsheet](https://devhints.io/react)
+* [Full stack open](https://fullstackopen.com/en)
 * [React Patterns](https://reactpatterns.com/)
