@@ -1,0 +1,26 @@
+# defining function for insertion sort
+def insertion_sort(n,arr):
+    for i in range(1,n):
+        count = 0
+        if arr[i]<arr[i-1]:
+            save = arr[i]
+            arr[i] = arr[i-1]
+            for j in range(i-2,-1,-1):
+                if (arr[j]<save):
+                    arr[j+1]=save
+                    count+=1
+                    break
+                else:
+                    arr[j+1]=arr[j]
+            if (count!=1):
+                arr[0]=save
+    for i in arr:
+        print(i,end = " ")
+
+
+# user input
+n = int(input())
+arr = list(map(int, input().rstrip().split()))
+
+# call function
+insertion_sort(n,arr)
