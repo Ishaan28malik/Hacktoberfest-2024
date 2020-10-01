@@ -4,7 +4,8 @@
 	padding: 0;
 }
 
-body {
+body 
+{
 	overflow-x: hidden;
 }
 
@@ -16,24 +17,27 @@ body {
 	background-color: rgb(255,255,255);
 }
 
-.upper1 {
+.upper1 
+{
 	position: absolute;
-    	top: 8%;
-    	left: 22.5%;
-    	max-width: 100%;
+	top: 8%;
+	left: 22.5%;
+	max-width: 100%;
 }
 
-.img2 {
+.img2 
+{
 	position: absolute;
-    	width: 100%;
-    	padding-top: 13%;
-    	float: left;
+	width: 100%;
+	padding-top: 13%;
+	float: left;
 }
 
-.img3 {
-    	position: relative;
-    	top: 0%;
-    	left: 290%;
+.img3 
+{
+	position: relative;
+	top: 0%;
+	left: 290%;
 }
 
 .welcome
@@ -66,11 +70,11 @@ body {
 	height: 12%;
 	background-color: #e50909;
 	font-family: BrandonText-Bold,Arial,sans-serif;
-    	color: white;
-    	text-transform: uppercase;
-    	font-size: 14px;
-    	text-align: center;
-    	top: 68%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	top: 68%;
 }
 
 input[type=text]
@@ -80,9 +84,9 @@ input[type=text]
 	width: 10.5%;
 	height: 12.3%;
 	padding: 0% 0%;
-    	border: none;
-    	text-align: left;
-    	padding-left: 0.2%;
+	border: none;
+	text-align: left;
+	padding-left: 0.2%;
 }
 
 .text
@@ -473,12 +477,12 @@ input[type=checkbox]
 	width: 200%;
 	height: 40%;
 	background-color: #e2850b;
-	font-family: BrandonText-Bold,Arial,sans-serif
-    	color: white;
-    	font-size: 18px;
-    	text-align: center;
-    	top: 85%;
-    	left: -40%;
+	font-family: BrandonText-Bold,Arial,sans-serif;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	top: 85%;
+	left: -40%;
 }
 
 .g3
@@ -578,7 +582,8 @@ input[type=checkbox]
 	padding-top: 0.5%;
 }
 
-#myBtn {
+#myBtn 
+{
  	display: none; /* Hidden by default */
   	position: fixed; /* Fixed/sticky position */
   	bottom: 20px; /* Place the button at the bottom of the page */
@@ -620,7 +625,8 @@ input[type=checkbox]
 	border-top: 2px solid white;
 }
 
-.footer{
+.footer
+{
   	background-image: url("https://secureservercdn.net/198.71.233.254/cf5.96e.myftpupload.com/wp-content/uploads/2017/04/footer-background.jpg?time=1561673451");
 	position: absolute;
 	top: 307%;
@@ -633,13 +639,14 @@ input[type=checkbox]
 		margin-top: 0%;
 }
 
-.footer a{
+.footer a
+{
 	color: #fff;
     	text-decoration: none;
 }
 
-
-.card {
+.card
+{
   position: relative;
   margin: 0.5rem 0 1rem 0;
   background-color: #fff;
@@ -650,15 +657,15 @@ input[type=checkbox]
   border-radius: 2px;
 }
 
-
-.row {
+.row 
+{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
 
-
-.row .col {
+.row .col 
+{
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -670,22 +677,21 @@ input[type=checkbox]
   position: relative;
 }
 
-
-
-.row .col.s3 {
+.row .col.s3 
+{
   width: 25%;
 
 }
 
-
-
-.row:after {
+.row:after 
+{
   content: "";
   display: table;
   clear: both;
 }
 
-.card-panel {
+.card-panel 
+{
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
