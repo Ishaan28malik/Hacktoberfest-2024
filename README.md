@@ -43,6 +43,8 @@ All of your suggestions are welcome!!
 
 # [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md) and a list of Orgs giving swags.
 
+(For the occasion of Hacktoberfest this 01/10, small skins of the clothes have been redone)
+
 | By | What | How |Details |
 | :---: | :---: | :---: | --- |
 | **DigitalOcean** | **![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png)** | **Four pull requests to any public repo on GitHub.** | **[hacktoberfest.com](http://hacktoberfest.com/)** (Verified 2020) |
