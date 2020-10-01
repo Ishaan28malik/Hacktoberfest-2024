@@ -1,5 +1,6 @@
 body{
-    background: #50C9C3;  /* fallback for old browsers */
+    background: #00BCD4;
+    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #96DEDA, #50C9C3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -27,7 +28,7 @@ header h1
 	padding: 20px;
 }
 
-h1{
+h2{
 	background-color: steelblue;
 	color: white;
 	font-weight: bold;
@@ -45,7 +46,7 @@ h1{
 .fa-trash{
 	margin: right:20px;	
 	background: #FA2C40;
-	color: white;
+	color : white;
 	text-align: center;
 	width: 0;
 	display: block;
@@ -86,6 +87,7 @@ input{
 	color: steelblue;
 	font-size: 18px;
 	background-color: white;
+	font-family: 'Acme',sans-serif;
 }
 
 input:focus{
@@ -97,5 +99,17 @@ input:focus{
 .h11 {
 	font-size: 20px;
 	font-family: Arial;
-	color: green;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	font-family: 'Acme',sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+}
+
+.item{
+		font-family: 'Acme',sans-serif;
+
 }
