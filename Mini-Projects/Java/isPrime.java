@@ -1,4 +1,5 @@
 import java.util.*;
+import java.lang.*;
 public class isPrime {
     static boolean isPrime(int x) {
         if (x == 2) {
@@ -27,9 +28,9 @@ public class isPrime {
         int number = myObj.nextInt();
         // For checking if the given number is prime or not
         if (isPrime(number)) {
-            System.out.println("BOOM! its a prime number");
+            System.out.println("It's a prime number");
         } else {
-            System.out.println("No it is not a prime number!");
+            System.out.println("It is not a prime number!");
         }
 
     }
