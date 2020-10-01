@@ -6,3 +6,6 @@
 * [FreeCodeCamp React Challenges](https://learn.freecodecamp.org/front-end-libraries/react)
 * [React Cheatsheet](https://devhints.io/react)
 * [React Patterns](https://reactpatterns.com/)
+*Tools and resources for front-end developers 
+*[Material Color Picker] (http://www.coolors.co/)
+*[Gradient, border radius, box shadow & noise texture generator](http://www.cssmatic.com/)
