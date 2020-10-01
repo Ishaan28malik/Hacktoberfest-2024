@@ -6,3 +6,6 @@
 * [FreeCodeCamp React Challenges](https://learn.freecodecamp.org/front-end-libraries/react)
 * [React Cheatsheet](https://devhints.io/react)
 * [React Patterns](https://reactpatterns.com/)
+* [Introduction to Redux](https://medium.com/javascript-in-plain-english/the-only-introduction-to-redux-and-react-redux-youll-ever-need-8ce5da9e53c6)
+* [What is Redux thunk and how to apply it](https://www.youtube.com/watch?v=z2XCUu2wIl0&ab_channel=Codevolution)
+* [Inner working of react native](https://www.freecodecamp.org/news/how-react-native-constructs-app-layouts-and-how-fabric-is-about-to-change-it-dd4cb510d055/#:~:text=How%20React%20Native%20works%20right,Android%2FiOS%20app%20is%20running.&text=JavaScript%20Thread%20%E2%80%94%20This%20thread%20is,%2C%20essentially)%20lives%20and%20executes.)
