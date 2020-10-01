@@ -1,0 +1,17 @@
+h1{
+  text-align: center;
+
+}
+
+.box{
+  width: 300px;
+  margin-left: 550px;
+  margin-top: 130px;
+  background-image: url("https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg");
+}
+ html{
+   background-image: url("https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg");
+ }
+ body{
+   background-image: url("https://www.freecodecamp.org/news/content/images/2020/04/w-qjCHPZbeXCQ-unsplash.jpg");
+ }
