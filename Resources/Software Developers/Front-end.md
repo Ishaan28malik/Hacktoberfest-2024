@@ -6,3 +6,15 @@
 * [FreeCodeCamp React Challenges](https://learn.freecodecamp.org/front-end-libraries/react)
 * [React Cheatsheet](https://devhints.io/react)
 * [React Patterns](https://reactpatterns.com/)
+* [Learn HTML](https://www.w3schools.com/html/default.asp)
+* [Intoduction to CSS](https://mdbootstrap.com/education/css/)
+* [Javascript W3schools](https://www.w3schools.com/js/default.asp)
+* [The Modern JavaScript Tutorial](https://javascript.info/)
+* [JavaScript basics by MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+* [Learn Javascript practically](https://www.codecademy.com/learn/introduction-to-javascript)
+* [Learn Jquery](https://www.edureka.co/blog/jquery-tutorial/)
+* [Bootstrap4 tutorial - How to Setup and Use Bootstrap (Step-by-Step)](https://websitesetup.org/bootstrap-tutorial-for-beginners/)
+* [Learn Bootstrap 4 in 30 minutes by building a landing page website](https://www.freecodecamp.org/news/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33/)
+* [React Tutorial for beginners](https://reactjs.org/tutorial/tutorial.html)
+
+
