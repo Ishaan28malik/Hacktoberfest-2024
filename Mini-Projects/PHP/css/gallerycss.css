@@ -1,0 +1,15 @@
+.gallery{
+    display: block;
+    float:left;
+    width:30%;
+    padding: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    margin-left: 100px;
+    margin-top: 100px;
+}
