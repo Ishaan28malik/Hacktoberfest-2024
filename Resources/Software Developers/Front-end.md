@@ -6,3 +6,4 @@
 * [FreeCodeCamp React Challenges](https://learn.freecodecamp.org/front-end-libraries/react)
 * [React Cheatsheet](https://devhints.io/react)
 * [React Patterns](https://reactpatterns.com/)
+* [Splash Screen for Unity](https://docs.unity3d.com/Manual/class-PlayerSettingsSplashScreen.html)
