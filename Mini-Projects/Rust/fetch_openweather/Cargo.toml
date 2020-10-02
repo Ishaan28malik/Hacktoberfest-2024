@@ -1,0 +1,14 @@
+[package]
+name = "fetch_openweather"
+version = "0.1.0"
+authors = ["miqbalrr <iqb4lcakep@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+dotenv_codegen = "0.15.0"
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+serde_json = "1.0.57"
