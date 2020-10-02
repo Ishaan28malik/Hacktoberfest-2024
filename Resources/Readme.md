@@ -13,3 +13,6 @@
 [react-native-device-info](https://github.com/react-native-community/react-native-device-info)
 
 [Animation library to help make lives of developers easier lottie-ios](https://github.com/airbnb/lottie-ios)
+
+# Python
+[Youtube Playlist to learn python for beginners](https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3)
