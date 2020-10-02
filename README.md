@@ -75,6 +75,7 @@ All of your suggestions are welcome!!
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
 | Devdojo | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 3 pull request for t T-shirt | [Details](https://devdojo.com/hacktoberfest)  |
+| InfraCloud | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | Be the top contributor with merge pull requests on [BotKube](https://github.com/infracloudio/botkube) and [Fission](https://github.com/fission/fission). The contributor with maximum PR's would also get a kindle from infracloud| [Details](https://www.infracloud.io/blogs/infracloud-joins-hacktoberfest-2020/)  |
 
 
 # [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
