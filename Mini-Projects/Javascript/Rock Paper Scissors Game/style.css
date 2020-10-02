@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    background: #0575E6;
+    background: -webkit-linear-gradient(to bottom, #021B79, #0575E6); 
+    background: linear-gradient(to bottom, #021B79, #0575E6); 
+}
+
+.score {
+    color: white;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.score h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+.score p {
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.intro,
+.end {
+    color: white;
+    height: 40vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease;
+}
+.intro h1,
+.end h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.intro button,
+.match button,
+.end button {
+    width: 150px;
+    height: 50px;
+    background: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.match,
+.end {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: opacity 0.5s ease 0.5s;
+}
+.match h1 {
+    padding: 10px;
+}
+
+.winner {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 150px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.hands {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player-hand,
+.computer-hand {
+  margin: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.options button {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-weight: bold;
+}
+
+.player-hand {
+    transform: rotateY(180deg);
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
+
+@keyframes shakePlayer {
+  0% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  15% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  25% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  35% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  50% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  65% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  75% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+  85% {
+    transform: rotateY(180deg) translateY(-50px);
+  }
+  100% {
+    transform: rotateY(180deg) translateY(0px);
+  }
+}
+
+@keyframes shakeComputer {
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(-50px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  35% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(-50px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  85% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
