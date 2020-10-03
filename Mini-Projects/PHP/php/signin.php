@@ -1,6 +1,7 @@
 <?php
 session_start();
-	$con = mysqli_connect('localhost','root','');
+//db connection
+require_once 'connection/connect.php';
 	
 	/*if($con){
 		echo "Connection sucesfull";

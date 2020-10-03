@@ -1,9 +1,6 @@
 <?php
 /* Attempt MySQL server connection.*/ 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "trekbuddy";
+require_once 'connection/connect.php';
 
 
 $link = mysqli_connect($servername, $username, $password, $dbname);

@@ -1,12 +1,6 @@
 <?php
-  session_start();
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "trekbuddy";
-
-  $con = mysqli_connect($servername, $username, $password,$dbname);
-
+session_start();
+require_once 'connection/connect.php';
 ?>
 <!DOCTYPE html>
 <html>

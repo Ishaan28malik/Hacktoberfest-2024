@@ -1,18 +1,13 @@
 <?php
 session_start();
+//db connection
+require_once 'connection/connect.php';
 
 // initializing variables
 $name = "";
 $phone = "";
 $email    = "";
 $errors = array(); 
-
-// connect to the database
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "trekbuddy";
 
 
 $db = mysqli_connect($servername, $username, $password, $dbname);
