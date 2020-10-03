@@ -8,14 +8,13 @@ import (
 	"strings"
 )
 
-var foursquareClientId = ""
-var foursquareClientSecret = ""
-
 func findARestaurant(mealType string, location string) {
 
 	latitude, longitude := getGeocodeLocation(location)
 	lat := fmt.Sprintf("%f", latitude)
 	long := fmt.Sprintf("%f", longitude)
+	foursquareClientId := ""
+	foursquareClientSecret := ""
 
 	url := "https://api.foursquare.com/v2/venues/search?client_id=" + foursquareClientId + "&client_secret=" + foursquareClientSecret + "&v=20130815&ll=" + lat + "," + long + "&query=" + mealType
 
@@ -81,9 +80,9 @@ func findARestaurant(mealType string, location string) {
 }
 
 func getGeocodeLocation(s string) (float64, float64) {
-	google_api_key := ""
+	googleApiKey := ""
 	locationString := strings.ReplaceAll(s, " ", "+")
-	url := ("https://maps.googleapis.com/maps/api/geocode/json?address=" + locationString + "&key=" + google_api_key)
+	url := ("https://maps.googleapis.com/maps/api/geocode/json?address=" + locationString + "&key=" + googleApiKey)
 	response, err := http.Get(url)
 	if err != nil {
 		panic("Error retreiving response")
