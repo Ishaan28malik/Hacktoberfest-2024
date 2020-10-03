@@ -21,8 +21,8 @@ $password = mysqli_real_escape_string($link,  hash('sha256', $_REQUEST['password
 // Attempt insert query execution
 $sql = "INSERT INTO users (name, phone, email, password) VALUES ('$name', '$phone', '$email', '$password')";
 if(mysqli_query($link, $sql)){
-    //echo "Records added successfully.";
-	//echo "added : ","Name : $name ","Phone : $phone ","Email : $email ","Password : $password";
+    echo "Records added successfully.";
+	echo "added : ","Name : $name ","Phone : $phone ","Email : $email ","Password : $password";
 	header("location:home.php");
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
