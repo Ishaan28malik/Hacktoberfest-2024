@@ -78,24 +78,19 @@
 </style> 
   
 <body> 
-  
-    <h2>Login Form</h2> 
-    <!--Step 1 : Adding HTML-->
-    <form action="/action_page.php"> 
-        <div class="imgcontainer"> 
-            <img src= 
-"https://pbs.twimg.com/profile_images/1295732034279813123/ykLQzTnJ.png" 
-                 alt="Avatar" class="avatar"> 
-        </div> 
+  <!--Step 1 : Adding HTML-->
+    <form action="check_login.php">
+        <br>
+        <center><h2>Login to access your account</h2></center>
   
         <div class="container"> 
             <label><b>Username</b></label> 
-            <input type="text" placeholder="Enter Username" name="uname" required> 
+            <input type="text" placeholder="Enter Username" name="username" required> 
   
             <label><b>Password</b></label> 
-            <input type="password" placeholder="Enter Password" name="psw" required> 
+            <input type="password" placeholder="Enter Password" name="password" required> 
   
-            <button type="submit">Login</button> 
+            <button type="submit" name="submit">Login</button> 
             <input type="checkbox" checked="checked"> Remember me 
         </div> 
   

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>signup1</title>
+    <title>Sign Up Trekbuddy</title>
     <link rel="stylesheet" href="Signup/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="Signup/assets/css/Pretty-Registration-Form.css">
     <link rel="stylesheet" href="Signup/assets/css/styles.css">
@@ -72,8 +72,7 @@
                     style="background-color: #190062;">Sign Up</button></form>
         </div>
     </div>
-    <script src="Signup/assets/js/jquery.min.js"></script>
-    <script src="Signup/assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script></body>
 
 </html>
