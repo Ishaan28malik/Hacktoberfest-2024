@@ -2,19 +2,19 @@
 // ENV: Node.js
 // to run it: node longestWord.js
 
-const longestWord = (string) => {
-  var str = string.split(" ");
+function longestWord(str) {
+  var string = str.split(" ");
   var longest = 0;
   var result = null;
-  for (var i = 0; i < str.length; i++) {
-    if (longest < str[i].length) {
-      longest = str[i].length;
-      result = str[i];
-    } else if (longest == str[i].length) {
-      result = result + " " + "and" + " " + str[i];
+  for (var i = 0; i < string.length; i++) {
+    if (longest < string[i].length) {
+      longest = string[i].length;
+      result = string[i];
+    } else if (longest == string[i].length) {
+      result = result + " " + "and" + " " + string[i];
     }
   }
   return result;
-};
+}
 
-console.log(longestWord("She Sells Seashells by the Seashore"));
+console.log(longestWord("I am newbie in Hacktoberfest2020"));
