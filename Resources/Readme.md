@@ -13,3 +13,6 @@
 [react-native-device-info](https://github.com/react-native-community/react-native-device-info)
 
 [Animation library to help make lives of developers easier lottie-ios](https://github.com/airbnb/lottie-ios)
+
+#Yeoman
+[Getting started with yeoman project generator](https://yeoman.io/learning/#:~:text=Yeoman%20is%20a%20generic%20scaffolding,Python%2C%20C%23%2C%20etc.)
