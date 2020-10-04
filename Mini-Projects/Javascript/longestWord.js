@@ -17,4 +17,4 @@ function longestWord(str) {
   return result;
 }
 
-console.log(longestWord("I am newbie in Hacktoberfest2020"));
+console.log(longestWord("Newbie in Hacktoberfest2020"));
