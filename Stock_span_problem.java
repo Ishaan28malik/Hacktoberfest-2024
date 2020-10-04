@@ -1,4 +1,5 @@
 /*package whatever //do not write package name here */
+//Stock span problem solved using stack data structure 
 
 import java.util.*;
 import java.lang.*;
