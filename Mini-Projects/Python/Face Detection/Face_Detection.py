@@ -2,7 +2,7 @@ import cv2
 #make sure you have numpy and opencv
 #pip install numpy opencv-python
 cam = cv2.VideoCapture(0)
-facedata=cv2.CascadeClassifier('face.xml')
+facedata=cv2.CascadeClassifier(cv2.data.face + 'face.xml')
 # for those who don't have camera
 
 while 3 > 2:
