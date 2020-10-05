@@ -1,3 +1,5 @@
+// Java implementation of Calculate Median in Array
+
 import java.util.Scanner;
 class Median 
 {
