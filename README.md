@@ -53,24 +53,24 @@ All of your suggestions are welcome!!
 | Devfolio | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 4 or more pull requests: Limited-Edition Sticker, If your PRs turn out to be exceptional: Limited-Edition T-shirt | [Details](https://devfolio.co/blog/hacktoberfest-2019-devfolio/) |
 | Flutterwave.com | ![Shirt](icons/tshirt.png) | 2 or more pull requests to any of the projects from https://developer.flutterwave.com/docs/plugins : Limited-Edition T-shirt | [Details](https://twitter.com/Ace_KYD/status/1183738026511519745) |
 | Gatsby | ![Swag](icons/swag.png) | "1 PR: Level 1 swag; 5 PRs: Level 2 swag" | [Details](https://github.com/gatsbyjs/store.gatsbyjs.org) |
-| Globo.com | ![Shirt](icons/tshirt.png) | "1 merged PR: 👕". Any repo on [Globo.com](https://github.com/globocom) | [Details](https://opensource.globo.com/hacktoberfest/) |
-| Hasura | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "Make a PR to [The Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) or [The GraphQL Tutorial Series](https://github.com/hasura/learn-graphql). 2 hacktoberfest PRs for a 👕." | [Details](https://blog.hasura.io/hasura-joins-hacktoberfest-2019/) |
-| JabRef | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 1 merged pull request: sticker, 5 merged pull requests: 👕. Any repo on <https://github.com/jabref/>. | [Details](https://www.jabref.org/hacktoberfest/2019.html)  |
+| Globo.com | ![Shirt](icons/tshirt.png) | "1 merged PR: ðŸ‘•". Any repo on [Globo.com](https://github.com/globocom) | [Details](https://opensource.globo.com/hacktoberfest/) |
+| Hasura | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "Make a PR to [The Hasura GraphQL Engine](https://github.com/hasura/graphql-engine) or [The GraphQL Tutorial Series](https://github.com/hasura/learn-graphql). 2 hacktoberfest PRs for a ðŸ‘•." | [Details](https://blog.hasura.io/hasura-joins-hacktoberfest-2019/) |
+| JabRef | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 1 merged pull request: sticker, 5 merged pull requests: ðŸ‘•. Any repo on <https://github.com/jabref/>. | [Details](https://www.jabref.org/hacktoberfest/2019.html)  |
 | Jenkins | ![Swag](icons/swag.png) ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | PR to any repositories under featured repositories. The PR must be at least raised in October 2020 and you should not be inactive for seven days or more during code review. Guaranteed Swag for Top 20 contributors, and rest is to be decided. Check the announcement on the blog. | [Details](https://jenkins.io/events/hacktoberfest/) |
 | Kong | ![Shirt](icons/tshirt.png) | "If your Pull Request to Kong/kong was accepted, and it fixes a bug, adds functionality, or makes it significantly easier to use or understand Kong, congratulations! You are eligible to receive the very special Contributor T-shirt! Go ahead and fill out the Contributors Submissions form." | [Details](https://github.com/Kong/kong/blob/master/CONTRIBUTING.md#contributor-t-shirt)  |
 | LadybugTools | ![Stickers](icons/stickers.png) | 1 or more pull request | [Details](https://discourse.ladybug.tools/t/celebrate-hacktoberfest-2019-with-ladybug-tools/7314)  |
-| lakeFS | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "1 PR on our [GitHub repo](https://github.com/treeverse/lakeFS) for a collection of stickers, 2 or more gets stickers and a lakeFS t-shirt 👕" | [Details](https://github.com/treeverse/lakeFS#get-ready-for-hacktoberfest) | 
+| lakeFS | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "1 PR on our [GitHub repo](https://github.com/treeverse/lakeFS) for a collection of stickers, 2 or more gets stickers and a lakeFS t-shirt ðŸ‘•" | [Details](https://github.com/treeverse/lakeFS#get-ready-for-hacktoberfest) | 
 | LBRY | ![Shirt](icons/tshirt.png) | "A sweet LBRY sticker for 1 PR, T-shirt for a Good PR and 10,000 LBC for first PR of this month" | [Details](https://lbry.com/news/hacktoberfest-2019)  |
 | Les-Tilleuls.coop | ![Shirt](icons/tshirt.png) | "To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and [then fill in this form](https://cooptilleuls.typeform.com/to/CG0pLd) ." | [Details](https://les-tilleuls.coop/fr/blog/article/celebrate-hacktoberfest-with-api-platform)  |
-| MayaData | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Laptop](icons/laptop.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR gets a 💻 | [Details](https://blog.mayadata.io/mayadata-celebrates-hacktoberfest-2019)  |
+| MayaData | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Laptop](icons/laptop.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a ðŸ‘•, BEST PR gets a ðŸ’» | [Details](https://blog.mayadata.io/mayadata-celebrates-hacktoberfest-2019)  |
 | Operation Code | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "Resolve 3 issues and receive a white or black t-shirt! Merge 2 pull requests and receive stickers!" | [Details](https://github.com/OperationCode/START_HERE)  |
-| Opsdroid | ![Stickers](icons/stickers.png) | "Solve issues or improve documentation. 5–10 contributions is probably sticker worthy" | [Details](https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59)  |
+| Opsdroid | ![Stickers](icons/stickers.png) | "Solve issues or improve documentation. 5â€“10 contributions is probably sticker worthy" | [Details](https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59)  |
 | Parity | ![Gym Bag](icons/swag.png) | anyone who makes a significant contribution is eligible for a limited edition gym bag | [Details](https://www.parity.io/hacktoberfest-2019-parity/)  |
 | QMK | ![Shirt](icons/tshirt.png) | Interact 4 times with a [QMK repo](https://github.com/qmk) OR donate $15 to [cKeys](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8UQUNVFE9H6QY&source=hacktoberfest) | [Details](https://hacktoberfest.qmk.fm/) | 
 | SAP | ![Swag](icons/swag.png) | "a book from sap press for the user who create more pull requests in the ABAP Projects" | [Details](https://blogs.sap.com/2019/10/04/lets-code-share-and-learn.-calling-abapers-to-next-edition-of-hacktoberfest/) |
 | Sense/Net | ![Shirt](icons/tshirt.png) | "The first 100 participants who make a pull request" | [Details](https://community.sensenet.com/blog/2019/10/01/hacktoberfest-is-here)  |
 | Twilio | ![Stickers](icons/stickers.png)![Swag](icons/swag.png) | One PR gets you a collection of stickers, 2 or more gets stickers and a pair of Twilio socks | [Details](https://www.twilio.com/blog/ahoy-hacktoberfest-2019)  |
-| Umbraco | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "you’ll need to have at least 1 PR approved on any Umbraco repository" | [Details](https://umbraco.com/blog/hacktoberfest-2019/)  |
+| Umbraco | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "youâ€™ll need to have at least 1 PR approved on any Umbraco repository" | [Details](https://umbraco.com/blog/hacktoberfest-2019/)  |
 | Uno | ![Shirt](icons/tshirt.png) ![Swag](icons/swag.png) | "anyone who contributes a pull request to the Uno Platform on GitHub between October 1 and October 31 will receive a Uno Platform T-shirt plus some limited edition swag." | [Details](https://platform.uno/uno-is-joining-hacktoberfest-2019/)  |
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
@@ -79,9 +79,9 @@ All of your suggestions are welcome!!
 
 # [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
 
-# You can also Contribute Open Source projects or peice of codes from list below :
+# You can also Contribute Open Source projects or piece of codes from list below :
 
-You can add references to some cool open source projects below aswell.
+You can add references to some cool open source projects below as well.
 
 ### 1. [Zulip](https://github.com/zulip) -
 
@@ -121,7 +121,7 @@ Build cross-platform desktop apps with JavaScript, HTML, and CSS. Plenty Resourc
 
 A tribute and log of beloved products and services killed by Google. This is a fun open source project that encourages contributors for Hacktoberfest!
 
-### 10. [issuehub.io](https://issuehub.io) -
+### 10. [issuehub.io](https://issuehub.io)â€Š-
 
 A website which helps you find projects/issues based on your required/preffered language or issue labels.
        
@@ -129,15 +129,15 @@ A website which helps you find projects/issues based on your required/preffered 
 
 Another useful tool for searching issues to fix.
 
-### 12. [Up For Grabs](https://up-for-grabs.net/) - 
+### 12. [Up For Grabs](https://up-for-grabs.net/)â€Š-â€Š
 
 List of projects with issues that can be resolved by beginners.
 
-### 13. [First Timers Only](https://www.firsttimersonly.com/) - 
+### 13. [First Timers Only](https://www.firsttimersonly.com/)â€Š- 
 
-A list of issues that are labelled “first-timers-only”.
+A list of issues that are labelled â€œfirst-timers-onlyâ€�.
 
-### 14. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners) -
+### 14. [Awesome First Timers PR](https://github.com/MunGell/awesome-for-beginners)â€Š-
 
 A list of awesome beginners-friendly projects.
 
@@ -157,12 +157,12 @@ DuckDuckGo is a privacy-conscious search engine that doesn't track users. Instan
 
 An open-source JavaScript library for creating web components which are then used to build web pages and apps, Polymer is currently being developed by Google developers and contributors on GitHub. Central to a wide range of Google services and websites, including YouTube, Google Earth and Google Sites, Polymer received an update in January (Polymer 2.4) which is paving the way for 3.0 and TypeScript support.
       
-### 19. [Blender](https://www.blender.org/) - 
+### 19. [Blender](https://www.blender.org/)â€Š- 
 
-Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipelineâ€”modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
 
 
-### 20. [sagemath](http://www.sagemath.org/) - 
+### 20. [sagemath](http://www.sagemath.org/)â€Š- 
 
 SageMath is a computer algebra system with features covering many aspects of mathematics, including algebra, combinatorics, graph theory, numerical analysis, number theory, calculus and statistics. It's built on top of many existing open-source packages: NumPy, SciPy, matplotlib, Sympy, Maxima, GAP, FLINT, R and many more. 
 
@@ -175,7 +175,7 @@ A starter project for Ruby On Sinatra web app projects to introduce programmers 
 
 ### 23. [coala](https://github.com/coala/coala)
 
-Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. It’s beginner-friendly community. Documentation is well written, issues are properly tagged with ‘easy’, ‘newcomer’, or ‘hard’.
+Coala is a package that provides linting and code-fixing in a single config file, irrespective of language. Itâ€™s beginner-friendly community. Documentation is well written, issues are properly tagged with â€˜easyâ€™, â€˜newcomerâ€™, or â€˜hardâ€™.
 
 ### 24. [Google Developers Group Philippines](https://www.facebook.com/gdgphilippines/)
 
@@ -232,7 +232,7 @@ is friendly & easy to learn;
 is Open.
 
 ### 37. [Software Package Data Exchange](https://spdx.org/)
-Software Package Data Exchange® (SPDX®) is an open standard for communicating software bill of material information (including components, licenses, copyrights, and security references).
+Software Package Data ExchangeÂ® (SPDXÂ®) is an open standard for communicating software bill of material information (including components, licenses, copyrights, and security references).
 
 
 ### 38. [Systers](https://anitab.org/systers/)
@@ -244,11 +244,11 @@ Read the Docs simplifies software documentation by automating building, versioni
 
 
 ### 40. [KDE e.V.](http://ev.kde.org/)
-KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDE’s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development.
+KDE e.V. is a registered non-profit organization that represents the KDE community in the legal and financial entities. The association supports KDEâ€™s work in cash, hardware, and other donations, and then the use of donations to help the KDE development, but not influence on development.
 
 
 ### 41. [WildFly (JBoss)](https://wildfly.org)
-WildFly is a Java EE 8 certified application server. The word "application server" has been coined in relation to Java Enterprise application; you can think of it as it’s a piece of Java software where your application can be provisioned using the services provided by the application server. WildFly simplifies the development of Enterprise applications by providing a list of services out of the box.
+WildFly is a Java EE 8 certified application server. The word "application server" has been coined in relation to Java Enterprise application; you can think of it as itâ€™s a piece of Java software where your application can be provisioned using the services provided by the application server. WildFly simplifies the development of Enterprise applications by providing a list of services out of the box.
 
 ### 42. [MkDocs](https://www.mkdocs.org/)
 MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. A hardware company called Seeed created a Wiki to document all of their boards, and so I created a Wiki page for [TinyCircuits](https://learn.tinycircuits.com/) to document all of our boards too! This platform is great for any documentation needs, and I'm looking forward to hopefully creating/contributing a dark mode for it someday. 
@@ -264,7 +264,7 @@ Joomla! is an award-winning content management system (CMS), which enables you t
 Get OpenSauced! Open Sauced provides structured onboarding for new contributors to open source. A project to identify your next open source contribution. 
 
 ### 45. [Flutter](https://github.com/flutter/flutter)
-Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
+Flutter is Googleâ€™s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.
 
 ### 46. [MongoDB](https://github.com/mongodb/mongo)
 MongoDB is a cross-platform document-oriented database program.MongoDB is an open source NoSQL database.
