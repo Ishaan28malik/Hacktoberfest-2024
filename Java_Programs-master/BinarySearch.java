@@ -21,10 +21,11 @@ class BinarySearchExample
       item = input.nextInt();
       first = 0;
       last = num - 1;
-      middle = (first + last)/2;
+      
 
       while( first <= last )
       {
+         middle=first+(last-first)/2;//this will prevent Integer Overflow
          if ( array[middle] < item )
            first = middle + 1;
          else if ( array[middle] == item )
@@ -36,7 +37,7 @@ class BinarySearchExample
          {
              last = middle - 1;
          }
-         middle = (first + last)/2;
+         
       }
       if ( first > last )
           System.out.println(item + " is not found.\n");
