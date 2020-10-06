@@ -8,3 +8,4 @@
 * [React Patterns](https://reactpatterns.com/)
 * [Modern CSS](https://moderncss.dev/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+* [Learn CSS Flexbox](https://flexbox.io/)
