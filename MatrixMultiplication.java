@@ -10,6 +10,7 @@ public class MatrixMultiplication {
           
           int rows = sc.nextInt();
           int cols = sc.nextInt();
+	  int k;
           
           
           int a[][] = new int[rows][cols];
@@ -29,15 +30,27 @@ public class MatrixMultiplication {
         	  }
           }
           
-          int c[][] = new int[rows][cols];
-          
-          for(int i = 0; i< rows; i++) {
-        	  for(int j = 0;  j < cols; j++) {
-        		if(a[j] ==b[i]) {
-        			c[i][j]  =  a[i][j] * b[i][j];
-        			
-        		}
-        	 }
+         int c[][] = new int[rows][cols];
+		
+	for ( i = 0 ; i < rows ; i++ )
+         {
+            for ( j = 0 ; j < cols ; j++ )
+            {   
+               for ( k = 0 ; k < rows ; k++ )
+               {
+                  c[i][j] = c[i][j] + a[i][k]*b[k][j];
+               }
+            }
+         }
+ 
+         System.out.println("Product is:-");
+ 
+         for ( i = 0 ; i < rows ; i++ )
+         {
+            for ( j = 0 ; j < cols ; j++ )
+               System.out.print(c[i][j]+"\t");
+ 
+            System.out.print("\n");
          }
           
           
