@@ -285,6 +285,9 @@ Atom is a modern open source text editor developed by GitHub. It is designed to 
 The Go programming language is an open source project to make programmers more productive.
 Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.
 
+### 52. [Apache](https://github.com/apache)
+Apache is an open-source and free web server software that powers around 40% of websites around the world. The official name is Apache HTTP Server, and it’s maintained and developed by the Apache Software Foundation.
+
 ## When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
  
 ## More Hacktoberfest [issues](https://github.com/search?utf8=%E2%9C%93&q=label%3AHacktoberfest&type=Issues)
