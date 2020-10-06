@@ -3,7 +3,7 @@
 
 # Happy Coding Fellas !
 
-* When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+* When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors.
 
 # What is Hacktoberfest ?
 
