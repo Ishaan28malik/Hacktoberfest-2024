@@ -1,4 +1,4 @@
-# Make a new branch other than master using `
+# Make a new branch other than master using 
 ```git checkout -b branch_name```
 
 ## Open the New issues sections and check the issues that you think suits you.
@@ -8,7 +8,7 @@
 
 # OR
 
-### Add mini projects on DSA or some projects or problems you have tried but try not to repeat them or add any good projects that are beginners friendly
+### Add mini projects on DSA or some projects or problems you have tried but try not to repeat them or add any good projects that are beginners friendly.
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as invalid/spam .
 
