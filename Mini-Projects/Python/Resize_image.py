@@ -1,0 +1,10 @@
+import cv2
+print("Enter the desired length (in px): ")
+n1 = int(input())
+print("Enter the desired breadth (in px): ")
+n2 = int(input())
+img = cv2.imread("single.jpeg")
+resized_image = cv2.resize(img, (n1, n2))
+window = cv2.imshow("Output", resized_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
