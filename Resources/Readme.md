@@ -13,3 +13,12 @@
 [react-native-device-info](https://github.com/react-native-community/react-native-device-info)
 
 [Animation library to help make lives of developers easier lottie-ios](https://github.com/airbnb/lottie-ios)
+
+
+
+# Collections
+* [A Huge Collection of Books, Videos on Programming](http://s3.bitdl.ir/Learning/)
+
+* [Project Basd Learning Materials](https://www.education-ecosystem.com/projects)
+
+* [Discover the Role of Python in Space Exploration](https://docs.microsoft.com/en-us/learn/paths/introduction-python-space-exploration-nasa)
