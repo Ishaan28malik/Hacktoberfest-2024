@@ -6,3 +6,5 @@
 * [FreeCodeCamp React Challenges](https://learn.freecodecamp.org/front-end-libraries/react)
 * [React Cheatsheet](https://devhints.io/react)
 * [React Patterns](https://reactpatterns.com/)
+* [Modern CSS](https://moderncss.dev/)
+* [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)

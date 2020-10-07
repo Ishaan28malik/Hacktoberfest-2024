@@ -1,12 +1,6 @@
 <?php
-  session_start();
-  $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "trekbuddy";
-
-  $con = mysqli_connect($servername, $username, $password,$dbname);
-
+session_start();
+require_once 'connection/connect.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - Brand</title>
-    <link rel="stylesheet" href="Order/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
     <style>
@@ -174,8 +168,8 @@
         
     </section>
     <footer class="py-5 bg-black"></footer>
-    <script src="Order/assets/js/jquery.min.js"></script>
-    <script src="Order/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	
 </body>
 </html>

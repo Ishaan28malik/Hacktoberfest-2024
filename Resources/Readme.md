@@ -14,11 +14,21 @@
 
 [Animation library to help make lives of developers easier lottie-ios](https://github.com/airbnb/lottie-ios)
 
-
-
 # Collections
 * [A Huge Collection of Books, Videos on Programming](http://s3.bitdl.ir/Learning/)
 
 * [Project Basd Learning Materials](https://www.education-ecosystem.com/projects)
 
 * [Discover the Role of Python in Space Exploration](https://docs.microsoft.com/en-us/learn/paths/introduction-python-space-exploration-nasa)
+
+
+# Yeoman
+[Getting started with yeoman project generator](https://yeoman.io/learning/#:~:text=Yeoman%20is%20a%20generic%20scaffolding,Python%2C%20C%23%2C%20etc.)
+
+# Newsletters
+- [Dev Weekly](https://mailchi.mp/f59beeac6b9b/devupdates)
+- [JavaScript Weekly](https://javascriptweekly.com/)
+- [Programming Digest](https://programmingdigest.net/)
+- [DB Weekly](https://dbweekly.com/)
+- [Flutter Weekly](https://flutterweekly.net/)
+
