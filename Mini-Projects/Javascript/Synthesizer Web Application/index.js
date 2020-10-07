@@ -12,7 +12,7 @@ document.addEventListener("keypress",function(event){
    animationa(event.key);
 
 
-})
+});
 function soundmadu(keys)
 {
     switch(keys){
@@ -37,34 +37,34 @@ function soundmadu(keys)
                         a.play();
                         break;
         case "y":
-            var a = new Audio("sounds/F.wav");
+            let a = new Audio("sounds/F.wav");
             a.play();
             break;
         case "u":
-             var a = new Audio("sounds/Ff.wav");
+             let a = new Audio("sounds/Ff.wav");
              a.play();
              break;
         case "i":
-            var a = new Audio("sounds/G.wav");
+            let a = new Audio("sounds/G.wav");
             a.play();
             break;
          case "o":
-                var a = new Audio("sounds/Gg.wav");
+                let a = new Audio("sounds/Gg.wav");
                 a.play();
                 break;
           case "p":
-                    var a = new Audio("sounds/A.wav");
+                    let a = new Audio("sounds/A.wav");
                     a.play();
                     break;
           case "[":
-                        var a = new Audio("sounds/Aa.wav");
+                        let a = new Audio("sounds/Aa.wav");
                         a.play();
                         break;
          case "]":
-                            var a = new Audio("sounds/B.wav");
+                            let a = new Audio("sounds/B.wav");
                             a.play();
                             break;
-    default:;                                               
+    default:break;                                               
     }
 }
     function animationa(keys)
