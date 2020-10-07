@@ -1,0 +1,30 @@
+.btn {
+    background-color: #2143b3; /* Green */
+    border: none;
+    color: rgb(204, 204, 204);
+    width: 100px;
+    height: 400px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    transition: width 500ms;
+}
+.btn:hover{
+    width: 150px;
+}
+body{
+    background-color: black;
+    color: white
+}
+.pressed{
+    animation-name: ok;
+    animation-duration:1s;
+}
+@keyframes ok{
+    0% {width: 100px;}
+    50% {width:150px;}
+    100% {width: 100px;}
+    
+}
