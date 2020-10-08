@@ -293,3 +293,7 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 
 ### License
 This repository follows [MIT](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/LICENSE) License.
+
+Stay tuned for future endevours.
+
+Thank you!
