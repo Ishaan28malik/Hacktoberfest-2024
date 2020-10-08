@@ -1,0 +1,53 @@
+.container {
+    /* margin-top: 100px; */
+    /* padding-top: 50px; */
+  }
+  
+  .toolbarClassName {
+    display: none !important;
+  }
+  .innerPageBanner2 {
+    padding-top: 7.5rem;
+    padding-bottom: 3px;
+    margin-top: 70px;
+    margin-bottom: 6.5rem;
+    position: relative;
+    height: 65vh;
+    width: 100vw;
+    background-color: #000;
+    /* background-image: -webkit-linear-gradient(45deg, #a900e0, #00bdff);
+    background-image: -o-linear-gradient(45deg, #a900e0, #00bdff);
+    background-image: linear-gradient(45deg, #a900e0, #00bdff); */
+  
+    /* background: url(''); */
+  }
+  .innerPageBanner2 img {
+    position: absolute;
+    width: 100vw;
+    /* margin-top: -75vh; */
+    bottom: 0;
+    opacity: 0.4;
+  }
+  
+  .innerPageBanner2 h1 {
+    position: absolute;
+    color: #fff;
+    opacity: 1;
+    width: 100vw;
+    text-align: center;
+    bottom: 25%;
+    letter-spacing: 2px;
+  }
+  
+  .caseStudy {
+    padding-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .innerPageBanner2 img {
+      height: inherit;
+      width: auto;
+      transform: translate(-50%, 0%);
+      left: 50%;
+    }
+  }
