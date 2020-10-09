@@ -10,11 +10,15 @@ public class BubbleSort {
 		int n = a.length;
 		
 		boolean sorted = true;
+		int temp=0;
 		
-		for(int i = 0; i<n-1; i++ ) {
-			for(int j = 0; j<n-1-i; j++) {
-				if(a[j+1] < a[j]) {
-					int temp = a[j+1];
+		for(int i = 0; i<n-1; i++ )
+		{
+			for(int j = 0; j<n-1-i; j++)
+			{
+				if(a[j+1] < a[j])
+				{
+					temp = a[j+1];
 					a[j+1] = a[j];
 					a[j]  = temp;
 					
@@ -22,12 +26,14 @@ public class BubbleSort {
 				}
 			}
 			
-			if(sorted) break;
+			if(sorted==false)
+				break;
 			
 		}
-		
-		for(int item: a) {
-			System.out.print(item+ " ");
+		System.out.println("the sorted array is");
+		for(int i=0;i<n;i++) 
+		{
+			System.out.print(a[i]+ " ");
 		}
 		
              
