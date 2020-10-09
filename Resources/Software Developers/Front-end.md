@@ -8,3 +8,6 @@
 * [React Patterns](https://reactpatterns.com/)
 * [Modern CSS](https://moderncss.dev/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+* [Learn With Jason](https://www.learnwithjason.dev/)
+* [Frontend Masters](https://frontendmasters.com/)
+* [Ponyfoo](https://ponyfoo.com/)
