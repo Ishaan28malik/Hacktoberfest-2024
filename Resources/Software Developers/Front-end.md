@@ -8,3 +8,4 @@
 * [React Patterns](https://reactpatterns.com/)
 * [Modern CSS](https://moderncss.dev/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+* [JavaScript 30](https://javascript30.com/)
