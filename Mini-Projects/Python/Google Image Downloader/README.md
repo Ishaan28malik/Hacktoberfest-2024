@@ -5,11 +5,12 @@ want to download from google and it will download it with the help of web automa
 ---
 just add the file in your project and import the class and use like bellow
 
-``python
+```python
 
 image_downloader = GoogleImage()
 image_downloader.getImg(name='hacktoberfest', count=1)
 image_downloader.close()
-``
+```
+
 ---
 above code will make a folder gdownload in CWD and will save the 'hacktoberfest' image in that folder 
