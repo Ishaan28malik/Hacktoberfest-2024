@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+#include <stdio.h>
+using namespace std;
+
+int main() {
+	
+	int i, t, j;
+	cin>>t;
+	for(j=0; j<t; j++)
+	{
+	string s, str1;
+	stack <char> str;
+	cin>>s;
+	reverse(s.begin(), s.end());
+	str1=".";
+	s=s.append(str1);
+	int n =s.length();
+	for(i=0; i<n; i++)
+	{
+	    
+	    if(s[i]!='.')
+	    {
+	        str.push(s[i]);
+	        continue;
+	    }
+	    while(!str.empty())
+	    {
+	        cout<<str.top();
+	        str.pop();
+	    }
+	    if(i!=n-1) // to print dots
+	    cout<<s[i];
+	}
+	cout<<endl;
+	}
+	return 0;
+}
