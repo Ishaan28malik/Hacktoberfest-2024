@@ -10,5 +10,3 @@
 * [LearnCode.academy](https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw)
 
 * [freeCodeCamp.org](https://www.youtube.com/watch?v=_xkSvufmjEs)
-
-* [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
