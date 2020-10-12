@@ -12,9 +12,9 @@ for j in range(len(search)) :
     lst2.append(id)
 print(lst1)
 print("====================================")
-print("As there might me many unwanted results. Please select the movie you want the plot of")
+print("As there may be unwanted results, please specify the ID of the movie or TV series whose plot you would like.")
 print("\n")
-movie = input("Enter the id of the movie or tv series whose plot you want : ")
+movie = input("Enter the ID of the movie or TV series: ")
 index = lst2.index(movie)
 Movie = search[index]
 ia.update(Movie, info = ["plot"])		# to get the plot of the movie
@@ -23,8 +23,7 @@ print("\n")
 print("Cast of the movie or tv series : ")
 movies = ia.get_movie(movie)
 cast = movies["cast"]		# to get the cast of the movie
-for i in cast :
-    actor = i
+for actor in cast :
     print(actor)
 print("\n")
 print("Director of film or writer of series : ")
@@ -32,21 +31,24 @@ try :
     for director in movies["directors"] :		# try and except is used to prevent error messages that show up while compiling
         print(director["name"])
 except :
-    for writer in movies["writer"] :
-        print(writer["name"])
+    try:
+        for writer in movies["writer"] :
+            print(writer["name"])
+    else:
+        print("Sorry something went wrong, couldn't get the writers or the directors :(")
 print("\n")
 try :
     print("Ratings : ")
     rating = movies.data["rating"]
     print(rating)
 except :
-    print("Sorry something went wrong, could't get the ratings :(")
+    print("Sorry something went wrong, couldn't get the ratings :2(")
 print("\n")
 try :
     print("Genres : ")
     genre = movies.data["genres"]
     print(genre)
 except :
-    print("Sorry something went wrong, could't get the genres :(")
+    print("Sorry something went wrong, couldn't get the genres :(")
     
     
