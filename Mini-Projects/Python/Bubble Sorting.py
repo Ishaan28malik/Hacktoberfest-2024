@@ -1,7 +1,6 @@
 '''
 Implementation of Binary Search Algorithm in Python
 '''
-
 def bubblesort(arr):
         n = len(arr)
         print("original list:",arr)
