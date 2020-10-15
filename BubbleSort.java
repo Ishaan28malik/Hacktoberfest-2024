@@ -6,7 +6,7 @@ public class BubbleSort {
 		// TODO Auto-generated method stub
              
 		
-		int a[] =  {2, 4, -1, -8, 6, 8, -12};
+		int a[] =  {2, -85, -1, -8, 6, 8, -12};
 		int n = a.length;
 		
 		boolean sorted = true;
@@ -25,10 +25,12 @@ public class BubbleSort {
 			if(sorted) break;
 			
 		}
-		
-		for(int item: a) {
-			System.out.print(item+ " ");
+		System.out.print("[");
+		for(int j = 0; j<n-1;j++) {
+			System.out.print(a[j]+ " , ");
 		}
+		
+		System.out.print(a[n-1]+"]");
 		
              
              
