@@ -124,6 +124,23 @@ print("Accuracy of SVM = {0:.3f}".format(metrics.accuracy_score(Y_test, predict)
 
 # In[ ]:
 
+#Import Gaussian Naive Bayes model
+from sklearn.naive_bayes import GaussianNB
 
+#Create a Gaussian Classifier
+gnb = GaussianNB()
+
+#Train the model using the training sets
+gnb.fit(X_train, Y_train)
+
+#Predict the response for test dataset
+y_pred2 = gnb.predict(X_test)
+
+#Import scikit-learn metrics module for accuracy calculation
+from sklearn import metrics
+
+# Model Accuracy, how often is the classifier correct?
+print("Accuracy:",metrics.accuracy_score(Y_test, y_pred2))
+print(metrics.classification_report(Y_test,y_pred2)),metrics.confusion_matrix(Y_test,y_pred2)
 
 
