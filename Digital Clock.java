@@ -115,7 +115,7 @@ public class digitalClock extends Applet {
 
 		// Display second 
 
-		// tens digit 
+		// tens digits
 		display(digits[second / 10], 500, g); 
 		// units digit 
 		display(digits[second % 10], 575, g); 
