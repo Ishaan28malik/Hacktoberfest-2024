@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+    <div class="quiz-container" id="quiz">
+        <div id="question" class="quiz-header animate__animated animate__bounce" ></div>
+        <ul>
+            <li>
+                <input type="radio" id="a" value="a" name="answer" />
+                <label id="a_text" for="a"></label>
+            </li>
+            <li>
+                <input type="radio" id="b" value="b" name="answer" />
+                <label id="b_text" for="b"><label>
+            </li>
+            <li>
+                <input type="radio" id="c" value="c" name="answer" />
+                <label id="c_text" for="c"></label>
+            </li>
+            <li>
+                <input type="radio" id="d" value="d" name="answer" />
+                <label id="d_text" for="d"><label>
+            </li>
+        </ul>
+        <button id="submit" style="margin-bottom:0px;">Submit</button>
+    </div>
+    <div class="quiz-container " id="result" style="display: none;">
+        <h1 class="animate__animated animate__tada" style="text-align:center;margin:20px; color:white">Your score is <span id="score-text"></span></h1>
+        <button class="animate__animated animate__backInDown" id="restart">Restart</button>
+
+    </div>
+
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

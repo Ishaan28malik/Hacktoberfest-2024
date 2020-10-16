@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    /* background-color: #5078f2;
+    background-image: linear-gradient(315deg, #5078f2 0%, #efe9f4 74%); */
+    background: #5078f2; 
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 50px;
+}
+.quiz-container{
+    /* background-color: transparent; */
+    width: 300px; 
+    /* margin-top: 0px; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px 5px rgba(0,0,0,0.2); */
+    background: #5078f2;
+    box-shadow:  32px 32px 64px #4161c4, 
+                 -32px -32px 64px #5f8fff;
+}
+.quiz-header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+/* h2{
+    font-size: 1.7rem;
+    margin:5px;
+} */
+   
+ul{
+    list-style-type: none;
+   
+    padding: 15px;
+    margin-top: 10px;
+
+}
+ul li{
+    font-size: 1.2rem;
+    margin:1rem 0;
+     
+}
+input {
+    cursor: pointer;
+}
+button{
+    background-color: #1A237E;
+    border: none;
+    cursor: pointer;
+    color:white;
+    display:block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: .2s;
+    
+    outline: none;
+}
+button:hover {
+    background-color:#030730;
+    transition: .2s;
+}
+
+@media only screen and (max-width: 600px){
+    .quiz-container{
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 200px;
+    }
+}
+
+/* #00b894 */
