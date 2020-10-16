@@ -8,5 +8,5 @@
 * [React Patterns](https://reactpatterns.com/)
 * [Modern CSS](https://moderncss.dev/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
-* [Web Fundamentals for Google] (https://developers.google.com/web/fundamentals)
+* [Web Fundamentals for Google](https://developers.google.com/web/fundamentals)
 * [Responsive web design Patterns according to Google](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns) 
