@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(-35deg, #fac3ce 0%, #f26884 50%, #262626 50%, #b0828b 100%);
+	filter: hue-rotate(120deg);
+	animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate
+{
+	0%
+	{
+		filter: hue-rotate(0deg);
+	}
+	100%
+	{
+		filter: hue-rotate(150deg);
+	}
+}
+
+.box{
+	position: relative;
+	padding: 50px;
+	width: 350px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255,255,255,0.3);
+	box-shadow: 0 5px 35px rgba(0,0,0,0.2);
+	border-radius: 6px;
+}
+
+.box::after{
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-radius: 7px;
+	pointer-events: none;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.1) 15%, transparent 50%, transparent 85%, rgba(255,255,255,0.1) 100%);
+}
+
+.box .form{
+	position: relative;
+	width: 100%;
+}
+
+.box .form h2{
+	border: 1px solid;
+	justify-content: center;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 35px;
+	text-align: center;
+	box-shadow: 0 0 20px 5px #7bf0ef;
+	border-radius: 10px;
+}
+
+.box .form .inputBox input::placeholder 
+{
+	color: #fff;
+
+}
+
+.box .form .inputBox input[type="submit"]
+{
+	background: #fff;
+	color: #000;
+	font-weight: 600;
+	letter-spacing: 1px;
+	cursor: pointer;
+	text-align: center;
+
+} 
+
+.box .form .inputBox{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.box .form .inputBox input{
+	width: 100%;
+	outline: none;
+	 border: 1px solid rgba(255,255,255,0.2); 
+	background: transparent;
+	border-radius: 5px;
+	padding: 8px 10px;
+	color: #fff;
+	padding-left: 35px;
+	font-size: 17px;
+	font-weight: 400;
+	box-shadow: inset 0 0 25px rgba(0,0,0,0.2);
+}
+
+i{
+	position: absolute;
+	size: 10px;
+	top: 12px;
+	right: 10px;
+	transform: scale(0.7);
+	filter: invert(1);
+}
+
+small{
+	/* position: absolute; */
+	left: 10px;
+	visibility: hidden;
+}
+
+button{
+	width: 250px;
+	display:block;
+	padding:10px;
+	position: absolute;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
