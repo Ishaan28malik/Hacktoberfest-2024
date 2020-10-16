@@ -1,0 +1,80 @@
+Pseudocode
+==========
+// variables
+messageSize, generatorSize,
+message[], generator[], codeword[],
+crc[], rem[], temp[], temp2[]
+
+// get the message
+input messageSize, message[]
+input generatorSize, generator[]
+
+// as n = m + r = m + (g - 1)
+codeword[0..m-1] = copy message
+codeword[m..m+r-1] = 0 // append r 0's
+
+// crc calc
+temp = copy codeword
+for i in 0..m-1
+  j = 0, k = i
+  if temp[i] >= generator[j]
+    for j in 0..r-1
+      temp[k] = temp[k] XOR generator[j]
+      j++, k++
+crc[0..r-1] = temp[m..m+r-1] // LSB
+
+// add crc to codeword
+codeword[m..m+r-1] = crc[0..r-1]
+
+// simulate noisy channel
+input nBits, pos
+for i in 0..nBits-1
+  input pos
+  codeword[pos - 1] = 0 if 1 else 1
+
+// receiver remainder calc
+temp2 = copy codeword
+for i in 0..m-1
+  j = 0, k = i
+  if temp2[i] >= generator[j]
+    for j in 0..r-1
+      temp2[k] = temp2[k] XOR generator[j]
+      j++, k++
+rem[0..r-1] = temp2[m..m+r-1] // LSB
+
+// determine presence of error
+if rem[i] == 0 for i in 0..r-1
+   error = False
+else
+   error = True
+
+=====================
+
+Sender
+1001 ) 10011101000
+i = 0  1001
+       0000
+i = 1  
+i = 2
+i = 3
+i = 4      1101
+       00000100
+i = 5       1000
+       000000001
+i = 6
+i = 7       
+       00000000100
+
+Receiver
+1001 ) 10111101100
+i = 0  0000
+i = 1   
+i = 2
+i = 3
+i = 4      1101
+       00000100
+i = 5       1001  
+       000000000
+i = 6
+i = 7
+       00000000000
