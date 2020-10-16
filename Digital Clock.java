@@ -122,6 +122,7 @@ public class digitalClock extends Applet {
 
 		// Display AM/PM 
 		if (am == 1) 
+			
 			g.drawString("am", 650, 250); 
 		else
 			g.drawString("pm", 650, 250); 
