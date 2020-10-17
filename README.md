@@ -50,6 +50,7 @@ All of your suggestions are welcome!!
 | Appwrite | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) ![Shirt](icons/tshirt.png) | Create one or more merged pull requests to any Appwrite repository (https://github.com/appwrite). _Stickers, Magnets, Buttons, and T-shirts_ |  |
 | Aqua Security | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) ![Shirt](icons/tshirt.png) | 1 Contribution: OSS superhero sticker pack, 3 Contributions: OSS superhero sticker pack and a special edition Aqua Hacktoberfest t-shirt, 5 Contributions: all of the above and the "Kubernetes Security" book, co-authored by Liz Rice, VP Open Source Engineering | [Details](https://blog.aquasec.com/aqua-open-source-security-hacktoberfest) |
 | Circle CI | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 1 to 3 pull requests: Limited-Edition Sticker. 4+ pull requests: Limited-Edition T-shirt | [Details](https://circleci-public.github.io/hacktoberfest/#/) |
+| CommerceJS | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for swag | [Details](https://commercejs.com/docs/hacktoberfest)  |
 | Devfolio | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | 4 or more pull requests: Limited-Edition Sticker, If your PRs turn out to be exceptional: Limited-Edition T-shirt | [Details](https://devfolio.co/blog/hacktoberfest-2019-devfolio/) |
 | Flutterwave.com | ![Shirt](icons/tshirt.png) | 2 or more pull requests to any of the projects from https://developer.flutterwave.com/docs/plugins : Limited-Edition T-shirt | [Details](https://twitter.com/Ace_KYD/status/1183738026511519745) |
 | Gatsby | ![Swag](icons/swag.png) | "1 PR: Level 1 swag; 5 PRs: Level 2 swag" | [Details](https://github.com/gatsbyjs/store.gatsbyjs.org) |
@@ -63,6 +64,7 @@ All of your suggestions are welcome!!
 | LBRY | ![Shirt](icons/tshirt.png) | "A sweet LBRY sticker for 1 PR, T-shirt for a Good PR and 10,000 LBC for first PR of this month" | [Details](https://lbry.com/news/hacktoberfest-2019)  |
 | Les-Tilleuls.coop | ![Shirt](icons/tshirt.png) | "To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and [then fill in this form](https://cooptilleuls.typeform.com/to/CG0pLd) ." | [Details](https://les-tilleuls.coop/fr/blog/article/celebrate-hacktoberfest-with-api-platform)  |
 | MayaData | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Laptop](icons/laptop.png) | "anyone who submits a pull request to one of our [github repos](https://github.com/openebs)" gets a 👕, BEST PR gets a 💻 | [Details](https://blog.mayadata.io/mayadata-celebrates-hacktoberfest-2019)  |
+| Meedan | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for tshirt,ticker pack and mask | [Details](https://meedan.com/hacktoberfest)  |
 | Operation Code | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) | "Resolve 3 issues and receive a white or black t-shirt! Merge 2 pull requests and receive stickers!" | [Details](https://github.com/OperationCode/START_HERE)  |
 | Opsdroid | ![Stickers](icons/stickers.png) | "Solve issues or improve documentation. 5–10 contributions is probably sticker worthy" | [Details](https://medium.com/opsdroid/contributor-sticker-packs-738058ceda59)  |
 | Parity | ![Gym Bag](icons/swag.png) | anyone who makes a significant contribution is eligible for a limited edition gym bag | [Details](https://www.parity.io/hacktoberfest-2019-parity/)  |
@@ -75,6 +77,11 @@ All of your suggestions are welcome!!
 | Valor | ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 PR: pen and sticker. 3 PRs: notepad or wooden phone stand. 5 PRs: pen, sticker, notepad, and a wooden phone stand. | [Details](https://valor-software.com/articles/hacktoberfest-2019-is-coming-and-ngx-bootstrap-strives-for-your-attention.html)  |
 | Xamarin | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for the stickers, 4 pull requests for a T-shirt, 10 pull requests to be eligible to win a trophy. | [Details](https://devblogs.microsoft.com/xamarin/hacktoberfest-2019-xamarin-edition/)  |
 | Devdojo | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 3 pull request for t T-shirt | [Details](https://devdojo.com/hacktoberfest)  |
+
+
+| Meedan | ![Shirt](icons/tshirt.png) ![Stickers](icons/stickers.png) ![Swag](icons/swag.png) | 1 pull request for tshirt,ticker pack and mask | [Details](https://meedan.com/hacktoberfest)  |
+
+
 
 
 # [List of Hacktoberfest events](https://hacktoberfest.digitalocean.com/events)
