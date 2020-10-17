@@ -1,5 +1,5 @@
 # Make a new branch other than master using `
-```git checkout -b branch_name```
+```git checkout -b sinha```
 
 ## Open the New issues sections and check the issues that you think suits you.
 
