@@ -8,3 +8,4 @@
 * [React Patterns](https://reactpatterns.com/)
 * [Modern CSS](https://moderncss.dev/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+* [flutter - adding tv support to flutter app](https://medium.com/@pcmushthaq/adding-android-tv-support-to-your-flutter-app-dcc5c1196231)
