@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style type="text/css">
+	.row{
+		height: 100%;
+		width: 100%;
+		display: block;
+		border-style: solid
+	}
+	.a{
+		
+		border-style: solid;
+		float: left;
+		background-color: black;
+		width: 100%;
+		height: 100px;
+
+	}
+	.b{
+		float: left;
+		width: 100%;
+		height: 600px;
+		border-style: solid;
+		padding: 0px;
+	}
+	canvas{
+		
+		border-style: solid;
+
+	}
+	button{
+		width: 100px;
+		background-color:lightgrey;  
+  		height: 50px;
+  		border: 1px solid lightgrey;
+ 		border-radius: 20px;
+   		text-align: center;
+ 		text-decoration: none;
+ 		font-size: 20px;
+ 		background-color: aliceblue;
+	}
+</style>
+</head>
+<body>
+	
+	
+			<div class="b" id="b">
+				
+				<canvas id="paint" width="1525px" height="590px"></canvas>
+				
+			</div>
+			<div class="a">
+				<button id="pencil" onclick="g()">Pencil</button>
+				<button id="eraser" onclick="f()">Eraser</button>
+				<input type="color" id="color">
+				<button id="pencil" onclick="h()">Rectangle</button>
+				<button id="pencil" onclick="i()">Ellipse</button>
+
+			</div>
+			
+		
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+			var one=document.getElementById('paint');
+			var a1=one.getContext('2d');
+			q=document.getElementById("b");
+			var x,y,n=0,bb=0,color,a,b;
+			
+			function h(){
+				bb=2;
+			}
+			
+			function g(){
+				bb=0;
+
+			}
+			function f(){
+				bb=1;
+			}
+			function i(){
+				bb=3;
+			}	
+			
+				one.addEventListener('mousedown',function(event){
+					color=document.getElementById("color").value;
+					x=event.pageX;
+					y=event.pageY;
+					n=1;
+
+				})
+				one.addEventListener('mousemove',function(event){
+					if(n==1){
+						if(bb==0){
+							a1.beginPath();
+							a1.moveTo(x,y);
+							a1.lineTo(event.pageX,event.pageY);
+							a1.strokeStyle=color;
+							a1.lineWidth=3;
+							a1.stroke();
+							
+							x=event.pageX;
+							y=event.pageY;
+						}
+						if(bb==1){
+							a1.beginPath();
+							a1.moveTo(x,y);
+							a1.strokeStyle="white";
+							a1.lineTo(event.pageX,event.pageY);
+							
+							a1.lineWidth=10;
+							a1.stroke();
+							x=event.pageX;
+							y=event.pageY;
+						}
+						
+						
+
+
+					}
+				})
+				one.addEventListener('mouseup',function(eve){
+					if(n==1){
+						if(bb==0){
+							a1.beginPath();
+							a1.moveTo(x,y);
+							a1.lineTo(eve.pageX,eve.pageY);
+							a1.strokeStyle=color;
+							a1.lineWidth=3;							
+							a1.stroke();
+							x=0;y=0;
+							
+							n=0;
+						}
+						if(bb==1){
+							a1.beginPath();
+							a1.moveTo(x,y);
+							a1.lineTo(eve.pageX,eve.pageY);
+							a1.strokeStyle="white";
+							a1.lineWidth=20;							
+							a1.stroke();
+							x=0;y=0;
+							
+							n=0;
+						}
+						if(bb==2){
+							
+							a1.beginPath();
+							a1.rect(x,y,eve.pageX-x,eve.pageY-y);
+							a1.strokeStyle=color;
+							a1.lineWidth=3;
+							a1.stroke();
+							n=0;
+							x=0;y=0;
+							
+						}
+						if(bb==3){
+							a1.beginPath();
+							var n1=(eve.pageX-x)/2;
+							var n2=(eve.pageY-y)/2;
+							a1.ellipse(x+n1,y+n2,n1,n2,0,0,2*Math.PI);
+							a1.strokeStyle=color;
+							a1.lineWidth=3;
+							a1.stroke();
+							n=0;
+							x=0;y=0;
+
+						}
+				}
+				})
+			
+
+	</script>
+
+
+</body>
