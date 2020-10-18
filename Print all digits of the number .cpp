@@ -1,3 +1,5 @@
+// Print all digits from left to right order of the number. 
+
 #include <iostream>
 
 using namespace std;
