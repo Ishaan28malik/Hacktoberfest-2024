@@ -1,55 +1,117 @@
-#Pushing into the stack
-class Stack:
+class Node:
+    def __init__(self, dataval):
+        self.dataval = dataval
+        self.nextval = None
+        self.preval = None
 
+class CLinkedList:
     def __init__(self):
-        self.stack = []
+        self.headval = None
 
-    def add(self, dataval):
-# Use list append method to add element
-        if dataval not in self.stack:
-            self.stack.append(dataval)
-            return True
+    def AtBeginning(self, newdata):
+        if self.headval == None:
+            NewNode = Node(newdata)
+            self.headval = NewNode
         else:
-            return False
-# Use peek to look at the top of the stack
+            
+            NewNode = Node(newdata)
+            temp = self.headval
+            while temp.nextval is not None:
+                if temp.nextval == self.headval:
+                    break
+                temp = temp.nextval
+            
+            NewNode.preval = temp
+            NewNode.nextval = self.headval
+            self.headval.preval = NewNode
+            self.headval = NewNode
+            temp.nextval = self.headval
 
-    def peek(self):     
-	    return self.stack[-1]
+    def AtEnd(self, newdata):
+        NewNode = Node(newdata)
+        temp = self.headval
+        while temp.nextval is not None:
+            if temp.nextval == self.headval:
+                break
+            temp = temp.nextval
+        temp.nextval = NewNode
+        NewNode.preval = temp
+        NewNode.nextval = self.headval
+        self.headval.preval = NewNode
 
-AStack = Stack()
-AStack.add("Mon")
-AStack.add("Tue")
-AStack.peek()
-print(AStack.peek())
-AStack.add("Wed")
-AStack.add("Thu")
-print(AStack.peek())
-
-#Popping from a stack
-class Stack:
-
-    def __init__(self):
-        self.stack = []
-
-    def add(self, dataval):
-# Use list append method to add element
-        if dataval not in self.stack:
-            self.stack.append(dataval)
-            return True
+    def InBetween(self, middle_node, newdata):
+        temp = self.headval
+        while temp is not None:
+            if temp.dataval == middle_node:
+                break
+            temp = temp.nextval
         else:
-            return False
+            print("Could not find node")
+            return
         
-# Use list pop method to remove element
-    def remove(self):
-        if len(self.stack) <= 0:
-            return ("No element in the Stack")
-        else:
-            return self.stack.pop()
+        NewNode = Node(newdata)
+        NewNode.nextval = temp.nextval
+        NewNode.preval = temp
+        temp.nextval = NewNode
 
-AStack = Stack()
-AStack.add("Mon")
-AStack.add("Tue")
-AStack.add("Wed")
-AStack.add("Thu")
-print(AStack.remove())
-print(AStack.remove())
+    def removeStart(self):
+        temp = self.headval
+        while temp.nextval is not None:
+            if temp.nextval == self.headval:
+                break
+            temp = temp.nextval
+        temp.nextval = self.headval.nextval
+        self.headval.nextval.preval = temp
+        self.headval = self.headval.nextval
+
+    def removeEnd(self):
+        temp = self.headval
+        if temp == None:
+            return
+        else:
+            
+            while temp.nextval is not None:
+                if temp.nextval.nextval == self.headval:
+                    break
+                temp = temp.nextval
+            temp.nextval = self.headval
+            self.headval.preval = temp
+
+    def listprint(self):
+        temp = self.headval
+        if temp == None:
+            return
+        else:
+            while temp.nextval is not None:
+                print(temp.dataval)
+                if temp.nextval == self.headval:
+                    break
+                temp = temp.nextval
+    def listcount(self):
+        temp = self.headval
+        if temp == None:
+            return 0
+        
+        count = 0
+        while temp.nextval is not None:
+            count += 1
+            if temp.nextval == self.headval:
+                break
+            temp = temp.nextval
+        return count
+    
+    def removeMiddle(self, removeKey):
+        temp = self.headval
+        while temp is not None:
+            if temp.nextval.dataval == removeKey:
+                break
+            temp = temp.nextval
+        before = temp
+        key = self.headval
+        while key is not None:
+            if key.dataval == removeKey:
+                break
+            key = key.nextval
+        after = key.nextval
+        before.nextval = after
+        after.preval = before
