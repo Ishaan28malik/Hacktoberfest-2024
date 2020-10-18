@@ -1,3 +1,5 @@
+/* Enter the complete sentence and remove the duplicity from it. */
+
 #include <bits/stdc++.h>
 
 using namespace std;
