@@ -3,7 +3,7 @@
 
 # Happy Coding Fellas !
 
-* When the **Hacktoberfest20** comes to an end , I will be distributing some free Open Source **t-shirts** to a few contributors
+* When the **Hacktoberfest20** comes to an end , We will be distributing some free Open Source **t-shirts** to a few contributors
 
 # What is Hacktoberfest ?
 
@@ -12,6 +12,9 @@ Hacktoberfest is a month-long celebration of open source software in partnership
 # Hacktoberfest-2020
 
 A repository for beginners to create their first Pull Request. 
+
+# What is repository?
+A directory or storage space where your projects can live. It can also be written as repo.
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as ```invalid/spam``` .
 
