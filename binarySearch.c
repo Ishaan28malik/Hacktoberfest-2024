@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//BSearch function
 int BSearch(int array[],int size,int key)
 {
     int start=0,end=size-1,mid;
@@ -11,7 +11,7 @@ int BSearch(int array[],int size,int key)
     while(start<=end)
 
     {
-        mid=(start+end)/2;
+        mid=(start+end)/2;  // mid=(low+high)/2
         if(key==array[mid])
             return mid;
         else if(key<array[mid])
@@ -23,6 +23,7 @@ int BSearch(int array[],int size,int key)
     return -1;
 }
 
+//main function
 int main()
 {
     printf("Hello Binary Search!\n");
