@@ -11,7 +11,7 @@ int BSearch(int array[],int size,int key)
     while(start<=end)
 
     {
-        mid=(start+end)/2;
+        mid=(start+end)/2;  // mid=(low+high)/2
         if(key==array[mid])
             return mid;
         else if(key<array[mid])
