@@ -26,7 +26,12 @@ int BSearch(int array[],int size,int key)
 int main()
 {
     printf("Hello Binary Search!\n");
-    int A[]={2,5,8,9,10,20};
+    int n;
+    scanf("%d",&n);
+    int a[100001];
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i])
+    }
     int ele,index;
     printf("Enter Element to Search: ");
     scanf("%d",&ele);
