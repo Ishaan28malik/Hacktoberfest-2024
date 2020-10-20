@@ -1,0 +1,48 @@
+
+class Employee{
+     int salary;
+     int id;
+     String name;
+     public void printdetail(){
+          System.out.println("My name is " + name +",");
+          System.out.println("And my Id is " + id);
+     }
+
+     public int getsalary(){
+          return salary;
+     }
+}
+
+
+public class code_38_custom_class {
+
+	public static void main(String[] args){
+          System.out.println("This is our custom class!");
+
+          Employee harry = new Employee();
+          Employee john = new Employee();
+
+          // setting the attribute or property for harry
+          harry.id = 12;
+          harry.salary = 12000;
+          harry.name = "Akshit";
+
+
+          // setting the attribute or property for john
+          john.id = 15;
+          john.salary = 15000;
+          john.name = "Harry";
+
+          // printing the attribute
+
+          harry.printdetail();
+          john.printdetail();
+          int salary = john.getsalary();
+          System.out.println("And my salary is " + salary);
+
+          //System.out.println(harry.id);
+          //System.out.println(harry.name);
+
+
+     }
+}
