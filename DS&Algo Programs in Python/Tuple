@@ -1,0 +1,12 @@
+Tuple1 = () 
+print("Initial empty Tuple: ") 
+print (Tuple1)  
+Tuple1 = ('Hello', 'GM') 
+print("\nTuple with the use of String: ") 
+print(Tuple1) 
+listL = [0, 2, 9, 10, 12] 
+print("\nTuple using List: ") 
+print(tuple(listL)) 
+Tuple1 = tuple('Hello') 
+print("\nTuple with the use of function: ") 
+print(Tuple1) 
