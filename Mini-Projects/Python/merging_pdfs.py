@@ -1,5 +1,5 @@
 #INSTALL -> PyPDF2
-#FORMAT ->  python3 merging_two_pdfs.py filename1 filename2
+#FORMAT ->  python3 merging_pdfs.py filename1 filename2
 
 import PyPDF2
 import sys
