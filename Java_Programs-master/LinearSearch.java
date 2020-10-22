@@ -22,7 +22,7 @@ class LinearSearchExample
       {
          if (array[counter] == item) 
          {
-           System.out.println(item+" is present at location "+(counter+1));
+           System.out.println(item + " is present at location " + (counter+1));
            /*Item is found so to stop the search and to come out of the 
             * loop use break statement.*/
            break;
