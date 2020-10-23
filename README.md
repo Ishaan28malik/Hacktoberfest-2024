@@ -7,7 +7,7 @@
 
 # What is Hacktoberfest ?
 
-Hacktoberfest is a month-long celebration of open source software in partnership with Github .
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a month-long celebration of open source software in partnership with [Github](https://github.com/) .
 
 # Hacktoberfest-2020
 
