@@ -8,3 +8,6 @@
 * [React Patterns](https://reactpatterns.com/)
 * [Modern CSS](https://moderncss.dev/)
 * [MDN](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)
+* [Vue crash course](https://www.youtube.com/watch?v=g4g2TlTMXXQ)
+* [Angular crash course](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
+* [Front-end developer crash course](https://www.youtube.com/watch?v=8gNrZ4lAnAw)
