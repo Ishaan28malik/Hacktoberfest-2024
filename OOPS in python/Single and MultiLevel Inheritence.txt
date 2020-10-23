@@ -1,0 +1,38 @@
+
+#-------Simple Inheritence------#
+
+#class1 (Parent Class)
+
+class Mobile:
+  #method1
+  def Samsung(self):
+    print("Samsung Galaxy Mobiles")
+
+#class2 (Child Class)
+#inherits from class1 
+class Mobile1(Mobile):
+  #method2
+  def Apple(self):
+    print("Iphone Series")
+
+#----End Simple Inheritence------#
+
+# for multilevel inheritence
+# include class3 (subchild)
+
+#----- MultiLevel Inheritence ----#
+
+#class3
+class Mobile2(Mobile1):
+  #method3
+  def Oneplus(self):
+    print("One Plus phones") 
+
+#object creation
+s = Mobile2()
+
+#accessing methods from objects
+s.Apple()
+s.Samsung()
+# include for multiple inheritence
+s.Oneplus()
