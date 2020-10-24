@@ -53,7 +53,7 @@ h1{
 	transition: 0.2s;
 }
 
-li:hover .fa-trash{
+li:hover fa-trash{
 	width: 35px;
 	height: 100;
 	cursor: pointer;
