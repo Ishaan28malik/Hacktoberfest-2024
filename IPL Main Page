@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day3</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="Settings.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="js/ipl.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="py-2 bg-secondary text-black">
+            <h1 class="display-4 text-center">Heraizen Day-4</h1>
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mt-5">
+            <h5 class="bg-light text-dark text-center">Players</h5>
+            <select  class=" mt-10 ml-5" onchange="startwork()" name="drop1" id="select1">
+                <option  class=" mt-10 ml-5" value="" >Select team</option>
+            </select>
+            <div class="mt-2" id="b"></div>
+        </div>
+        <div class="col-4">
+          <div id="piechart">
+          </div>
+        </div>
+        </div>
+      </div>
+ 
+</body>
+</html>
