@@ -6,8 +6,8 @@ void merge(int arr[], int beg, int mid, int end)
 int l = mid - beg + 1;  
 int r = end - mid;  
   
-intLeftArray[] = new int [l];  
-intRightArray[] = new int [r];  
+int LeftArray[] = new int [l];  
+int RightArray[] = new int [r];  
   
 for (int i=0; i<l; ++i)  
 LeftArray[i] = arr[beg + i];  
@@ -59,7 +59,7 @@ merge(arr, beg, mid, end);
 }  
 public static void main(String args[])  
 {  
-intarr[] = {90,23,101,45,65,23,67,89,34,23};  
+int arr[] = {90,23,101,45,65,23,67,89,34,23};  
 MyMergeSort ob = new MyMergeSort();  
 ob.sort(arr, 0, arr.length-1);  
   
