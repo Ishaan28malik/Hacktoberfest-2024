@@ -35,6 +35,7 @@ class UnionOfTwoArrays
                 brr[i] = val;
                 s.add(brr[i]);
             }
+	//now print the size of hashset
             System.out.println(s.size());
         }
     }
