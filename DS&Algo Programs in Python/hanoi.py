@@ -1,9 +1,13 @@
-def hanoi(n, from_rod, to_rod, aux_rod):
-    if n == 1:
-        print("Move disk 1 from rod", from_rod, "to rod", to_rod)
+def towers(num,frompeg,topeg,auxpeg):
+    if (num == 1):
+        print("Move disk 1 from peg %c to peg %c"% (frompeg, topeg))
         return
-    hanoi(n-1, from_rod, aux_rod, to_rod)
-    print("Move disk", n, "from rod", from_rod, "to_rod", to_rod)
-    hanoi(n-1, aux_rod, to_rod, from_rod)
+    towers(num - 1, frompeg, auxpeg, topeg)
+    print("Move disk %d from peg %c to peg %c"% (num, frompeg, topeg))
+    towers(num - 1, auxpeg, topeg, frompeg)
 
-hanoi(3, 'A', 'C', 'B')
+
+print("Enter the number of disks : ")
+num=int(input())
+print("The sequence of moves involved in the Tower of Hanoi are :")
+towers(num, 'A', 'B', 'C')
