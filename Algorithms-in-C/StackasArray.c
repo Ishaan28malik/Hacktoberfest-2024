@@ -10,8 +10,7 @@ void push(int arr[])
     {
         printf("Enter a Number for insertion=");
         scanf("%d",&num);
-        top++;
-        arr[top]=num;
+        arr[++top]=num;
         printf("Element Inserted Successfully!!!");
     }
 }
@@ -22,8 +21,7 @@ void pop(int arr[])
     else
     {
         int x;
-        x=arr[top];
-        top--;
+        x=arr[top--];
         printf("Deleted Element=%d",x);
     }
 }
