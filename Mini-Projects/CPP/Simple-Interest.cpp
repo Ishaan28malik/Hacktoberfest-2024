@@ -1,5 +1,6 @@
 #include<iostream>
 #include <stdio.h>
+
 using namespace std;
 int main() {
    //principle amount
@@ -12,5 +13,6 @@ int main() {
    float SI = 0;
    SI =(p * t * r) / 100;
    printf("Simple Interest = %f ",SI);
+  
    return 0;
 }
