@@ -6,13 +6,12 @@ if file:
     for lines in file:
         lines = lines.rstrip()
         words = lines.split()
-        if words.count(pattern) > 0:
-            for word in words:
-                if word in d:
-                    d[word] += 1
-                else:
-                    d[word] = 1
-        else:
-            print(pattern, ' does not exist in the given file.')
-
-print('The frequency of the word ', pattern, ' is ', d[pattern])
+        for word in words:
+            if word in d:
+                d[word] += 1
+            else:
+                d[word] = 1
+if words.count(pattern) > 0:
+  print('The frequency of the word ', pattern, ' is ', d[pattern])
+else:
+  print('{} does not exist in the given file.'.format(pattern))
