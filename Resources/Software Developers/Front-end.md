@@ -11,3 +11,4 @@
 * [Vue crash course](https://www.youtube.com/watch?v=g4g2TlTMXXQ)
 * [Angular crash course](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
 * [Front-end developer crash course](https://www.youtube.com/watch?v=8gNrZ4lAnAw)
+* [30 days of React](https://www.newline.co/fullstack-react/30-days-of-react/)
