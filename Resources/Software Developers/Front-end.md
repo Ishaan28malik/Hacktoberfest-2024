@@ -11,3 +11,5 @@
 * [Vue crash course](https://www.youtube.com/watch?v=g4g2TlTMXXQ)
 * [Angular crash course](https://www.youtube.com/watch?v=Fdf5aTYRW0E)
 * [Front-end developer crash course](https://www.youtube.com/watch?v=8gNrZ4lAnAw)
+* [Front-end development playlist](https://www.youtube.com/playlist?list=PLTjRvDozrdlw5En5v2xrBr_EqieHf7hGs)
+
