@@ -13,3 +13,5 @@
 * [Front-end developer crash course](https://www.youtube.com/watch?v=8gNrZ4lAnAw)
 * [W3schools](https://www.w3schools.com/)
 * [CSS-Tricks](https://css-tricks.com/)
+* [Learn React JS - Full Course for Beginners - Freecodecamp](https://www.youtube.com/watch?v=DLX62G4lc44)
+* [Learn SASS - Tutorialspoint](https://www.tutorialspoint.com/sass/index.htm)
