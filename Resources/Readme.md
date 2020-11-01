@@ -6,6 +6,8 @@
 # Redis
 [The art of caching, with Redis](https://medium.com/@dltlabs/the-art-of-caching-with-redis-eaaa89ae74be)
 
+[intro to redis](https://www.tutorialspoint.com/redis/index.htm)
+
 # Plugin 
 [query-builder-redis](https://www.npmjs.com/package/query-builder-redis)
 
