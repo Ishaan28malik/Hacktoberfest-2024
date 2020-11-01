@@ -12,6 +12,8 @@
 # React Native
 [react-native-device-info](https://github.com/react-native-community/react-native-device-info)
 
+[react-native-elements](https://reactnativeelements.com/)
+
 [Animation library to help make lives of developers easier lottie-ios](https://github.com/airbnb/lottie-ios)
 
 # Yeoman
