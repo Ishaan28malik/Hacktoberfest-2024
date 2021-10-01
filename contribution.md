@@ -4,7 +4,7 @@
 ## Open the New issues sections and check the issues that you think suits you.
 
 ### Also open "this folder" and include the link of good developer resources and also have a look at the existing resources that you think are useful for you and keep exploring .
-## we are working on making this as a web app and need an update on that with you all so for Hacktoberfest 2020 we want it to be completed by Mid October and for the same have a look at the existing isssues.
+## we are working on making this as a web app and need an update on that with you all so for Hacktoberfest 2020 we want it to be completed by Mid October and for the same have a look at the existing issues.
 
 # OR
 
