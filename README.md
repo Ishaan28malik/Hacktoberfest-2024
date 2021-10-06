@@ -9,7 +9,7 @@
 
 Hacktoberfest is a month-long celebration of open source software in partnership with Github.
 
-# Hacktoberfest-2020
+# Hacktoberfest-2021
 
 A repository for beginners to create their first Pull Request. 
 
@@ -23,15 +23,15 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
 
-### Step 1: Register at [Hactoberfest-2020](https://hacktoberfest.digitalocean.com/) using your github id.
+### Step 1: Register at [Hactoberfest-2021](https://hacktoberfest.digitalocean.com/) using your github id.
 
 ### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
 
 ## Stack that is welcome for PRs
-<img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/Assets/stack.png" />
+<img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2021/blob/master/Assets/stack.png" />
 
 ### Step 3: Make a new branch other than master using ```git checkout -b branch_name```
-## and then read [contribution.md](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/contribution.md)
+## and then read [contribution.md](https://github.com/Ishaan28malik/Hacktoberfest-2021/blob/master/contribution.md)
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as ```invalid/spam``` .
 
