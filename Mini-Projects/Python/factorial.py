@@ -1,16 +1,8 @@
-num = int(input('Enter the number: '))
 
-factorial = 1
+x,factorial = int(input("Enter a number: ")),1
+for n in range(x):
+    factorial *= (n+1)
+print("Factorial of",x,"is",str(factorial))
 
-if num<0:
-  print("Factorial doesn't exist")  
 
-elif num==0:
-  print("Factorial is 1")
 
-else:
-  for i in range(1,num+1):
-    factorial = factorial*i
-    
-
-  print("Factorial is",factorial)    
