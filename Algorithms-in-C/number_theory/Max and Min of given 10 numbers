@@ -1,0 +1,34 @@
+/*
+
+Find the minimum and maximum number. 
+INPUT BY USER only 10 numbers are allowed
+
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+
+	int i, num[10], max, min;
+	
+	printf("\n Please Enter 10 number : ");
+	
+	// Take data from User
+	for(i=0;i<10;i++)
+		scanf("%d", &num[i]);
+
+	max = min = num[0];
+	
+	// main Algo
+	for(i=1;i<10;i++)
+	{	
+		if(max < num[i])
+			max = num[i];
+		if(min > num[i])
+			min = num[i];
+	}
+
+	
+	printf("\nMaximum = %d\nMinimum = %d", max, min);
+	return 0;
+}
