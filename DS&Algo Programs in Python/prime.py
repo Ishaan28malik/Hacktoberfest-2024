@@ -1,8 +1,13 @@
 n = int(input("Enter a number: "))
-for i in range(1, n+1):
-    count = 0
-    for j in range(1, n+1):
-        if i%j==0:
-            count= count+1
-    if count==2:
-        print(i)
+if(n%2!=0):
+    n=n+1
+for i in range(2, n/2):
+    if(n/2==0):
+        f=0
+        break
+    else:
+        f=1
+if(f==1):
+    print("Prime")
+else:
+    print("Not Prime")
