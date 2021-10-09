@@ -40,3 +40,4 @@
 * [W3schools](https://www.w3schools.com/)
 * [CSS-Tricks](https://css-tricks.com/)
 * [Getting Started with Three.js](https://aerotwist.com/tutorials/getting-started-with-three-js/)
+* [HTML Cheat Sheet](https://html.com/wp-content/uploads/html-cheat-sheet.pdf)
