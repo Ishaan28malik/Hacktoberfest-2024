@@ -1,0 +1,23 @@
+# Decorators are very powerful and useful tool in Python 
+# since it allows programmers to modify the behavior of 
+# function or class. Decorators allow us to wrap another 
+# function in order to extend the behavior of wrapped function, 
+# without permanently modifying it.
+
+print("\n")
+
+def deco(fun1):
+    def nowexecu():
+        print("Executing now")
+        fun1()
+        print("Executed")
+    return nowexecu
+
+@deco
+def fun2():
+    print("He is a good boy")
+
+# fun2 = deco(fun2)
+fun2()
+
+print("\n")
