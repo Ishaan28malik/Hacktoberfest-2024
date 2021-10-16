@@ -1,5 +1,5 @@
 # THE LAW OF LARGE NUMBERS
-# Gaussian fitting for random variables
+# Gaussian fitting for random variables in python
 
 print('---------------------------------------------------------------------------------------------------------------------')
 
