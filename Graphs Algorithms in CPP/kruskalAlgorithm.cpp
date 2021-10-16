@@ -2,6 +2,7 @@
 // Spanning Tree of a given connected, undirected and
 // weighted graph
 
+//program starts from here 
 
 #include<bits/stdc++.h>
 using namespace std;
