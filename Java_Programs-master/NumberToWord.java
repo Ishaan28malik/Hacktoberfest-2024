@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class NumberToWord {
 
 	public static void main(String[] args) {
@@ -37,7 +39,7 @@ public class NumberToWord {
 		}
 
 		if (n < 10000000) {
-			return convert(n / 100000) + " " + "lakh" + (n % 10000000!= 0 ? tens[1] : tens[0]) + convert(n % 100000);
+			return convert(n / 100000) + " " + "lakh" + (n % 10000000 != 0 ? tens[1] : tens[0]) + convert(n % 100000);
 		}
 
 		return "The number is not possible to convert";
