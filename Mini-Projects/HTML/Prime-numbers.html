@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>JavaScript to print prime numbers!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function printPrime() {
+var i = 0;
+var j = 0;
+
+limit = document.getElementById('limit').value;
+for (i = 1; i <= limit; i++) {
+c = 0;
+for (j = 1; j <= i; j++) {
+if (i % j == 0) {
+c++;
+}
+}
+if (c == 2) {
+document.getElementById("result").insertAdjacentHTML('beforeend',i + '<br>');
+}
+}
+}
+</script>
+</head>
+<body>
+<h2>JavaScript to print Prime numbers!</h2>
+Enter the limit:  <input type="number" name="limit" id="limit" min="0" style="width: 100px;" />&nbsp;<input type="submit" value="Print Prime Numbers" onclick="printPrime()" name="print" />
+<div id="result"></div>
+</body>
+</html>
