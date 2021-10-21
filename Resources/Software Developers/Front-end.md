@@ -40,3 +40,8 @@
 * [W3schools](https://www.w3schools.com/)
 * [CSS-Tricks](https://css-tricks.com/)
 * [Getting Started with Three.js](https://aerotwist.com/tutorials/getting-started-with-three-js/)
+* [Treehouse](https://teamtreehouse.com/)
+* [Fullstack Advanced React & GraphQL](https://advancedreact.com/)
+* [CSS grid](https://cssgrid.io/)
+* [Mastering Next.js](https://masteringnextjs.com/)
+* [egghead.io](https://egghead.io/)
