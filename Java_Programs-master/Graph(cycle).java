@@ -3,53 +3,56 @@
 
 import java.util.*;
 class GraphCycle{
-	int v;
-	LinkedList<Integer> adj[];
-	GraphCycle(int v){
-		this.v=v;
-		adj=new LinkedList[v];
-		for(int i=0;i<v;i++)
-			adj[i]=new LinkedList<>();
-	}
-	private boolean isCyclicUtil(int i,boolean[] visited,boolean[] recstack)
-	{
-		if(recstack[i])
-			return true;
-		if(visited[i])
-			return false;
-		visited[i]=true;
-		recstack[i]=true;
-		List<Integer> child=adj[i];
-		for(Integer c:child)
-			if(isCyclicUtil(c,visited,recstack))
-				return true;
-		recstack[i]=false;
-		return false;
-	}
-	private boolean isCyclic()
-	{
-		boolean[] visited=new boolean[v];
-		boolean[] recstack=new boolean[v];
-		
-		for(int i=0;i<v;i++)
-			if(isCyclicUtil(i,visited,recstack))
-				return true;
-		return false;
-	}
-	private void addEdge(int Start,int End){
-		adj[Start].add(End);
-	}
-	public static void main(String[] args) 
+	static void addEdge(ArrayList<ArrayList<Integer>> adj, int u, int v) 
 	{ 
-		GraphCycle graph = new GraphCycle(4); 
-		graph.addEdge(0, 1); 
-		graph.addEdge(0, 2); 
-		graph.addEdge(1, 2); 
-		graph.addEdge(2, 0); 
-		graph.addEdge(2, 3); 
-		graph.addEdge(3, 3); 
+		adj.get(u).add(v); 
+		adj.get(v).add(u); 
+	} 
+
+	static boolean DFSRec(ArrayList<ArrayList<Integer>> adj,int s, boolean[] visited, int parent) 
+	{ 
+    	visited[s]=true;
+        
+        for(int u:adj.get(s)){
+            if(visited[u]==false){
+                if(DFSRec(adj,u,visited,s)==true)
+                    {return true;}}
+            else if(u!=parent)
+                {return true;}
+        }
+        return false;
+	} 
+	
+	static boolean DFS(ArrayList<ArrayList<Integer>> adj, int V){
+	    boolean[] visited=new boolean[V]; 
+    	for(int i = 0; i<V; i++) 
+    		visited[i] = false;
+    		
+        for(int i=0;i<V;i++){
+            if(visited[i]==false)
+                if(DFSRec(adj,i,visited,-1)==true)
+                    return true;
+        }
+        return false;
+	}
+
+	public static void main(String[] args) 
+	{  
+		int V = 6; 
+		ArrayList<ArrayList<Integer> > adj = new ArrayList<ArrayList<Integer>>(V); 
 		
-		if(graph.isCyclic()) 
+		for (int i = 0; i < V; i++) 
+			adj.add(new ArrayList<Integer>()); 
+
+			addEdge(adj,0,1); 
+        	addEdge(adj,1,2); 
+        	addEdge(adj,2,4); 
+        	addEdge(adj,4,5); 
+        	addEdge(adj,1,3);
+        	addEdge(adj,2,3);
+		
+		
+		if(DFS(adj,V)==true) 
 			System.out.println("Graph contains cycle"); 
 		else
 			System.out.println("Graph doesn't "
