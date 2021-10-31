@@ -1,4 +1,5 @@
 #First 100 Fibonacci Series
+
 a=0
 b=1
 index=0
