@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" >  
+    {% endblock css %}
+
+{% block title %} Home {% endblock title %}
+
+{% block body %}
+
+    <div class="container my-3">
+      <h2>Add a Todo</h2>
+      <form action="/"  method="POST">
+        <div class="mb-3">
+          <label for="title" class="form-label">ToDo Title</label>
+          <input type="text" class="form-control" name = "title" id="title" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="desc" class="form-label">ToDo Description</label>
+          <input type="text" class="form-control" name = "desc" id="desc">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <div class="container my-3">
+      <h2>Your ToDos</h2>
+    
+          {% if all_todos|length == 0 %}
+          <div class="alert alert-primary" role="alert">
+            No ToDos found. Add your first ToDo now!
+          </div>
+
+         
+            
+          {% else %}
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">SNo</th>
+                <th scope="col">Title</th>
+                <th scope="col">Description</th>
+                <th scope="col">Time</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+
+          {% for todo in all_todos %}
+          
+          <tr>
+            <th scope="row">{{loop.index}}</th>
+            <td>{{todo.title}}</td>
+            <td>{{todo.desc}}</td>
+            <td>{{todo.date_created}}</td>
+            <td>
+              <a href="/update/{{todo.sno}}" type="button" class="btn btn-outline-primary btn-sn mx-1">Update</button>
+                <a href="/delete/{{todo.sno}}" type="button" class="btn btn-outline-primary btn-sn mx-1">Delete</button>
+              </td>
+          </tr>
+        
+          {% endfor %}
+
+        </tbody>
+      </table>
+          {% endif %}
+          
+        
+    </div>
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  
+    {% endblock body %}

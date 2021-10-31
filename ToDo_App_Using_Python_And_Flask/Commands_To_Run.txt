@@ -1,0 +1,23 @@
+# Hosted on : https://todo-vikrantshah.herokuapp.com/
+
+# Requirements :
+# Heroku account created on : https://signup.heroku.com/
+# Heroku CLI (https://devcenter.heroku.com/articles/heroku-cli) downloaded as per your OS and installed on your machine
+# Git (https://git-scm.com/downloads) downloaded as per your OS and installed on your machine
+
+# Run the following commands on your CMD or VS code terminal
+heroku login
+
+pip install gunicorn
+pip freeze requirements.txt
+
+# Make a "Procfile" and it's contents should be
+web:gunicorn app:app
+
+git init
+git add .
+git commit -m "Initial commmit"
+
+heroku create todo-yourname
+git remote -v
+git push heroku master
