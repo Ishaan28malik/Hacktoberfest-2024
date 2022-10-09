@@ -63,7 +63,7 @@ function rpsgame(yourchoice) {
     var botdiv = document.createElement('div');
     var messdiv = document.createElement('div');
     humandiv.innerHTML = "<img src= '" + imagedatabases[humanimagechoice] + "'height = 150 width=150 style = 'box-shadow:0px 10px 50px rgba(37,50,233,1);' >";
-    messdiv.innerHTML = "<h1 style = 'color: " + finalmessage['color'] + ";font-size:60px;padding:30px;'>" + finalmessage['message'] + "</h1>";
+    messdiv.innerHTML = "<h1 style = 'color: " + finalmessage.color + ";font-size:60px;padding:30px;'>" + finalmessage.message + "</h1>";
     botdiv.innerHTML = "<img src= '" + imagedatabases[botimagechoice] + "'height = 150 width=150 style = 'box-shadow:0px 10px 50px red;' >";
 
 
@@ -74,7 +74,7 @@ function rpsgame(yourchoice) {
 
     document.getElementById('rps-box').appendChild(botdiv);
 
-    let element = document.querySelector('#rps-box');
+    var element = document.querySelector('#rps-box');
     element.style.backgroundColor = 'black';
 
 
