@@ -35,13 +35,13 @@ function rpsgame(yourchoice) {
   function finalmessage(var [yourscore, computerscore]) {
     if (yourscore == 0) {
       return ({ "message": 'You lost', "color": "red" });
-    };
+    }
     else if (yourscore == 0.5) {
       return ({ "message": 'You Tied', "color": "yellow" });
-    };
+    }
     else {
       return ({ "message": 'You Won', "color": "green" });
-    };
+    }
 
   }
   function rpsfrontend(humanimagechoice, botimagechoice, finalmessage) {
