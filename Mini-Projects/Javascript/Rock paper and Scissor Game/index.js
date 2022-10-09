@@ -1,13 +1,13 @@
 function rpsgame(yourchoice) {
-    let humanchoice, botchoice;
+    var humanchoice, botchoice;
     humanchoice = yourchoice.id;
     console.log('Human choice is:', humanchoice);
     botchoice = numtochoices(randrps());
 
     console.log("Bot choice is :", botchoice);
-    let results = decidewinner(humanchoice, botchoice);
+    var results = decidewinner(humanchoice, botchoice);
     console.log(results);
-    let message = finalmessage(results);
+    var message = finalmessage(results);
     console.log(message);
     rpsfrontend(humanchoice, botchoice, message);
 
@@ -20,14 +20,14 @@ function rpsgame(yourchoice) {
     return (['rock', 'scissor', 'paper'][number]);
   }
   function decidewinner(yourchoice, computerchoice) {
-    let rpsdatabase = {
+    var rpsdatabase = {
       'rock': { 'rock': 0.5, 'paper': 0, 'scissor': 1 },
       'paper': { 'rock': 1, 'paper': 0.5, 'scissor': 0 },
       'scissor': { 'rock': 0, 'paper': 1, 'scissor': 0.5 },
 
     }
-    let yourscore = rpsdatabase[yourchoice][computerchoice];
-    let computerscore = rpsdatabase[computerchoice][yourchoice];
+    var yourscore = rpsdatabase[yourchoice][computerchoice];
+    var computerscore = rpsdatabase[computerchoice][yourchoice];
     return ([yourscore, computerscore])
 
 
@@ -46,7 +46,7 @@ function rpsgame(yourchoice) {
   }
   function rpsfrontend(humanimagechoice, botimagechoice, finalmessage) {
 
-    let imagedatabases = {
+    var imagedatabases = {
 
       'rock': document.getElementById('rock').src,
       'paper': document.getElementById('paper').src,
@@ -59,9 +59,9 @@ function rpsgame(yourchoice) {
     document.getElementById('paper').remove();
     document.getElementById('scissor').remove();
 
-    let humandiv = document.createElement('div');
-    let botdiv = document.createElement('div');
-    let messdiv = document.createElement('div');
+    var humandiv = document.createElement('div');
+    var botdiv = document.createElement('div');
+    var messdiv = document.createElement('div');
     humandiv.innerHTML = "<img src= '" + imagedatabases[humanimagechoice] + "'height = 150 width=150 style = 'box-shadow:0px 10px 50px rgba(37,50,233,1);' >";
     messdiv.innerHTML = "<h1 style = 'color: " + finalmessage['color'] + ";font-size:60px;padding:30px;'>" + finalmessage['message'] + "</h1>";
     botdiv.innerHTML = "<img src= '" + imagedatabases[botimagechoice] + "'height = 150 width=150 style = 'box-shadow:0px 10px 50px red;' >";
