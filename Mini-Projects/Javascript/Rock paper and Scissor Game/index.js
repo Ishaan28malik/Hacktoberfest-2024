@@ -11,27 +11,27 @@ function rpsgame(yourchoice) {
     console.log(message);
     rpsfrontend(humanchoice, botchoice, message);
 
-  };
+  }
 
   function randrps() {
     return (Math.floor((Math.random() * 3) + 0));
-  };
+  }
   function numtochoices(number) {
     return (['rock', 'scissor', 'paper'][number]);
-  };
+  }
   function decidewinner(yourchoice, computerchoice) {
     var rpsdatabase = {
       'rock': { 'rock': 0.5, 'paper': 0, 'scissor': 1 },
       'paper': { 'rock': 1, 'paper': 0.5, 'scissor': 0 },
       'scissor': { 'rock': 0, 'paper': 1, 'scissor': 0.5 },
 
-    };
+    }
     var yourscore = rpsdatabase[yourchoice][computerchoice];
     var computerscore = rpsdatabase[computerchoice][yourchoice];
     return ([yourscore, computerscore]);
 
 
-  };
+  }
   function finalmessage([yourscore, computerscore]) {
     if (yourscore == 0) {
       return ({ "message": 'You lost', "color": "red" });
@@ -43,7 +43,7 @@ function rpsgame(yourchoice) {
       return ({ "message": 'You Won', "color": "green" });
     };
 
-  };
+  }
   function rpsfrontend(humanimagechoice, botimagechoice, finalmessage) {
 
     var imagedatabases = {
@@ -78,5 +78,5 @@ function rpsgame(yourchoice) {
     element.style.backgroundColor = 'black';
 
 
-  };
+  }
 
