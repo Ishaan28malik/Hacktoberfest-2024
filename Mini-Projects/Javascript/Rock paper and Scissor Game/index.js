@@ -32,7 +32,7 @@ function rpsgame(yourchoice) {
 
 
   }
-  function finalmessage(var [yourscore, computerscore]) {
+  function finalmessage([yourscore,computerscore]) {
     if (yourscore == 0) {
       return ({ "message": 'You lost', "color": "red" });
     }
