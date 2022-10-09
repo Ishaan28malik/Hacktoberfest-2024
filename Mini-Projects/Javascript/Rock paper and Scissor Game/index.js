@@ -28,19 +28,19 @@ function rpsgame(yourchoice) {
     };
     var yourscore = rpsdatabase[yourchoice][computerchoice];
     var computerscore = rpsdatabase[computerchoice][yourchoice];
-    return ([yourscore, computerscore])
+    return ([yourscore, computerscore]);
 
 
   };
   function finalmessage([yourscore, computerscore]) {
     if (yourscore == 0) {
-      return ({ "message": 'You lost', "color": "red" })
+      return ({ "message": 'You lost', "color": "red" });
     };
     else if (yourscore == 0.5) {
-      return ({ "message": 'You Tied', "color": "yellow" })
+      return ({ "message": 'You Tied', "color": "yellow" });
     };
     else {
-      return ({ "message": 'You Won', "color": "green" })
+      return ({ "message": 'You Won', "color": "green" });
     };
 
   };
