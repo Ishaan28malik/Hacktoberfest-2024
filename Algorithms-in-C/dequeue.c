@@ -5,7 +5,7 @@ queue and before deletion we have to check whether the queue is empty or not.
 Also deletion is done through "front" pointer.
 
 */
-
+//Dequeue operation done to delete elements
 void dequeue(){
 	int element;
 	if(isEmpty()){
