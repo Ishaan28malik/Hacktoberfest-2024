@@ -292,3 +292,5 @@ Go is expressive, concise, clean, and efficient. It's concurrency mechanisms mak
 
 ### License
 This repository follows [MIT](https://github.com/Ishaan28malik/Hacktoberfest-2020/blob/master/LICENSE) License.
+
+<h1>Made with ❤️ by ISHAN MALIK</h1>
