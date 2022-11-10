@@ -37,7 +37,7 @@ int isFull(){
 	if(rear >= max-1){
 		return 1;
 	}
-	elase{
+	else{
 		return 0;
 	}
 }
