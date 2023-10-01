@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+    <nav>
+        <ul>
+            <li type="none"><a href="#">Home</a></li>
+            <li type="none"><a href="#">About</a></li>
+            <li type="none"><a href="#">Contact</a></li>
+        </ul>
+        <div class="search-field">
+            <input type="text" placeholder="Search"/>
+            <button>Search</button>
+        </div>
+    </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero-section-left">
+        <h1>Hello,I am a <span>Web<br> Developer</span><br></h1>
+       
+        <p>I am aspiring <span>Full Stack Javascript<br>Developer,<br></span>
+         who is currently working as <span>Freelancer</span> for <br><span>National and International Client.</span> 
+        </p>
+        </div>
+
+        <div class="hero-section-right">
+            <img src="C:\Users\Neharika\Downloads\download.png" alt="Brand Ambassdor Image" height="300px" width="300px">
+            <div>
+                <button>Chat with us</button>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <p>Copywrite @ 2022 LOGO.All rights reversed.</p>
+        <ul>
+            <li type="none"><a href=""><i class="fa-brands fa-github"></i></a></li>
+            <li type="none"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li type="none"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
