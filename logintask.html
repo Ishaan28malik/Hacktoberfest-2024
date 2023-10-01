@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 8px);
+            margin: 2px;
+            padding: 4px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-box {
+            text-align: center;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .circle {
+            background-color: #007bff;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin: 5px;
+        }
+
+        .form-group label {
+            display: block;
+            text-align: left;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .remember-me {
+            display: flex;
+            align-items: center;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .button-container .btn {
+            background-color: #0c5e2d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .other-options {
+            display: flex;
+            justify-content: space-between;
+            background-color: #ccc; /* Grey background */
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px; /* Rounded bottom corners */
+        }
+
+        .other-options .btn1 {
+            background-color: #e12727;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            width: 20%;
+            cursor: pointer;
+        }
+
+        .other-options #forgot-password {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="circle">
+                <div>Logo</div>
+            </div>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="button-container">
+                <button class="btn">Login</button>
+            </div>
+            <br>
+            <div class="remember-me">
+                <input type="checkbox" id="remember" name="remember"> <label for="remember">Remember me</label>
+            </div>
+            <br>
+            <div class="other-options">
+                <button class="btn1" id="cancel">Cancel</button>
+                <a href="#" id="forgot-password"><u>Forgot Password?</u></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
