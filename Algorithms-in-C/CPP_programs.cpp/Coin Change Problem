@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int coinChange(vector<int>& coins, int amount) {
+    // Initialize a table to store the minimum number of coins for each amount.
+    vector<int> dp(amount + 1, amount + 1);
+    
+    // There are 0 coins needed for amount 0.
+    dp[0] = 0;
+    
+    // Calculate the minimum number of coins for each amount from 1 to the given amount.
+    for (int i = 1; i <= amount; i++) {
+        for (int coin : coins) {
+            if (i >= coin) {
+                dp[i] = min(dp[i], dp[i - coin] + 1);
+            }
+        }
+    }
+    
+    // If dp[amount] remains unchanged (amount + 1), it means no combination of coins can make up the amount.
+    return dp[amount] > amount ? -1 : dp[amount];
+}
+
+int main() {
+    vector<int> coins = {1, 2, 5};
+    int amount = 11;
+    
+    int minCoins = coinChange(coins, amount);
+    
+    if (minCoins == -1) {
+        cout << "It is not possible to make up the amount." << endl;
+    } else {
+        cout << "Minimum number of coins required: " << minCoins << endl;
+    }
+    
+    return 0;
+}
