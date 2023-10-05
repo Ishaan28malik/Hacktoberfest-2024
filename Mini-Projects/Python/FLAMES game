@@ -1,0 +1,36 @@
+firstPerson = input()
+secondPerson = input()
+
+# creating an empty string to input only the non-common alphabets from both the names
+flameString = ""  
+
+# Removing common characters from str1 which are also in str2
+for i in range(len(firstPerson)):
+    if firstPerson[i] not in secondPerson:
+        flameString += firstPerson[i]
+
+# Removing common characters from str2 which are also in str1
+for i in range(len(secondPerson)):
+    if secondPerson[i] not in firstPerson:
+        flameString += secondPerson[i]
+
+flamesCount = len(flameString)  # Taking the length of the string after removing all the common alphabets
+
+
+listOfAlpha = ['Frienship', 'Love', 'Affection', 'Marriage', 'Enemy', 'Siblings']
+
+# F - Friendship
+# L - Love
+# A - Affection
+# M - Marriage
+# E - Enemy
+# S - Siblings
+
+# FLAMES game logic
+while len(listOfAlpha) > 1:
+    index = flamesCount % len(listOfAlpha) - 1
+    if index < 0:
+        index = len(listOfAlpha) - 1
+    listOfAlpha = listOfAlpha[index + 1:] + listOfAlpha[:index]
+
+print("Relationship:", listOfAlpha[0])
