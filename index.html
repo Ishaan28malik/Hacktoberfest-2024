@@ -4,8 +4,130 @@
   <meta charset="UTF-8">
   <title>Document</title>
 </head>
+<style>
+*{
+    box-sizing: border-box;
+}
+
+.links:hover {
+   border-bottom: 2px solid purple;
+
+}
+
+header img { 
+    margin-top: 8px;
+    padding-top: 15px;
+    height: 100px;
+    width: 200px;
+    
+}
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 150vh;
+    background-size: cover;
+    background-image: url(https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+nav a:hover {
+    
+    color: #fff; 
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; /* Text shadow for shine */
+}
+
+nav {
+    
+    margin-left: 70px;
+}
+header {
+    height: 80px;
+    
+    display: flex;
+    padding: 40px;
+    
+    align-items: center;
+    align-content: flex-end;
+}
+header *{
+    display: inline;
+}
+
+
+.bob1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    text-align: left;
+    padding: 100px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    background-image: 
+    text-align: center;
+}
+
+.register-button {
+    display: inline-block;
+    background: #fff;
+    color: rgb(26, 11, 26);
+    cursor: pointer;
+    border-radius: 1%;
+    margin-left: 50px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    position: absolute;
+    text-decoration: dotted;
+    text-transform: uppercase;
+}
+
+
+.register-button:hover {
+    background-color: rgb(26, 11, 26); 
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff; /* Text shadow for shine */
+
+    color: #fff;
+    
+
+}
+
+</style>
 <body>
-  <h1>Hacktoberfest-2020
-</h1>
-</body>
+    <header>
+        <img src="https://uploads-ssl.webflow.com/62a8755be8bcc86e6307def8/6510f8fda2dc726c974d2fae_hf23Hero.svg" alt="">
+        
+        <nav>
+            <div class="link">
+                <a class="links" href="#">PARTICIPATION</a>
+                <a class="links" href="#"> EVENTS</a>
+                <a class="links" href="#"> DONATE</a>
+                <a class="links" href="#"> ABOUT</a>
+                <a class="links" href="#"> DISCORD</a>
+
+                
+                <a class="links" href="#"> Contact Us</a>
+                <a class="links" href="#">More Info</a>
+                </div>
+        </nav>
+
+    </header>
+    <section>
+        <div class="bob"></div>
+        <div class="bob1"> <h1>  "Where Coding and <br> Collaboration Shine!" </h1> </div>
+        
+    </section>
+    <button class="register-button">Register Now</button>
+
 </html>
