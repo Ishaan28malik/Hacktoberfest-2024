@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=sh -c "cd /usr/share/rockpaperscissor; ./RockPaperScissorsLinux"
+Name=RockPaperScissors
+Comment=comment here
+Icon=/usr/share/rockpaperscissor/icons/logo.ico
