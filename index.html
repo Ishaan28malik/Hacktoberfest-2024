@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Hacktoberfest-2020
-</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Pomodoro Clock</title>
+    <meta name="description" content="A Pomodoro Clock" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="style.css" media="screen" />
+  </head>
+  <body>
+    <main id="clock" class="content">
+      <label id="timer-label">Session</label>
+      <h1 id="display"><span id="time-left">25:00</span></h1>
+      <div id="panel" class="buttons">
+        <div id="session" class="control">
+          <label id="session-label">Session Length</label>
+          <button id="session-decrement" class="addition button" value="-" data-key="ArrowDown">–</button>
+          <span id="session-length" class="duration">25</span>
+          <button id="session-increment" class="addition button" value="+" data-key="ArrowUp">+</button>
+        </div>
+        <div id="break" class="control">
+          <label id="break-label">Break Length</label>
+          <button id="break-decrement" class="addition button" value="-" data-key="ArrowLeft">–</button>
+          <span id="break-length" class="duration">5</span>
+          <button id="break-increment" class="addition button" value="+" data-key="ArrowRight">+</button>
+        </div>
+        <div id="timer" class="control">
+          <button id="start_stop" class="start button" value="start" data-key=" ">Start</button>
+          <button id="reset" class="reset button" value="reset" data-key="Control">Reset</button>
+        </div>
+      </div>
+    </main>
+    <audio id="beep" src="http://wav-sounds.com/wp-content/uploads/2017/09/Various-04-M.mp3" type="audio/mpeg" preload="auto" />
+    <script src="script.js"></script>
+  </body>
 </html>
