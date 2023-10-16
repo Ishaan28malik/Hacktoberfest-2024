@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+double power(double x, int n) {
+    if (n == 0)
+        return 1.0;
+    if (n < 0) {
+        x = 1.0 / x;
+        n = -n;
+    }
+    
+    double result = 1.0;
+    while (n > 0) {
+        if (n % 2 == 1) {
+            result *= x;
+        }
+        x *= x;
+        n /= 2;
+    }
+    
+    return result;
+}
+
+int main() {
+    double x;
+    int n;
+
+    printf("Enter the base (x): ");
+    scanf("%lf", &x);
+    printf("Enter the exponent (n): ");
+    scanf("%d", &n);
+
+    double result = power(x, n);
+
+    printf("Result: %lf\n", result);
+
+    return 0;
+}
