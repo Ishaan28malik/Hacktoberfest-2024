@@ -23,9 +23,9 @@ A repository for beginners to create their first Pull Request.
 
 ### Step 0: Create a [Github](https://github.com/) account for free [here](https://github.com/).
 
-### Step 1: Register at [Hactoberfest-2021](https://hacktoberfest.digitalocean.com/) using your github id.
+### Step 1: Register at [Hactoberfest-2023](https://hacktoberfest.com/) using your github id.
 
-### Step 2: Star this [repo](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-) and share it with your friends.
+### Step 2: Star this [repo](https://github.com/Ishaan28malik/Hacktoberfest-2023) and share it with your friends.
 
 ## Stack that is welcome for PRs
 <img width="110%" height="110%" src="https://github.com/Ishaan28malik/Hacktoberfest-2023/blob/master/Assets/stack.png" />
@@ -41,7 +41,7 @@ A repository for beginners to create their first Pull Request.
 
 All of your suggestions are welcome!!
 
-# [Other Swags Opportunities](https://github.com/Ishaan28malik/HACKTOBERFEST_2019-Beginners-/blob/master/Schwags/Swags.md) and a list of Orgs giving swags.
+# [Other Swags Opportunities](https://github.com/Ishaan28malik/Hacktoberfest-2023/blob/master/Swags/Swags.md) and a list of Orgs giving swags.
 
 | By | What | How |Details |
 | :---: | :---: | :---: | --- |
