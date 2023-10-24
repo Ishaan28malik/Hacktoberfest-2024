@@ -1,0 +1,46 @@
+class TreeNode:
+    def __init__(self, key):
+        self.left = None
+        self.right = None
+        self.val = key
+
+def level_order_traversal(root):
+    if root is None:
+        return
+
+    # Create an empty queue for level order traversal
+    queue = []
+
+    # Enqueue the root node
+    queue.append(root)
+
+    while queue:
+        # Dequeue a node from the queue
+        node = queue.pop(0)
+
+        # Print the node's value
+        print(node.val, end=' ')
+
+        # Enqueue the left child
+        if node.left is not None:
+            queue.append(node.left)
+
+        # Enqueue the right child
+        if node.right is not None:
+            queue.append(node.right)
+
+# Sample binary tree:
+#        1
+#       / \
+#      2   3
+#     / \
+#    4   5
+
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.left.right = TreeNode(5)
+
+print("Level Order Traversal:")
+level_order_traversal(root)
