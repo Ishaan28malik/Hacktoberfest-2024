@@ -21,5 +21,7 @@
 - [Dev Weekly](https://mailchi.mp/f59beeac6b9b/devupdates)
 - [JavaScript Weekly](https://javascriptweekly.com/)
 - [Programming Digest](https://programmingdigest.net/)
+- [TLDR](https://tldr.tech/)
 - [DB Weekly](https://dbweekly.com/)
 - [Flutter Weekly](https://flutterweekly.net/)
+
