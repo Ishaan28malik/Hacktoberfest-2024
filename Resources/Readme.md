@@ -24,4 +24,3 @@
 - [TLDR](https://tldr.tech/)
 - [DB Weekly](https://dbweekly.com/)
 - [Flutter Weekly](https://flutterweekly.net/)
-
