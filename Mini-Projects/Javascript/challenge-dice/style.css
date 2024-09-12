@@ -1,0 +1,88 @@
+body {
+  background-color: #393E46;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+}
+
+.player {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.dice {
+  background-color: red;
+  border-radius: 10%;
+  display: inline-block;
+  width: 104px;
+  height: 104px;
+  padding: 10px;
+  margin: 0px;
+}
+
+.collum,.collum1,.collum2,.collum3 {
+  padding-top: 0.2rem;
+  position: relative;
+  text-align: center;
+  height: 33%;
+  width: 100%;
+}
+
+.dot {
+  background-color: white;
+  border-radius: 100%;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+}
+
+.center {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.right {
+  right:0;
+}
+
+.left {
+  left:0;
+}
+
+.dices {
+  width: 70%;
+  margin: auto;
+}
+
+
+.btn-play {
+  display: block;
+  font-size: 2rem;
+  border: none;
+  color: #393E46;
+  background-color: #4ECCA3;
+  border-radius: 10%;
+  padding: 0.5rem;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.btn-play:hover {
+  color: white;
+  border: none;
+}
+
+.btn-play:focus {
+  outline: none;
+}
