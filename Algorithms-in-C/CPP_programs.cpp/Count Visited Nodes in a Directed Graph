@@ -1,0 +1,54 @@
+#include <iostream>
+#include <vector>
+#include <unordered_set>
+
+using namespace std;
+
+class Graph {
+public:
+    Graph(int vertices) : V(vertices) {
+        adj.resize(vertices);
+    }
+
+    void addEdge(int from, int to) {
+        adj[from].push_back(to);
+    }
+
+    int countVisitedNodes(int start) {
+        unordered_set<int> visited;
+        int count = 0;
+        dfs(start, visited, count);
+        return count;
+    }
+
+private:
+    void dfs(int vertex, unordered_set<int>& visited, int& count) {
+        visited.insert(vertex);
+        count++;
+
+        for (int neighbor : adj[vertex]) {
+            if (visited.find(neighbor) == visited.end()) {
+                dfs(neighbor, visited, count);
+            }
+        }
+    }
+
+    int V; // Number of vertices
+    vector<vector<int>> adj; // Adjacency list
+};
+
+int main() {
+    Graph graph(6);
+    graph.addEdge(0, 1);
+    graph.addEdge(0, 2);
+    graph.addEdge(1, 3);
+    graph.addEdge(2, 4);
+    graph.addEdge(3, 5);
+
+    int startNode = 0;
+    int visitedCount = graph.countVisitedNodes(startNode);
+
+    cout << "Visited nodes starting from node " << startNode << ": " << visitedCount << endl;
+
+    return 0;
+}
