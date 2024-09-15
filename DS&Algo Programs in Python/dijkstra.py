@@ -1,50 +1,49 @@
-class Graph():
+import heapq
+
+class Graph:
     def __init__(self, vertices):
         self.V = vertices
-        self.graph = [[0 for column in range(vertices)] for row in range(vertices)]
+        self.graph = [[] for _ in range(vertices)]
 
-    def printSolution(self, dist):
-        print("Vertex \t Distance from source")
-        for node in range(self.V):
-            print(node, "\t", dist[node])
-
-
-    def minDistance(self, dist, sptSet):
-        minimum = float('inf')
-        min_index = 0
-        for v in range(self.V):
-            if dist[v] < minimum and sptSet[v] == False:
-                minimum = dist[v]
-                min_index = v
-
-        return min_index
+    def add_edge(self, u, v, w):
+        self.graph[u].append((v, w))
+        self.graph[v].append((u, w))
 
     def dijkstra(self, src):
         dist = [float('inf')] * self.V
         dist[src] = 0
-        sptSet = [False] * self.V
+        visited = [False] * self.V
+        priority_queue = [(0, src)]
 
-        for cout in range(self.V):
-            u = self.minDistance(dist, sptSet)
+        while priority_queue:
+            (dist_u, u) = heapq.heappop(priority_queue)
 
-            sptSet[u] = True
+            if visited[u]:
+                continue
 
-            for v in range(self.V):
-                if self.graph[u][v] > 0 and sptSet[v] == False \
-                   and dist[v] > dist[u] + self.graph[u][v]:
-                        dist[v] = dist[u] + self.graph[u][v]
-        self.printSolution(dist)
+            visited[u] = True
 
-        
+            for v, w in self.graph[u]:
+                if not visited[v] and dist[u] + w < dist[v]:
+                    dist[v] = dist[u] + w
+                    heapq.heappush(priority_queue, (dist[v], v))
+
+        self.print_solution(dist)
+
+    def print_solution(self, dist):
+        print("Vertex \t Distance from Source")
+        for node in range(self.V):
+            print(node, "\t", dist[node])
+
 g = Graph(10)
-g.graph = [[0, 4, 0, 0, 8, 0, 0, 0, 0, 0],
-           [0, 0, 8, 0, 0, 0, 0, 0, 0, 0],
-           [0, 0, 0, 5, 0, 0, 0, 6, 0, 0],
-           [0, 0, 0, 0, 0, 0, 0, 0, 10, 0],
-           [0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
-           [0, 0, 0, 0, 0, 0, 2, 0, 0, 0],
-           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-           [0, 0, 0, 0, 0, 10, 0, 0, 5, 0],
-           [0, 0, 0, 0, 0, 0, 4, 0, 0, 8],
-           [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
+g.add_edge(0, 4, 8)
+g.add_edge(1, 2, 8)
+g.add_edge(2, 3, 5)
+g.add_edge(3, 8, 10)
+g.add_edge(4, 5, 1)
+g.add_edge(5, 6, 2)
+g.add_edge(7, 5, 10)
+g.add_edge(8, 6, 4)
+g.add_edge(9, 8, 8)
+
 g.dijkstra(0)
