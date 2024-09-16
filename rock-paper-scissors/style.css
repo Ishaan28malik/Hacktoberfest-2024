@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background: rgb(248, 241, 243);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.start-button {
+  padding: 10px 60px;
+  background: rgb(252, 66, 106);
+  border: none;
+  color: white;
+  font-size: 30px;
+  border-radius: 1rem;
+}
+
+.start-button:hover {
+  transition: 0.1s;
+  transform: scale(1.2);
+}
