@@ -1,0 +1,16 @@
+li=[1,2,1,3,1,2,1,5]
+lii=list(set(li))
+ans=[]
+for i in range(len(lii)):
+    ans.append(list(locate(li,lambda x: x==lii[i])))
+    
+ans=dict(zip(lii,ans))
+print(len(ans))
+for i in ans.keys():
+    keyy=ans[i]
+    if len(keyy)>3:
+        print(i,keyy[2]-keyy[1])
+    elif len(keyy)==2:
+        print(i,keyy[1]-keyy[0])    
+    else:
+        print(i,0)
