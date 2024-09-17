@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/mermaid@8.6.0/dist/mermaid.min.js"></script>
+    <style type="text/css">
+    .mermaid{
+        background:aquamarine;
+
+    }
+    </style>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+      <div class="mermaid">
+
+        graph TD
+    A([A team member suggests a project])--> B(Team discusses idea in a meeting) --> C{Participants decide if the idea is good or not}
+        C -->|Yes| D[Team member further defines]-->F[Team member writes a proposal]--> G[Team reviews proposal]--> H[Proposal OK?]
+        H -->|Yes| I[Team sends proposal for final approval]-->K([End of proposal])
+        H -->|No| J[Team revises proposal]-->G
+        C -->|No| E[Idea rejected]-->K
+
+
+      </div>
+  </body>
+</html>
+
+/*
+A simple mermaid project for beginners.
+Refer below for more:
+[Mermaid](http://mermaid-js.github.io/mermaid/)
+*/
