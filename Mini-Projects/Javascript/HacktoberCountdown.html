@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Hacktoberfest2020 Countdown</title>
+    </head>
+
+    <body>
+    <h1>The Hacktoberfest end in: </h1>
+    <h1 id="Countdown"></h1>
+    <h2>Go ahead and make some PRs</h2>
+
+        <script>
+            //Set the Date the Countdown counts down to
+            var hacktoberEndDate = new Date("Oct 31, 2020 24:00:00").getTime();
+
+            //Update the countdown every second
+            var sec = setInterval(function()
+            {
+                //Get today day and time
+                var now = new Date().getTime();
+
+                //Distance between end date and now
+                var distance = hacktoberEndDate - now;
+
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                //Output the timer result in an element with id="Countdown"
+                document.getElementById("Countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+                //If Countdown is over output this
+                if (distance<0)
+                {
+                    clearInterval(sec);
+                    document.getElementById("Countdown").innerHTML = "Hacktober is over :( See you next year :)"
+                }
+
+
+            },1000);
+        </script>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 60px;
+            margin-top: 0px;
+        }
+        h2{
+            text-align: center;
+            font-size: 40px;
+            margin-top: 0px;
+        }
+    </style>
+
+
+    </body>
+</html>
