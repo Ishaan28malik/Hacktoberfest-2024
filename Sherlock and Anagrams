@@ -1,0 +1,36 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the sherlockAndAnagrams function below.
+def sherlockAndAnagrams(s):
+    c=0
+    n=len(s)
+    d={}
+    for i in range(n):
+        for j in range(i+1,n+1):
+            a="".join(sorted(s[i:j]))
+            print(a)
+            d[a]=d.get(a,0)+1
+    for i in d:
+        if(d[i]>1):
+            c+=(d[i]*(d[i]-1))//2
+    return(c)
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    q = int(input())
+
+    for q_itr in range(q):
+        s = input()
+
+        result = sherlockAndAnagrams(s)
+
+        fptr.write(str(result) + '\n')
+
+    fptr.close()
