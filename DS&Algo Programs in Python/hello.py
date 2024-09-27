@@ -1,6 +1,6 @@
 
 
-print('Hello World!')
+print('Hello World!\nWelcome to Hacktober Fest!')
 
 #fazendo um print com formatação, variáveis e função.
 
