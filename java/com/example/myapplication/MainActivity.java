@@ -22,8 +22,6 @@ import com.google.ar.sceneform.ux.TransformableNode;
 public class MainActivity extends AppCompatActivity {
     private ArFragment arFragment;
     private ModelRenderable modelRenderable;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,9 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,"Model cant be loaded",Toast.LENGTH_SHORT).show();
                     return null;
                 });
-
     }
-
     private void setUpPlane() {
         arFragment.setOnTapArPlaneListener(new BaseArFragment.OnTapArPlaneListener() {
             @Override
@@ -53,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 AnchorNode anchorNode=new AnchorNode(anchor);
                 anchorNode.setParent(arFragment.getArSceneView().getScene());
                 createModel(anchorNode);
-
-
             }
         });
     }
@@ -63,8 +57,5 @@ public class MainActivity extends AppCompatActivity {
         node.setParent(anchorNode);
         node.setRenderable(modelRenderable);
         node.select();
-
     }
-
-
 }
