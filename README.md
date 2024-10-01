@@ -15,9 +15,9 @@ A repository for beginners to create their first Pull Request.
 
 # PRs made directly to contributors list without adding any useful Resource / Project / Solving Issues will be marked as ```invalid/spam``` .
 
-### Just fork this repo, star it, clone it and add then click on the issue to solve it and create PR.
+### Just fork this repository, star it, clone it and add then click on the issue to solve it and create PR.
 
-# Join the Community of Developer and students [An EYE](https://github.com/An-Eye) , to join just ping me [Here](https://twitter.com/ChampionRunner) or comment to join the Org [here](https://github.com/An-Eye/Resourcegram/issues/8)
+# Join the Community of Developers and students [An EYE](https://github.com/An-Eye) , to join just ping me [Here](https://twitter.com/ChampionRunner) or comment to join the Org [here](https://github.com/An-Eye/Resourcegram/issues/8)
 
 ### Steps to Create your first PR and get Official Hacktoberfest merchandise for free.
 
