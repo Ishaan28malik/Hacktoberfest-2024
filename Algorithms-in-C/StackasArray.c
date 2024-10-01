@@ -1,9 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
+
 int top=-1,size;
 void push(int arr[])
 {
-    int num;
+    int num; //variable declaration
+	
     if(top==size-1)
         printf("Stack Overflow!!!");
     else
@@ -11,13 +13,13 @@ void push(int arr[])
         printf("Enter a Number for insertion=");
         scanf("%d",&num);
         top++;
-        arr[top]=num;
+        arr[top]=num; //storing number in the stack.
         printf("Element Inserted Successfully!!!");
     }
 }
 void pop(int arr[])
 {
-    if(top==-1)
+    if(top==-1) // -1 means no element is present in the stack
         printf("Stack UnderFlow!!!");
     else
     {
@@ -36,9 +38,9 @@ void display(int arr[])
         printf("%d\t",arr[i]);
     }
 }
-int main()
+int main(void)
 {
-    int x,arr[50];
+    int x,arr[50]; //array and x is declared, array size is 50
     char ch;
     clrscr();
     printf("----------Stack As An Array----------\n");
@@ -59,4 +61,6 @@ int main()
         printf("\nDo You Want To Continue(Y/N)=");
         ch=getch();
     }while(ch=='Y'||ch=='y');
+	
+	return 0;
 }
