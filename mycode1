@@ -1,0 +1,39 @@
+a = int(input("number 1: "))
+b = int(input("number 2: "))
+c = input("select operation: ")
+
+if c == "+":
+  print(a+b)
+elif c == "-":
+    print(a-b)
+elif c == "*":
+    print(a*b)
+elif c == "/" or "%":
+    print(a/b)
+else:
+    print("enter again")\
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
