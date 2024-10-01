@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<conio.h>
-int top=-1,size;
+
+int top=-1,size; //gloable variables
+
+//push function will insert the elements into the stack
 void push(int arr[])
 {
     int num;
@@ -15,6 +18,8 @@ void push(int arr[])
         printf("Element Inserted Successfully!!!");
     }
 }
+
+//pop function will remove the elements from the stack
 void pop(int arr[])
 {
     if(top==-1)
@@ -27,6 +32,8 @@ void pop(int arr[])
         printf("Deleted Element=%d",x);
     }
 }
+
+//display function will display all element present in the stack.
 void display(int arr[])
 {
     int i;
@@ -36,11 +43,13 @@ void display(int arr[])
         printf("%d\t",arr[i]);
     }
 }
-int main()
+
+//Execution of every program begins with main function.
+int main(void)
 {
     int x,arr[50];
     char ch;
-    clrscr();
+    clrscr(); //this function will clear to the output screen
     printf("----------Stack As An Array----------\n");
     printf("Enter the maximum number of elements=");
     scanf("%d",&size);
@@ -59,4 +68,6 @@ int main()
         printf("\nDo You Want To Continue(Y/N)=");
         ch=getch();
     }while(ch=='Y'||ch=='y');
+	
+	return 0;
 }
