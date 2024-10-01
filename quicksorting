@@ -1,0 +1,58 @@
+public class quicksorting {
+    public static void quicksort(int[] a,int l,int h)
+    {  
+      if(l<h)
+      {
+       int j=partition(a,l,h);
+        quicksort(a,l,j);
+        quicksort(a, j+1, h);
+      }
+    }
+    static int partition(int a[],int l,int h)
+    {
+      int pivot=a[l];
+      int i=l;
+      int j=h;
+      do {
+          i++;
+      } while (a[i]<=pivot);
+      do{
+          j--;
+      }
+      while(a[j]>pivot);
+      if(i<j)
+      {
+        int swap = a[i];
+        a[i] = a[j];
+        a[j] = swap;
+      }
+      int swap=a[l];
+      a[l]=a[j];
+      a[j]=swap;
+
+      return j;
+
+      
+    }
+    public static void main (String args[])
+{
+    int a[]={20,10,15,5,25};
+    int l=0;
+    int h=a.length-1;
+    for(int i=0;i<=h;i++)
+    {
+        System.out.print(a[i] + " ");
+    }
+    System.out.println();
+    System.out.print("after quick sorting");
+    System.out.println();
+
+    quicksort(a, l, h);
+    for(int i=0;i<=h;i++)
+    {
+        System.out.print(a[i] + " ");
+    }
+
+}
+
+}
