@@ -1,0 +1,74 @@
+public class mergesorting {
+    public static void sort( int a[],int l,int r)
+    {
+      if(l<r)
+      {
+          int mid=(l+r)/2;
+          sort(a, l,mid);
+          sort(a, mid+1,r);
+          merge(a,l,mid,r);
+
+      }
+    }
+    public static void merge(int a[],int l,int mid,int r)
+     {
+        int nl=mid-l+1;
+        int nr=r-mid;
+        int larr[]=new int [nl];
+        for(int i=0;i<nl;i++)
+        {
+            larr[i]=a[l+i];
+        }
+        int rarr[]=new int [nr];
+        for(int j=0;j<nr;j++)
+        {
+            rarr[j]=a[mid+1+j];
+        }
+        int i=0,j=0,k=l;
+        while(i<nl&&j<nr)
+        {
+            if(larr[i]<rarr[j])
+            {
+                a[k]=larr[i];
+                i++;
+                k++;
+            }
+            else
+            {
+                a[k]=rarr[j];
+                j++;
+                k++;
+            }
+        }
+        while(i<nl)
+        {
+            a[k]=larr[i];i++;k++;
+        }
+        while(j<nr)
+        {
+            a[k]=rarr[j];j++;k++;
+        }
+    }
+
+
+public static void main (String args[])
+{
+    int a[]={20,10,15,5,25};
+    int l=0;
+    int r=a.length - 1;
+    for(int i=0;i<=r;i++)
+    {
+        System.out.print(a[i] + " ");
+    }
+    System.out.println();
+    System.out.print("after merge sorting");
+    System.out.println();
+
+    sort(a, l, r);
+    for(int i=0;i<=r;i++)
+    {
+        System.out.print(a[i] + " ");
+    }
+
+}
+}
