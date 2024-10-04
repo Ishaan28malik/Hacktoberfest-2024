@@ -1,0 +1,56 @@
+import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.entities.Message;
+import net.dv8tion.jda.api.events.message.MessageDeleteEvent;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.requests.GatewayIntent;
+
+import javax.security.auth.login.LoginException;
+import java.util.HashMap;
+import java.util.Map;
+
+public class DeletedMessageRestoreBot extends ListenerAdapter {
+    private final Map<Long, String> deletedMessages = new HashMap<>();
+    private static final String PREFIX = "!";
+
+    public static void main(String[] args) throws LoginException {
+        JDABuilder.createDefault("YOUR_BOT_TOKEN")
+                .enableIntents(GatewayIntent.MESSAGE_CONTENT)
+                .addEventListeners(new DeletedMessageRestoreBot())
+                .build();
+    }
+
+    @Override
+    public void onMessageDelete(MessageDeleteEvent event) {
+        Message message = event.getMessage();
+        if (message != null) {
+            deletedMessages.put(event.getMessageIdLong(), message.getContentRaw());
+        }
+    }
+
+    @Override
+    public void onMessageReceived(MessageReceivedEvent event) {
+        if (event.getAuthor().isBot()) return;
+
+        String[] args = event.getMessage().getContentRaw().split("\\s+");
+        if (args[0].equalsIgnoreCase(PREFIX + "restore")) {
+            if (args.length < 2) {
+                event.getChannel().sendMessage("Please provide a message ID to restore.").queue();
+                return;
+            }
+
+            try {
+                long messageId = Long.parseLong(args[1]);
+                String deletedContent = deletedMessages.get(messageId);
+
+                if (deletedContent != null) {
+                    event.getChannel().sendMessage("Restored message: " + deletedContent).queue();
+                } else {
+                    event.getChannel().sendMessage("No deleted message found with that ID.").queue();
+                }
+            } catch (NumberFormatException e) {
+                event.getChannel().sendMessage("Invalid message ID. Please provide a valid number.").queue();
+            }
+        }
+    }
+}
