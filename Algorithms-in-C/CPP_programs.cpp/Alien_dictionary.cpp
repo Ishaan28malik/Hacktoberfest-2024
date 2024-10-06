@@ -3,26 +3,67 @@ We have to find the order of characters in the alien language...*/
 
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
-string findOrder(string[], int, int);
-string order;
-bool f(string a, string b) {
-    int p1 = 0;
-    int p2 = 0;
-    for (int i = 0; i < min(a.size(), b.size()) and p1 == p2; i++) {
-        p1 = order.find(a[i]);
-        p2 = order.find(b[i]);
-        
+// Helper function to compare two words based on the alien dictionary order
+bool compare(const string &a, const string &b, const unordered_map<char, int> &order_map) {
+    int len = min(a.size(), b.size());
+    for (int i = 0; i < len; i++) {
+        if (a[i] != b[i]) {
+            return order_map.at(a[i]) < order_map.at(b[i]);
+        }
     }
-
-    if (p1 == p2 and a.size() != b.size()) return a.size() < b.size();
-
-    return p1 < p2;
+    return a.size() < b.size(); // If the words are the same up to the minimum length
 }
 
-//  program to test above functions
+// Topological sort using DFS
+void topoSort(int v, vector<int> adj[], vector<bool> &visited, stack<int> &st) {
+    visited[v] = true;
+    for (int u : adj[v]) {
+        if (!visited[u]) {
+            topoSort(u, adj, visited, st);
+        }
+    }
+    st.push(v);
+}
+
+// Function to find the order of characters in the alien dictionary
+string findOrder(string dict[], int N, int K) {
+    // Create a graph to store relations between characters
+    vector<int> adj[K];
+
+    // Build the graph by comparing adjacent words
+    for (int i = 0; i < N - 1; i++) {
+        string word1 = dict[i], word2 = dict[i + 1];
+        int len = min(word1.size(), word2.size());
+        for (int j = 0; j < len; j++) {
+            if (word1[j] != word2[j]) {
+                adj[word1[j] - 'a'].push_back(word2[j] - 'a');
+                break;
+            }
+        }
+    }
+
+    // Perform topological sort to find the order of characters
+    stack<int> st;
+    vector<bool> visited(K, false);
+    for (int i = 0; i < K; i++) {
+        if (!visited[i]) {
+            topoSort(i, adj, visited, st);
+        }
+    }
+
+    // Build the result string based on the topological order
+    string order;
+    while (!st.empty()) {
+        order += (char)(st.top() + 'a');
+        st.pop();
+    }
+
+    return order;
+}
+
+// Main function to test the above logic
 int main() {
     int t;
     cin >> t;
@@ -32,78 +73,31 @@ int main() {
         string s[n];
         for (int i = 0; i < n; i++) cin >> s[i];
 
-        string ss = findOrder(s, n, k);
-        order = "";
-        for (int i = 0; i < ss.size(); i++) order += ss[i];
+        // Get the alien dictionary order
+        string order = findOrder(s, n, k);
 
-        string temp[n];
-        std::copy(s, s + n, temp);
-        sort(temp, temp + n, f);
+        // Create a map for character positions for efficient sorting
+        unordered_map<char, int> order_map;
+        for (int i = 0; i < order.size(); i++) {
+            order_map[order[i]] = i;
+        }
 
-        bool f = true;
-        for (int i = 0; i < n; i++)
-            if (s[i] != temp[i]) f = false;
+        // Sort the words based on the alien dictionary order
+        vector<string> temp(s, s + n);
+        sort(temp.begin(), temp.end(), [&](const string &a, const string &b) {
+            return compare(a, b, order_map);
+        });
 
-        cout << f;
-        cout << endl;
-    }
-    return 0;
-}
-
-
-
-/*
-dict : array of strings denoting the words in alien langauge
-N : Size of the dictionary
-K : Number of characters
-*/
-stack<int> st;
-
-void tops(vector<int> g[],int vertex,int visited[])
-{
-    if(visited[vertex])
-        return;
-    visited[vertex]=1;
-    vector<int>::iterator it;
-    for(it=g[vertex].begin();it!=g[vertex].end();it++)
-    {
-        tops(g,*it,visited);
-    }
-    
-    st.push(vertex);
-}
-
-string findOrder(string dict[], int N, int K) {
-    // Your code here
-    vector<int> *g;
-    g=new vector<int>[K];
-    for(int i=0;i<N-1;i++)
-    {
-        string word1=dict[i];
-        string word2=dict[i+1];
-        int j=0;
-        while(j<word1.size()&&j<word2.size())
-        {
-            if(word1[j]!=word2[j])
-            {
-                int s=word1[j]-'a';
-                int d=word2[j]-'a';
-                g[s].push_back(d);
+        // Check if the sorted array matches the original array
+        bool isSortedCorrectly = true;
+        for (int i = 0; i < n; i++) {
+            if (s[i] != temp[i]) {
+                isSortedCorrectly = false;
                 break;
             }
-            j++;
         }
+
+        cout << isSortedCorrectly << endl;
     }
-    int visited[26]={0};
-    for(int i=0;i<K;i++)
-        if(!visited[i])
-            tops(g,i,visited);
-    string ans;
-    while(!st.empty())
-    {
-        ans.push_back(st.top()+'a');
-        st.pop();
-    }
-    //cout<<ans<<endl;
-    return ans;
+    return 0;
 }
