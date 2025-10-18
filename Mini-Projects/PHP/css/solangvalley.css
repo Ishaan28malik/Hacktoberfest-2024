@@ -1,0 +1,27 @@
+.container.blog 
+{
+    padding-top:100px;
+}
+
+.col{
+
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.heading{
+    text-align: center;
+    padding-right: 100px;
+}
+
+.content p{
+    padding-right: 100px;
+    line-height: 25px;
+    font-size: 20px;
+    
+}
+.image{
+  height: auto;
+width:90%;
+padding-bottom: 30px;
+}

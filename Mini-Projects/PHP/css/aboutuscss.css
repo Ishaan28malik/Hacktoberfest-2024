@@ -1,0 +1,59 @@
+
+.content h3{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+
+}
+
+.content h6{
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ .caption h1{
+    text-align: center;
+    padding-top: 30px;
+} 
+
+.mainimage .responsive{
+    width: 100%;
+}
+
+.images {
+    float: left;
+    width: 50%;
+    display: block;
+   padding-top: 50px;
+   padding-right:50px;
+   padding-bottom: 50px;
+   
+  }
+
+.images  img {
+    width: 100%;
+    height: auto;
+    padding-left:50px;
+
+    
+  }
+ .section  h6{
+      padding-top: 10px;
+      padding-left: 200px;
+    padding-right: 200px;
+    line-height: 30px;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+
+.jumbotron .container{
+padding-top: 50px;
+}
+
+.jumbotron .text-center{
+    padding-top:500px;
+}
+
+

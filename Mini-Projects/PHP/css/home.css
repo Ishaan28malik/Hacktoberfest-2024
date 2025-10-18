@@ -1,0 +1,71 @@
+img{
+    padding-top: 50px;
+}
+
+h1{
+    padding-top: 30px;
+}
+
+ .image1 img{
+    padding-left: 50px;
+}
+
+.image3 img{
+    padding-left: 40px;
+}
+
+
+.image4 img{
+padding-left: 50px;
+}
+
+.container.section{ 
+    padding-bottom: 50px;
+}
+
+.footers{
+padding-top: 100px;
+}
+
+.section-title.section-title-center{
+    text-align: center;
+}
+.container.section-title{
+    padding-top:50px;
+
+}
+.container.blog-section{
+    align-items: center;
+}
+
+.col{
+justify-content: center;
+}
+
+.container.description{
+    text-align: center;
+    
+}
+.row{
+    justify-content: center;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.footer {
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #343a40;
+   color: white;
+   text-align: center;
+}

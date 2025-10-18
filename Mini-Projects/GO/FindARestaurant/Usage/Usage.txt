@@ -1,0 +1,6 @@
+Created Two functions that consumes two APIs 
+
+1) Google Geocode Location API
+2) Foursquare API
+
+Calling main Function fetches us the result based on the Meal Type of a particular location of the world.
